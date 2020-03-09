@@ -13,9 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run --rm -it \
-        -v ${{ github.workspace }}:/src \
-        -v ${{ github.workspace }}/docs:/target \
-        klakegg/hugo:0.66.0
+    - name: Build the site in the hugo/builder container
+      run: docker run --rm -it -v ${{ github.workspace }}:/src -v ${{ github.workspace }}/docs:/target klakegg/hugo:0.66.0
