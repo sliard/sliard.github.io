@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on Tech blog</title>
+    <link>http://example.org/tags/mac/</link>
+    <description>Recent content in Mac on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 15 Dec 2009 00:01:09 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>J&#39;ai switch !</title>
+      <link>http://example.org/2009/12/15/j-ai-switch/</link>
+      <pubDate>Tue, 15 Dec 2009 00:01:09 +0000</pubDate>
+      
+      <guid>http://example.org/2009/12/15/j-ai-switch/</guid>
+      <description>C’est fait je suis passé au MAC Après plus de 15 ans d’utilisation de PC je découvre le monde Mac avec un beau Mac Book pro. En fait c’est mon second Mac puisque dans les années 90 j’avais eu un Apple IIc, mais bon ça ne compte pas.
+Alors que dire sur cette belle bête ? Et bien pas de scoop, c’est bien très agréable à utiliser. Plusieurs exemples d’éléments super agréables :</description>
+    </item>
+    
+  </channel>
+</rss>

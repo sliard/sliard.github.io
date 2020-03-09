@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Orange on Tech blog</title>
+    <link>http://example.org/tags/orange/</link>
+    <description>Recent content in Orange on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 09 Feb 2009 23:46:06 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/orange/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Partner Camp Orange deuxieme Jour</title>
+      <link>http://example.org/2008/12/17/partner-camp-orange-deuxieme-jour/</link>
+      <pubDate>Wed, 17 Dec 2008 15:26:53 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/17/partner-camp-orange-deuxieme-jour/</guid>
+      <description>Seconde journée sous le soleil de floride au Partner Camp (27 degrès, c’est très agréable dans la piscine). Au programme aujourd’hui : conférences et soirée Access.
+Géolocalisation Decarta nous présente ses API de cartographie. Elles sont très complètes (carte, calcul de trajet…) et accessibles à l’aide de trois sdk :
+ J2ME IPhone Javascript  Ces SDK sont open source et téléchargeables sur le site : http://developer.decarta.com
+Ils ont fait une belle démo avec une même carte affichée sur un émulateur de téléphone portable et un navigateur.</description>
+    </item>
+    
+    <item>
+      <title>Partner Camp Orange Jour J</title>
+      <link>http://example.org/2008/12/16/partner-camp-orange-jour-j/</link>
+      <pubDate>Tue, 16 Dec 2008 00:17:20 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/16/partner-camp-orange-jour-j/</guid>
+      <description>Le Camp est officiellement ouvert aujourd’hui ! Orange a vraiment fait les choses en grand: musiciens, danseuses, magiciens… même le père Noël en personne est passé pour faire la promo du site www.djinngo.com… la totale ! L’ambiance feux de camps est vraiment là et c’est très agréable.
+  Je vous laisse admirer nos danseuses :
+Ensuite j’ai participé à deux conférences.
+How Java enables the screens of your life by Sun Dans un premier temps ils nous présentent le service www.</description>
+    </item>
+    
+    <item>
+      <title>Chabal fait du foot</title>
+      <link>http://example.org/2008/11/20/chabal-foot/</link>
+      <pubDate>Thu, 20 Nov 2008 08:53:37 +0000</pubDate>
+      
+      <guid>http://example.org/2008/11/20/chabal-foot/</guid>
+      <description>J’ai pas l’habitude de blogger de la pub, mais cette video est bluffante !
+Regardez : www.chabal-le-duel.com
+Et surtout donnez bien votre numéro de portable.
+[edit du 2/1/09] Desolé mais la vidéo ne fonctionne plus.</description>
+    </item>
+    
+    <item>
+      <title>Concours Orange API</title>
+      <link>http://example.org/2008/09/30/concours-orange-api/</link>
+      <pubDate>Tue, 30 Sep 2008 08:05:30 +0000</pubDate>
+      
+      <guid>http://example.org/2008/09/30/concours-orange-api/</guid>
+      <description>Orange Partner organise un concours des meilleures applications mashup utilisant leurs APIs. On peut y gagner :
+ Un « gadget » électronique d’une valeur de 500 Euros Un téléphone portable Une entrée au Partner Camp qui se déroulera en Floride en décembre 2008 (Mais je n’ai pas l’impresssion qu’ils payent le billet d’avion 😉 )  Personnellement je prépare une petite application, j’en ecrirai plus une fois qu’elle sera terminée 😉</description>
+    </item>
+    
+  </channel>
+</rss>

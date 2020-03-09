@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Camp on Tech blog</title>
+    <link>http://example.org/tags/camp/</link>
+    <description>Recent content in Camp on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 16 Dec 2008 00:17:20 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/camp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Partner Camp Orange Jour J</title>
+      <link>http://example.org/2008/12/16/partner-camp-orange-jour-j/</link>
+      <pubDate>Tue, 16 Dec 2008 00:17:20 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/16/partner-camp-orange-jour-j/</guid>
+      <description>Le Camp est officiellement ouvert aujourd’hui ! Orange a vraiment fait les choses en grand: musiciens, danseuses, magiciens… même le père Noël en personne est passé pour faire la promo du site www.djinngo.com… la totale ! L’ambiance feux de camps est vraiment là et c’est très agréable.
+  Je vous laisse admirer nos danseuses :
+Ensuite j’ai participé à deux conférences.
+How Java enables the screens of your life by Sun Dans un premier temps ils nous présentent le service www.</description>
+    </item>
+    
+    <item>
+      <title>Partner Camp Orange J-1</title>
+      <link>http://example.org/2008/12/15/partner-camp-orange-j-1/</link>
+      <pubDate>Mon, 15 Dec 2008 04:12:25 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/15/partner-camp-orange-j-1/</guid>
+      <description>Je suis arrivé hier à Orlando pour participer au partner Camp Orange de Cape Canaveral. Vu que le camp commence demain, j’ai passé ce dimanche au space center, c’est vraiment impressionnant !
+Nous sommes arrivés le dimanche soir pour préparer le camp.
+Donc le Jacuzzi fonctionne très bien 😉
+Demain les choses sérieuses commencent !</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Concours Orange API on Tech blog</title>
+    <link>http://example.org/tags/concours-orange-api/</link>
+    <description>Recent content in Concours Orange API on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 09 Feb 2009 23:46:06 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/concours-orange-api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Concours d&#39;API d&#39;Orange : les résultats</title>
+      <link>http://example.org/2009/02/09/concours-api-orange-fiasco/</link>
+      <pubDate>Mon, 09 Feb 2009 23:46:06 +0000</pubDate>
+      
+      <guid>http://example.org/2009/02/09/concours-api-orange-fiasco/</guid>
+      <description>La liste des gagnants du concours Orange API d’octobre 2008 est enfin publiée sur le site.
+Ce concours a vraiment été mal géré du début à la fin.
+ Offrir une place pour un salon en Floride sans donner de billet d’avion.. sympa. Promettre une présentation des gagnants dans La Collection de novembre 2008 et au final rien. Mettre 3 mois à envoyer le téléphone portable gagné pour en avoir un avec un firmware UK qu’il faut reflasher pour l’utiliser à 100% en France Et les fameux 500 Euros gagnés… On ne les a toujours pas vus !</description>
+    </item>
+    
+    <item>
+      <title>Gagné !</title>
+      <link>http://example.org/2008/11/03/gagne/</link>
+      <pubDate>Mon, 03 Nov 2008 23:33:12 +0000</pubDate>
+      
+      <guid>http://example.org/2008/11/03/gagne/</guid>
+      <description>Je viens de recevoir une confirmation par mail pour m’informer que j’ai gagné le premier prix de la catégorie “complexe et futée” du concours Orange Partner ! Aux vues de mes plus que médiocres compétences graphiques je ne pouvais gagner que dans cette catégorie Pour économiser mes crédits, je n’avais pas communiqué l’adresse du site. Maintenant vous pouvez l’utiliser sans problème : www.areuthere.net (jusqu’à épuisement de mes crédits bien sûr)</description>
+    </item>
+    
+  </channel>
+</rss>

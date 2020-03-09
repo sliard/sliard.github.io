@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech blog</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 05 Feb 2014 09:32:50 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Création d&#39;un cron avec SNS</title>
+      <link>http://example.org/2014/02/05/creation-dun-cron-avec-sns/</link>
+      <pubDate>Wed, 05 Feb 2014 09:32:50 +0000</pubDate>
+      
+      <guid>http://example.org/2014/02/05/creation-dun-cron-avec-sns/</guid>
+      <description>Ou comment complètement détourner l’usage du service Amazon SNS.
+Mon besoin est simple : pouvoir exécuter du code toutes les 30s. Cette tâche commencera et s’arrêtera en fonction d’actions utilisateur. En java j’aurais simplement utilisé Quartz, mais là mon code est en PHP et hébergé sur Beanstalk d’Amazon.
+Je n’ai pas trouvé de service simple à utiliser sur AWS pour faire ça. On trouve bien un peu de doc pour le faire avec Data Pipeline mais c’est loin d’être trivial.</description>
+    </item>
+    
+    <item>
+      <title>Premiers tests de Google App Engine en PHP</title>
+      <link>http://example.org/2013/05/30/premiers-tests-de-google-app-engine-en-php/</link>
+      <pubDate>Thu, 30 May 2013 21:50:22 +0000</pubDate>
+      
+      <guid>http://example.org/2013/05/30/premiers-tests-de-google-app-engine-en-php/</guid>
+      <description>C’est une des grosses annonces de la Google I/O 2013, Google App Engine supporte maintenant PHP. J’ai eu l’occasion de le tester sur un de mes projets. La première chose qu’il faut constater, c’est que l’utilisation du service en PHP n’est pas vraiment ouverte. Pour le moment il faut passer par une phase de validation de son projet pour avoir le droit d’utiliser le service. On est maintenant à 2 semaines de l’annonce et seulement 282 projets on été acceptés.</description>
+    </item>
+    
+    <item>
+      <title>Lancer un cron sur un cluster</title>
+      <link>http://example.org/2013/01/07/lancer-un-cron-sur-un-cluster/</link>
+      <pubDate>Mon, 07 Jan 2013 09:39:50 +0000</pubDate>
+      
+      <guid>http://example.org/2013/01/07/lancer-un-cron-sur-un-cluster/</guid>
+      <description>Sur un de mes projets j’ai besoin d’exécuter une tâche tous les jours. Cet exercice pourtant trivial peut devenir plus complexe si mon service utilise plusieurs serveurs et que je ne veux exécuter la tâche qu’une seule fois. En Java j’utilisais le scheduler Quartz pour régler ce problème. Il est très efficace et en cas de cluster il utilise une base de données pour s’assurer que la tâche n’est lancée que sur un seul serveur.</description>
+    </item>
+    
+    <item>
+      <title>New Relic sur du Beanstalk PHP</title>
+      <link>http://example.org/2012/11/15/new-relic-sur-beanstalk-php/</link>
+      <pubDate>Thu, 15 Nov 2012 21:34:41 +0000</pubDate>
+      
+      <guid>http://example.org/2012/11/15/new-relic-sur-beanstalk-php/</guid>
+      <description>Ces derniers temps j’ai beaucoup travaillé sur les produits Amazon Web Services. J’ai notamment utilisé Beanstalk pour mettre en production un site web important. Pour mesurer l’activité des serveurs et l’utilisation de l’application j’ai utilisé le service New Relic. En plus il existe un partenariat entre AWS et New Relicpour utiliser un compte standard gratuitement (vous économisez $50 par mois).
+Pour utiliser New Relic il faut l’installer sur une image et en faire une nouvelle AMI.</description>
+    </item>
+    
+    <item>
+      <title>Amazon Web Services Consulting Partners</title>
+      <link>http://example.org/2012/10/09/amazon-web-services-consulting-partners/</link>
+      <pubDate>Tue, 09 Oct 2012 08:11:03 +0000</pubDate>
+      
+      <guid>http://example.org/2012/10/09/amazon-web-services-consulting-partners/</guid>
+      <description>Apptom devient officiellement “Amazon Web Services Consulting Partners” niveau Standard. Aujourd’hui seulement une dizaine de sociétés en France ont ce niveau et Apptom est la seule basée en Bretagne. Ce statut nous apporte une communication directe avec les équipes techniques d’Amazon.
+Apptom se positionne aussi comme revendeur Amazon, nous allons pouvoir simplifier la facturation pour nos clients tout en réduisant les coûts.
+Pour vous aider à trouver un partenaire Amazon proche de chez vous, j’ai créé le site www.</description>
+    </item>
+    
+    <item>
+      <title>Google App Engine Suite</title>
+      <link>http://example.org/2012/07/18/google-app-engine-suite/</link>
+      <pubDate>Wed, 18 Jul 2012 22:01:10 +0000</pubDate>
+      
+      <guid>http://example.org/2012/07/18/google-app-engine-suite/</guid>
+      <description>Comme expliqué dans le premier article j’ai rencontré certaines difficultés au niveau du développement avec Google App Engine. L’intégration et la gestion de la plate-forme a aussi amené son lot de surprises.
+Gestion des instances Nous utilisons GAE pour un service qui a peu de trafic. En mode gratuit aucune instance n’est lancée par défaut, donc chaque utilisateur a un risque de déclencher le lancement d’une instance. Il faut 18 secondes pour démarrer mon instance: 18 secondes ce n’est pas énorme pour démarrer un serveur d’applications, par contre pour répondre à une requête HTTP c’est une éternité.</description>
+    </item>
+    
+    <item>
+      <title>Jenkins pour xCode</title>
+      <link>http://example.org/2012/07/07/jenkins-pour-xcode/</link>
+      <pubDate>Sat, 07 Jul 2012 17:28:56 +0000</pubDate>
+      
+      <guid>http://example.org/2012/07/07/jenkins-pour-xcode/</guid>
+      <description>Il n’est pas concevable pour moi de développer sans avoir une plateforme d’intégration continue. Il existe pas mal de solutions pour le faire en mode SAAS (sur cloudbeespas exemple). Par contre pour le faire sur des projets iOS c’est plus dur à trouver car il faut le faire sur un MAC. J’ai donc installé un jenkins sur un Mac mini et ce n’est pas si évident que ça à faire.</description>
+    </item>
+    
+    <item>
+      <title>Développer sur Google App Engine</title>
+      <link>http://example.org/2012/06/19/developper-sur-google-app-engine/</link>
+      <pubDate>Tue, 19 Jun 2012 22:07:32 +0000</pubDate>
+      
+      <guid>http://example.org/2012/06/19/developper-sur-google-app-engine/</guid>
+      <description>Depuis 1 mois je teste le déploiement de services sur Google App Engine. Le moins que l’on puisse dire c’est que c’est loin d’être aussi simple que ce que j’avais vu pendant la Devoxx France. Je vous propose un petit tour sur ce que j’ai remarqué.
+Le Data Store Même si Google propose une base SQL en version Beta, j’ai utilisé le datastore No SQL par défaut. Pour simplifier la gestion de la persistance, la librairie Objectify est très bien adaptée.</description>
+    </item>
+    
+    <item>
+      <title>Création de Apptom</title>
+      <link>http://example.org/2012/06/10/creation-de-apptom/</link>
+      <pubDate>Sun, 10 Jun 2012 11:11:30 +0000</pubDate>
+      
+      <guid>http://example.org/2012/06/10/creation-de-apptom/</guid>
+      <description>C’est maintenant officiel, en Septembre je vais quitter Orange pour créer la société Apptom. Après 7 ans dans le service R&amp;amp;D de cet opérateur, j’ai envie de me lancer un nouveau défi. Progresser dans une grosse entreprise française sans devenir chef de projet ou manager devient de plus en plus difficile. Donc je me lance en solo afin de partager mon expertise technique avec un maximum de monde.
+Mon objectif est de mettre en avant mon expertise sur la conception et le développement d’applications web et notamment sur la réalisation d’applications iOS natives.</description>
+    </item>
+    
+    <item>
+      <title>Soirée coding Android</title>
+      <link>http://example.org/2012/05/14/soiree-coding-android/</link>
+      <pubDate>Mon, 14 May 2012 10:03:44 +0000</pubDate>
+      
+      <guid>http://example.org/2012/05/14/soiree-coding-android/</guid>
+      <description>Le mercredi 9 mai nous avons fait avec Code d’Armor une soirée coding Android.
+Depuis décembre 2011 Code d’Armor organise des présentations techniques pour des développeurs. Présenter à 50 personnes du code c’est bien, mais en écrire ensemble c’est mieux ! Donc suite à la soirée sur Android du mois d’Avril, nous avons décidé de faire une soirée coding sur le même sujet.
+12 personnes ont répondu présents pour coder et parfois découvrir avec nous une application Android.</description>
+    </item>
+    
+    <item>
+      <title>Devoxx France</title>
+      <link>http://example.org/2012/04/23/devoxx-france/</link>
+      <pubDate>Mon, 23 Apr 2012 10:14:58 +0000</pubDate>
+      
+      <guid>http://example.org/2012/04/23/devoxx-france/</guid>
+      <description>La première édition de Devoxx France a eu lieu les 18, 19 et 20 avril 2012. Un grand rassemblement de développeurs français (essentiellement) et donc beaucoup de geeks !
+Sans vous refaire toutes les conférences en détail (il y aura des vidéos sur parleys pour ça) revenons sur ce que j’ai vu et l’ambiance générale.
+Mercredi Venant de province (Lannion), réveil à 5h30 pour prendre l’avion et arriver juste avant 9h à l’hôtel Marriott.</description>
+    </item>
+    
+    <item>
+      <title>Global Game JAM</title>
+      <link>http://example.org/2012/01/30/global-game-jam/</link>
+      <pubDate>Mon, 30 Jan 2012 22:10:07 +0000</pubDate>
+      
+      <guid>http://example.org/2012/01/30/global-game-jam/</guid>
+      <description>&lt;p&gt;Ce week-end avait lieu le Global Game JAM. Cet évènement avait lieu dans 246 villes à travers le monde. Il était organisé sur Rennes au Jardin moderne par 2 associations :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.3hitcombo.fr/&#34; title=&#34;http://www.3hitcombo.fr&#34;&gt;3hitcombo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://westindiecollective.org/&#34; title=&#34;http://westindiecollective.org/&#34;&gt;west indie collective&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://example.org/images/uploads/2012/01/ggj.png&#34; alt=&#34;photo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Je vais vous résumer comment ça c’est passé :&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Du nouveau ?</title>
+      <link>http://example.org/2012/01/08/du-nouveau/</link>
+      <pubDate>Sun, 08 Jan 2012 22:16:39 +0000</pubDate>
+      
+      <guid>http://example.org/2012/01/08/du-nouveau/</guid>
+      <description>Et oui 2 mois déjà sans publier sur ce blog. Après le startup week-end tout s’est un peu accéléré, j’en profite donc pour vous raconter ma fin d’année 2011.
+Code d’Armor Sur Lannion nous avons deux grosses entreprises Alcatel Lucent et Orange. Autour de ces 2 mastodontes gravitent pas mal de SSII et un beau vivier de startups. Il y a donc beaucoup de développeurs dans la zone. Mais pourtant nous ne nous connaissons pas, il n’y a ni cantine numérique ni aucun “User Group”.</description>
+    </item>
+    
+    <item>
+      <title>Startup Week-end Bretagne</title>
+      <link>http://example.org/2011/11/01/startup-week-end-bretagne/</link>
+      <pubDate>Tue, 01 Nov 2011 01:37:26 +0000</pubDate>
+      
+      <guid>http://example.org/2011/11/01/startup-week-end-bretagne/</guid>
+      <description>Le Week-end a commencé dès le vendredi à 18h30. On a débuté par deux petits jeux histoire de faire connaissance entre participants. Ensuite on est rentré dans le vif du sujet, les organisateurs nous ont expliqué comment allait se dérouler le week-end.
+Chaque porteur de projet a eu 1 minute pour présenter son projet. Il y avait 25 projets de présentés, avec par exemple :
+ Time is money : payer une personne pour faire la queue à votre place GreenBanque : Banque 2.</description>
+    </item>
+    
+    <item>
+      <title>Fuck XCode !</title>
+      <link>http://example.org/2011/10/27/fuck-xcode/</link>
+      <pubDate>Thu, 27 Oct 2011 21:55:58 +0000</pubDate>
+      
+      <guid>http://example.org/2011/10/27/fuck-xcode/</guid>
+      <description>Oui le titre est vulgaire, mais ça fait du bien de se défouler! Dans le précedent post j’expliquais pourquoi j’avais abandonner PhoneGap pour faire mon application. J’étais alors loin d’imaginer la galère que ça allait être en natif avec XCode.
+Notez que j’avais mis à jour mon XCode à la sortie de iOS 5 pour avoir la dernière version 4.2.
+ Donc je me lance : “Fichier -&amp;gt; nouveau projet” et je tombe sur un nouveau type d’application “Page-Based Application”.</description>
+    </item>
+    
+    <item>
+      <title>Premier essai de PhoneGap</title>
+      <link>http://example.org/2011/10/20/premier-essai-phonegap/</link>
+      <pubDate>Thu, 20 Oct 2011 22:36:04 +0000</pubDate>
+      
+      <guid>http://example.org/2011/10/20/premier-essai-phonegap/</guid>
+      <description>Dernièrement j’avais à développer une application mobile sans grosse difficulté technique. J’ai donc eu envie d’essayer de la réaliser avec PhoneGap.
+Je ne vais pas faire d’article pour expliquer comment fonctionne PhoneGap car beaucoup l’on déjà fait mieux que je ne peux le faire (comme octo par exemple) mais juste faire un petit retour d’expérience.
+La base de PhoneGap c’est de pouvoir faire des applications mobiles mutliplate-forme en développement en HTML/CSS/Javascript.</description>
+    </item>
+    
+    <item>
+      <title>Formation XHTM ou la fausse bonne idée</title>
+      <link>http://example.org/2011/09/28/formation-xhtml-fbi/</link>
+      <pubDate>Wed, 28 Sep 2011 20:36:05 +0000</pubDate>
+      
+      <guid>http://example.org/2011/09/28/formation-xhtml-fbi/</guid>
+      <description>Après avoir pas mal développé sur iPhone j’ai eu envie de me mettre à niveau sur HTML et CSS. En Juin j’ai donc suivi 3 jours de formation sur ces technos. C’était vraiment pro avec un formateur très bon. Avec ces bonnes bases j’ai eu envie d’aller encore plus loin et regarder comment réaliser des sites Web pour mobiles. Fort de cette bonne expérience de formation j’en ai cherché une autre.</description>
+    </item>
+    
+    <item>
+      <title>Active MQ dans le cloud - suite</title>
+      <link>http://example.org/2011/07/27/active-mq-dans-le-cloud-suit/</link>
+      <pubDate>Wed, 27 Jul 2011 17:33:09 +0000</pubDate>
+      
+      <guid>http://example.org/2011/07/27/active-mq-dans-le-cloud-suit/</guid>
+      <description>Comme vous avez pu le lire dans le précédent article je n’étais pas arrivé au bout de l’exercice pour déployer ActiveMQ sur des offres PAAS. Et bien c’est chose faite, ça marche ! Mon erreur a été de me focaliser sur un problème réseau entre les VM (configuration, firewall…) En fait le problème était au niveau de l’ouverture des sockets. J’ai donc modifié le code du TCPConnector d’Active MQ pour l’adapter à mes contraintes.</description>
+    </item>
+    
+    <item>
+      <title>Active MQ dans le cloud</title>
+      <link>http://example.org/2011/07/21/active-mq-dans-le-cloud/</link>
+      <pubDate>Thu, 21 Jul 2011 23:33:18 +0000</pubDate>
+      
+      <guid>http://example.org/2011/07/21/active-mq-dans-le-cloud/</guid>
+      <description>En ce moment je regarde pour développer une plateforme de push notification iPhone. Le but est d’offrir une surcouche applicative plus simple à utiliser que les sockets d’Apple. Un peu comme le service offert par urbanairship.
+Ce qu’il faut bien comprendre avec le push d’Apple, c’est que pour envoyer une notification à 400 000 iPhone il faut ouvrir une socket chez eux et envoyer 400 000 trames avec un token différent par iPhone.</description>
+    </item>
+    
+    <item>
+      <title>Dans Ton Cloud</title>
+      <link>http://example.org/2011/07/10/dans-ton-cloud/</link>
+      <pubDate>Sun, 10 Jul 2011 23:09:03 +0000</pubDate>
+      
+      <guid>http://example.org/2011/07/10/dans-ton-cloud/</guid>
+      <description>Depuis 2 semaines je regarde différentes solutions de cloud computing.
+Dans un premier temps j’ai regardé les offres “bas niveau” :
+MiniCloud d’OVH
+C’est une offre abordable mais qui est en test depuis plus d’un an. C’est une facturation “Pay as you go” mais il manque deux fonctionnalités importantes : le load balancing et le clonage d’instance. L’adresse IP des instances change à chaque arrêt/relance ce qui peut être génant.</description>
+    </item>
+    
+    <item>
+      <title>Obeo Designer Roadshow</title>
+      <link>http://example.org/2011/06/29/obeo-designer-roadshow/</link>
+      <pubDate>Wed, 29 Jun 2011 15:32:46 +0000</pubDate>
+      
+      <guid>http://example.org/2011/06/29/obeo-designer-roadshow/</guid>
+      <description>Hier se déroulait à Brest le ObeoDesigner roadshow.
+Avant de présenter l’outil, il faut commencer par la base.
+Le DSL : Domaine Specific Language
+Le principe est de définir son propre langage pour modéliser son environnement. Là où en UML on a (pratiquement) que des classes, dans un DSL on peut utiliser notre langage métier et parler de “Portable”, d&amp;rsquo;”Avion” etc.. Mais qui dit nouveau langage dit nouvelle représentation graphique. Avec un DSL il faut aussi réinventer vos propres représentations graphiques.</description>
+    </item>
+    
+    <item>
+      <title>Le blues du développeur</title>
+      <link>http://example.org/2011/06/18/le-blues-du-developpeur/</link>
+      <pubDate>Sat, 18 Jun 2011 20:43:30 +0000</pubDate>
+      
+      <guid>http://example.org/2011/06/18/le-blues-du-developpeur/</guid>
+      <description>En revenant d’une conférence sur GIT dans le cadre du BreizhCamp (faite par Sebastien Douche, excellent orateur) je rentre chez mon frère qui m’héberge. Et commence la conversation type que nous développeurs nous avons déjà eu des dizaines de fois:
+Mon frère : Alors cette conf, sympa ? C’était sur quoi ?
+Moi : Ouep super bien, on nous a présenté GIT
+Mon frère : Ah ? C’est quoi GIT</description>
+    </item>
+    
+    <item>
+      <title>Choisir un développeur</title>
+      <link>http://example.org/2011/05/08/choisir-un-developpeur/</link>
+      <pubDate>Sun, 08 May 2011 15:32:32 +0000</pubDate>
+      
+      <guid>http://example.org/2011/05/08/choisir-un-developpeur/</guid>
+      <description>Je viens de lire un article très intéressant : Why the new guy cant code
+Comme je l’ai dit dans l’article sur les forfaits, il est indispensable de bien choisir ses développeurs et c’est loin d’être simple. TechCrunch explique bien que le processus de sélection des entreprises n’est pas souvent très performant. Même chez Google il y a des choses à améliorer. J’ai par exemple bien aimé le test technique à faire pour déposer son CV chez Ippon, mais ce n’est pas suffisant.</description>
+    </item>
+    
+    <item>
+      <title>Recrutement Ippon vraiment original</title>
+      <link>http://example.org/2011/04/08/recrutement-ippon-vraiment-original/</link>
+      <pubDate>Fri, 08 Apr 2011 21:55:26 +0000</pubDate>
+      
+      <guid>http://example.org/2011/04/08/recrutement-ippon-vraiment-original/</guid>
+      <description>Je viens de tomber sur une offre emploi super bien faite d’Ippon Technologies sur l’excellent site de Nicolas Martignole : l’express board. (bon ok je suis un poil à la bourre elle date de Février…)
+ ******************************************************************************Chez Ippon Technologies, nous cherchons des consultants capables de lire cette offre d’emploi :https://github.com/ippontech/IpponRecrute****************************************************************************** Julien Dubois(passé de SpringSource à Ippon Technologies récemment) a même poussé le vis en encodant le texte de l’annonce dans le code.</description>
+    </item>
+    
+    <item>
+      <title>Peut-on réussir un forfait ?</title>
+      <link>http://example.org/2011/03/11/peut-on-reussir-un-forfait/</link>
+      <pubDate>Fri, 11 Mar 2011 17:52:32 +0000</pubDate>
+      
+      <guid>http://example.org/2011/03/11/peut-on-reussir-un-forfait/</guid>
+      <description>Plus je travaille avec des SSII et plus je trouve que les projets gérés au forfait se passent mal. Les torts sont souvent partagés, mais je constate plusieurs causes d’échec :
+Le client est incapable de rédiger un cahier des charges Là je sais de quoi je parle, j’ai souvent le rôle de client en ce moment Le besoin évolue, n’est pas forcément clair et donc il est très dur de rédiger un cahier des charges exhaustif.</description>
+    </item>
+    
+    <item>
+      <title>Profiling SQL</title>
+      <link>http://example.org/2011/03/11/profiling-sql/</link>
+      <pubDate>Fri, 11 Mar 2011 00:04:54 +0000</pubDate>
+      
+      <guid>http://example.org/2011/03/11/profiling-sql/</guid>
+      <description>C’est une étape souvent négligée par les projets utilisant des librairies de mapping objet. Mais faire de l’Hibernate c’est bien, regarder les requêtes générées sur la base c’est mieux.
+J’ai le souvenir d’un vieux projet utilisant des EJB Entity 2 où à un moment on ajoutait un objet dans une liste. En regardant les requêtes on s’est aperçu que le conteneur chargeait toute la liste avant de faire l’insert. C’était complètement inutile.</description>
+    </item>
+    
+    <item>
+      <title>Best-of Cdp</title>
+      <link>http://example.org/2011/02/13/best-of-cdp/</link>
+      <pubDate>Sun, 13 Feb 2011 19:39:26 +0000</pubDate>
+      
+      <guid>http://example.org/2011/02/13/best-of-cdp/</guid>
+      <description>En 10 ans j’ai croisé pas mal de chefs de projets différents. J’ai envie de vous faire partager plusieurs échanges assez étonnants que j’ai pu avoir avec eux dans différentes sociétés.
+Cdp : On est mal sur un projet. Il faut absolument livrer dans 1 mois !
+Moi : Ok, je peux peut-être vous aider. Quelle charge en “Reste à faire” il te reste pour livrer ?
+Cdp (étonné) : heu… je sais pas.</description>
+    </item>
+    
+    <item>
+      <title>My Orange en Suisse</title>
+      <link>http://example.org/2011/01/17/my-orange-en-suisse/</link>
+      <pubDate>Mon, 17 Jan 2011 10:29:40 +0000</pubDate>
+      
+      <guid>http://example.org/2011/01/17/my-orange-en-suisse/</guid>
+      <description>Je n’ai pas pour habitude de parler de mes projets pro sur ce blog. Par discrétion et parfois pour des raisons de confidentialité. Mais aujourd’hui c’est particulier, pour la première fois depuis 5 ans chez Orange un de mes projets est utilisé par des clients. Avant je travaillais sur des projets pour nos clients pro, alors le M2M c’est sympa mais pas vraiment “grand public” Donc l’application iPhone “My Orange” est disponible sur l’AppStore Suisse depuis 9h ce matin.</description>
+    </item>
+    
+    <item>
+      <title>Maven, JUnit et la JVM</title>
+      <link>http://example.org/2010/11/29/maven-junit-et-la-jvm/</link>
+      <pubDate>Mon, 29 Nov 2010 09:56:23 +0000</pubDate>
+      
+      <guid>http://example.org/2010/11/29/maven-junit-et-la-jvm/</guid>
+      <description>Ca fait longtemps que je n’ai pas fait de petit post technique où je decris la solution d’un problème simple. Et bien justement j’ai eu à en résoudre quelques uns ces derniers temps. Je vais donc les partager.
+En ce moment je travaille sur un projet qui charge beaucoup d’objets en mémoire. Il faut donc redéfinir la taille de mémoire max à allouer pour le faire tourner. Une simple option “-Xmx512m” au niveau de la JVM et les tests unitaires fonctionnent sans pb.</description>
+    </item>
+    
+    <item>
+      <title>Windows Phone</title>
+      <link>http://example.org/2010/10/22/windows-phone/</link>
+      <pubDate>Fri, 22 Oct 2010 22:26:35 +0000</pubDate>
+      
+      <guid>http://example.org/2010/10/22/windows-phone/</guid>
+      <description>Cette semaine Microsoft a sorti son nouvel OS pour les “Windows Phone”. Vous le savez je ne suis pas un grand fan de Microsoft. De plus je ne garde pas de bons souvenirs de ma petite expérience de développement sur PDA Windows Mobile en 2001. Mais après avoir regardé une vidéo de démonstration de ces nouveaux téléphones, j’ai eu envie de savoir ce que Microsoft offrait aux développeurs.
+J’ai donc été sur leur site pour avoir des informations sur le kit de développement :</description>
+    </item>
+    
+    <item>
+      <title>Le MDA va-t-il devenir à la mode ?</title>
+      <link>http://example.org/2010/09/22/le-mda-va-t-il-devenir-a-la-mode/</link>
+      <pubDate>Wed, 22 Sep 2010 00:12:25 +0000</pubDate>
+      
+      <guid>http://example.org/2010/09/22/le-mda-va-t-il-devenir-a-la-mode/</guid>
+      <description>C’est en effet la question que l’on peut se poser vu le nombre grandissant de conférences sur le sujet. Par exemple pendant le JUG Summer Camp 2010, je l’ai découvert en lisant le résumé sur le blog d’ippon. Je ne l’ai par contre pas vu sur le blog du Touilleur, Nicolas ne doit toujours pas être convaincu 😉
+La prochaine ? Le lundi 4 Octobre à Rennes pour le BreizhJug. Soirée MDA &amp;amp; Fodnation Eclipse par Etienne Juliot.</description>
+    </item>
+    
+    <item>
+      <title>MDA Day et Acceleo 3</title>
+      <link>http://example.org/2010/09/14/mda-day-et-acceleo-3/</link>
+      <pubDate>Tue, 14 Sep 2010 23:21:47 +0000</pubDate>
+      
+      <guid>http://example.org/2010/09/14/mda-day-et-acceleo-3/</guid>
+      <description>Je viens de recevoir un email pour annoncer la date du MD Day 2010 : le Jeudi 25 Novembre. C’est à Issy les Moulineaux donc surement chez Microsoft comme en 2009. Ils ratissent large Microsoft, après avoir accueilli le SCRUM User Group pour vendre Visual Studio comme l’outil idéal pour faire du SCRUM, ils vont peut être présenter Visio comme le meilleur modeleur UML du marché. La preuve ? c’est Steve Cook qui fait la Key note d’ouverture, un architecte logiciel de Microsoft de l’équipe Visual Studio, bref super indépendant.</description>
+    </item>
+    
+    <item>
+      <title>C&#39;est reparti !</title>
+      <link>http://example.org/2010/09/03/cest-reparti/</link>
+      <pubDate>Fri, 03 Sep 2010 23:07:13 +0000</pubDate>
+      
+      <guid>http://example.org/2010/09/03/cest-reparti/</guid>
+      <description>Il faut bien avouer que ce blog est très calme depuis Juin, c’est souvent le cas pendant l’été C’est vrai que depuis un an je poste un peu moins. Contrairement à Claude Aubry ou Pascal Roques ce n’est pas la faute de Tweeter (sans avoir la prétention de comparer mon blog aux leurs bien sur ). Non c’est simplement que j’ai moins de choses à partager. Comme j’ai toujours refusé de blogger des infos repêchées sur d’autres sites/blogs pour privilégier des articles techniques de fond (enfin je l’espère !</description>
+    </item>
+    
+    <item>
+      <title>Retour de la WWDC 2010</title>
+      <link>http://example.org/2010/06/14/retour-de-la-wwdc-2010/</link>
+      <pubDate>Mon, 14 Jun 2010 10:02:37 +0000</pubDate>
+      
+      <guid>http://example.org/2010/06/14/retour-de-la-wwdc-2010/</guid>
+      <description>Et voilà je suis de retour en France après une semaine à San Francisco pour la WWDC 2010. Je ne peux pas vous faire un article par session car il est strictement interdit de communiquer sur ce que nous avons entendu. Mais par contre je peux vous résumer le voyage, la Key Note et l’ambiance.
+Le voyage Comme je suis de Lannion, le trajet pour Paris c’est déjà une aventure Je vous passe les détails des 4 heures de train au milieu d’un groupe de 50 gamins de 12 ans.</description>
+    </item>
+    
+    <item>
+      <title>Départ pour San Francisco !</title>
+      <link>http://example.org/2010/06/04/depart-pour-san-francisco/</link>
+      <pubDate>Fri, 04 Jun 2010 00:08:05 +0000</pubDate>
+      
+      <guid>http://example.org/2010/06/04/depart-pour-san-francisco/</guid>
+      <description>Voila c’est parti Demain j’arrive à San Francisco pour participer à la WWDC 2010. Je ne suis pas sur d’avoir le temps de faire de gros articles sur le blog et dans ce cas Twitter est peut être mieux adapté.
+Donc même si je ne suis pas un Twitter, je vais tester l’exercice pendant ce voyage et surtout pendant la Key Note avec Steve Jobs !
+Vous pourrez donc me suivre sur : http://twitter.</description>
+    </item>
+    
+    <item>
+      <title>WWDC 2010</title>
+      <link>http://example.org/2010/04/30/wwdc-2010/</link>
+      <pubDate>Fri, 30 Apr 2010 19:57:11 +0000</pubDate>
+      
+      <guid>http://example.org/2010/04/30/wwdc-2010/</guid>
+      <description>Apple a enfin annoncé la date de sa grande messe annuelle, c’est donc du 7 au 11 Juin. Au programme une série de conférences très techniques, des labs et une Keynote d’ouverture où l’iPhone HD a de très grandes chances d’être présenté.
+Pourquoi j’en parle sur ce blog ? Et bien simplement parce que cette année j’y participerai ! J’ai même déjà mon billet pour San Francisco 😉 J’ai ciblé plusieurs sessions intéressantes :</description>
+    </item>
+    
+    <item>
+      <title>Retour sur la soirée Scrum User Group</title>
+      <link>http://example.org/2010/04/03/retour-sur-la-soiree-scrum-user-group/</link>
+      <pubDate>Sat, 03 Apr 2010 11:01:53 +0000</pubDate>
+      
+      <guid>http://example.org/2010/04/03/retour-sur-la-soiree-scrum-user-group/</guid>
+      <description>Mardi soir j’ai participé à la soirée anniversaire du French Scrum User Group.
+Direction Microsoft à Issy Les Moulineaux.
+A propos si vous recherchez des locaux, il y a de la place ! Accueil J’entre donc dans l’amphi Grand bleu pour l’ouverture de la soirée. Salle très impressionnante que l’on remplit à moitié au début. On commence par une vidéo de Ken Schwaber en personne buvant une flûte de champagne pour fêter cet anniversaire, clin d’oeil plutôt sympa Ensuite Luc Legardeur, président du Scrum User Group et de Xebia, fait le bilan de la première année.</description>
+    </item>
+    
+    <item>
+      <title>Version iPad non validée</title>
+      <link>http://example.org/2010/04/02/version-ipad-non-validee/</link>
+      <pubDate>Fri, 02 Apr 2010 21:21:40 +0000</pubDate>
+      
+      <guid>http://example.org/2010/04/02/version-ipad-non-validee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Salon Display 2010</title>
+      <link>http://example.org/2010/03/31/salon-display-2010/</link>
+      <pubDate>Wed, 31 Mar 2010 23:10:30 +0000</pubDate>
+      
+      <guid>http://example.org/2010/03/31/salon-display-2010/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://example.org/images/uploads/2010/03/logo-display10.gif&#34; alt=&#34;photo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Comme je travaille en ce moment sur un projet avec de la 3D, le salon Display m’a attiré pour une conférence sur l’évolution des technos 3D et la réalité augmentée.&lt;/p&gt;
+&lt;p&gt;Par contre je pensais voir des exposants avec des écrans 3D de fou et bien, perdu. En fait ce salon fait partie d’une plus grande manifestation “les salons solutions électroniques”. Et en effet c’était très très électronique. Il y avait bien des écrans mais plus pour de l’embarqué et aucun avec de la 3D &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Par contre la présentation était assez intéressante.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>En avant pour l&#39;iPad</title>
+      <link>http://example.org/2010/03/23/en-avant-pour-lipad/</link>
+      <pubDate>Tue, 23 Mar 2010 21:05:46 +0000</pubDate>
+      
+      <guid>http://example.org/2010/03/23/en-avant-pour-lipad/</guid>
+      <description>Apple a envoyé un email aux développeurs iPhone samedi pour nous signaler qu’il est maintenant possible de proposer des applications iPad. De plus si l’application est publiée avant le 27 Mars elle a une chance d’être présente à la sortie de l’iPad.
+Le problème c’est que pour le moment il faut se contenter du simulateur pour développer. Donc l’équipe d’Apple s’occupe de tester votre application sur un iPad pour vous faire des commentaires.</description>
+    </item>
+    
+    <item>
+      <title>Anniversaire du Scrum User Group</title>
+      <link>http://example.org/2010/03/10/anniversaire-du-scrum-user-group/</link>
+      <pubDate>Wed, 10 Mar 2010 21:54:00 +0000</pubDate>
+      
+      <guid>http://example.org/2010/03/10/anniversaire-du-scrum-user-group/</guid>
+      <description>Le Mardi 30 Mars le Scrum User Group fête son premier anniversaire dans les locaux de Microsoft à Issy-Les-Moulineaux.
+Plus d’informations sur ce lien.
+Comme je suis justement sur Paris à ce moment là, je vais en profiter pour y participer </description>
+    </item>
+    
+    <item>
+      <title>Premier bilan pour iMovies Collection</title>
+      <link>http://example.org/2010/02/15/premier-bilan-pour-imovies-collection/</link>
+      <pubDate>Mon, 15 Feb 2010 22:46:10 +0000</pubDate>
+      
+      <guid>http://example.org/2010/02/15/premier-bilan-pour-imovies-collection/</guid>
+      <description>Cela fait maintenant un peu plus d’un mois que l’application iMovies Collection est en ligne, je vais donc vous faire un premier petit bilan.
+Début difficile Première bonne surprise, l’application a été validée du premier coup et en trois jours. Ca été même un peu trop rapide, la FAQ et la doc sur le site n’étaient pas prètes. J’avais aussi laissé un gros bug. Même si je l’ai corrigé directement et que Apple l’a validé dans la journée, cela a quand même nuit à l’image de l’application.</description>
+    </item>
+    
+    <item>
+      <title>Peut-on vendre du vent sur l&#39;AppStrore ?</title>
+      <link>http://example.org/2010/02/11/peut-on-vendre-du-vent-sur-lappstrore/</link>
+      <pubDate>Thu, 11 Feb 2010 21:40:03 +0000</pubDate>
+      
+      <guid>http://example.org/2010/02/11/peut-on-vendre-du-vent-sur-lappstrore/</guid>
+      <description>Suite à la publication de iMovies Collection sur l’AppStore, j’ai eu envie de réaliser une petite expérience. Je voulais savoir si grâce au volume important d’iPhone il était possible de vendre facilement une application pratiquement vide à 1$. J’ai donc cherché une idée la plus simple possible et avec très peu de développement. Ensuite je l’ai réalisée en 1h chrono un Dimanche après midi sur mon canapé.
+L’idée est simple : afficher des photos de chatons.</description>
+    </item>
+    
+    <item>
+      <title>iMovies Collection publié !</title>
+      <link>http://example.org/2010/01/10/imovies-collection-publie/</link>
+      <pubDate>Sun, 10 Jan 2010 22:41:21 +0000</pubDate>
+      
+      <guid>http://example.org/2010/01/10/imovies-collection-publie/</guid>
+      <description>Voila c’est fait, Apple a validé mon application. Vendredi à 22h34 j’ai reçu un mail pour me prévenir que l’application était “Ready for Sale” Ca a été trés rapide :
+Dès le samedi matin j’avais un email d’un client pour me signaler un bug Mon premier utilisateur est un américain qui a une collection de 1500 films. Mon application n’a pas tenu la charge. En fait j’ai fait une grosse erreur de gestion de mémoire, ça divergeait.</description>
+    </item>
+    
+    <item>
+      <title>Etape 3 : publier l&#39;application</title>
+      <link>http://example.org/2010/01/08/etape-3-publier-lapplication/</link>
+      <pubDate>Fri, 08 Jan 2010 12:00:59 +0000</pubDate>
+      
+      <guid>http://example.org/2010/01/08/etape-3-publier-lapplication/</guid>
+      <description>Voilà, j’ai une application qui fonctionne, un beau site web, il est temps de passer à la phase importante : publier l’application.
+Dans un premier temps il faut rejoindre le “iPhone developer programme” pour obtenir un certificat Apple.
+C’est ce certificat qui vous permet aussi de tester l’application sur un vrai iPhone. Avant de payer vous avez accès au SDK et au simulateur iPhone. Le SDK est gratuit, mais ne fonctionne que sur Mac bien-sûr.</description>
+    </item>
+    
+    <item>
+      <title>Etape 2 : iMovies collection</title>
+      <link>http://example.org/2010/01/07/imoviescollection/</link>
+      <pubDate>Thu, 07 Jan 2010 18:40:36 +0000</pubDate>
+      
+      <guid>http://example.org/2010/01/07/imoviescollection/</guid>
+      <description>Avant d’entrer dans le détail du process de publication Apple regardons par quoi il faut commencer.
+1 – Trouver un nom La première chose est en effet de trouver un nom à cette application. Et pour ça je ne suis vraiment pas très doué. Mais comme je n’ai pas les moyens de faire appel à une boîte de comm, on va faire avec mes petits moyens.
+Après plusieurs heures à tourner autour des idées : DVD, film, collection… J’ai fini par choisir le nom : iMovies Collection.</description>
+    </item>
+    
+    <item>
+      <title>Application iPhone, étape 1 : l&#39;idée</title>
+      <link>http://example.org/2010/01/06/application-iphone-idee/</link>
+      <pubDate>Wed, 06 Jan 2010 21:35:45 +0000</pubDate>
+      
+      <guid>http://example.org/2010/01/06/application-iphone-idee/</guid>
+      <description>Comme je vous l’annonçais dans le dernier post, j’ai envie d’essayer de développer une application iPhone et de la vendre sur l’appStore.
+L’idée est simple, je souhaite pouvoir consulter ma collection de DVD/Blue-Ray n’importe où. Ca peut être pratique pour la partager avec des amis ou pour préparer une soirée video.
+Pour gérer ma collection j’utilise le logiciel DVDProfiler sur PC. J’entre le nom d’un DVD ou juste son code barre et il me retrouve une description détaillée du film (images, acteurs, genre etc… ).</description>
+    </item>
+    
+    <item>
+      <title>J&#39;ai switch !</title>
+      <link>http://example.org/2009/12/15/j-ai-switch/</link>
+      <pubDate>Tue, 15 Dec 2009 00:01:09 +0000</pubDate>
+      
+      <guid>http://example.org/2009/12/15/j-ai-switch/</guid>
+      <description>C’est fait je suis passé au MAC Après plus de 15 ans d’utilisation de PC je découvre le monde Mac avec un beau Mac Book pro. En fait c’est mon second Mac puisque dans les années 90 j’avais eu un Apple IIc, mais bon ça ne compte pas.
+Alors que dire sur cette belle bête ? Et bien pas de scoop, c’est bien très agréable à utiliser. Plusieurs exemples d’éléments super agréables :</description>
+    </item>
+    
+    <item>
+      <title>Résultat trophées innovation d&#39;OBS</title>
+      <link>http://example.org/2009/10/23/resultat-trophees-innovation-dobs/</link>
+      <pubDate>Fri, 23 Oct 2009 15:32:23 +0000</pubDate>
+      
+      <guid>http://example.org/2009/10/23/resultat-trophees-innovation-dobs/</guid>
+      <description>Je viens de trouver sur le web les résultats du trophées de l’innovation du Syntec et d’Orange Business Services. Et quelle ne fut pas ma surprise de découvrir le coup de coeur du jury : le site GeoFamily. Ca ressemble beaucoup au service AreUThere que j’avais réalisé 😉 Ce n’est donc pas forcement super “innovant” puisque j’ai fait le site il y a un an.
+J’avais même proposé plus de services, mais Webtiss a réussit à sortir un vrai service.</description>
+    </item>
+    
+    <item>
+      <title>Dreamcast to Jamma : la video</title>
+      <link>http://example.org/2009/09/07/dreamcast-to-jamma-la-video/</link>
+      <pubDate>Mon, 07 Sep 2009 08:15:23 +0000</pubDate>
+      
+      <guid>http://example.org/2009/09/07/dreamcast-to-jamma-la-video/</guid>
+      <description>Comme je l’ai noté dans l’article précédent, je compte retaper une borne d’arcade. Dans un premier temps j’ai envie d’utiliser ma vieille Dreamcast qui prenait la poussière dans cette borne. Et bien croyez moi, on est loin du plug and play !
+Je débarque un peu dans ce monde et il y a pas mal de choses à connaitre.
+Le port Jamma Au milieu des années 80 les constructeurs ont eu la bonne idée de normaliser les branchements de leurs bornes.</description>
+    </item>
+    
+    <item>
+      <title>C&#39;est la rentrée</title>
+      <link>http://example.org/2009/09/03/cest-la-rentree/</link>
+      <pubDate>Thu, 03 Sep 2009 23:35:34 +0000</pubDate>
+      
+      <guid>http://example.org/2009/09/03/cest-la-rentree/</guid>
+      <description>Même pour les blogs il est temps de se remettre au travail C’est aussi pour moi une vraie rentrée puisque j’ai changé d’équipe le 1er septembre. Nouveaux collègues, nouvelles activités, nouveau bureau.. Comme pour un gamin. Je ne travaille donc plus dans le domaine du Machine To Machine mais dans celui de la relation client. Un gros changement et j’espère y trouver autant de challenges techniques pour pouvoir les partager sur ce blog.</description>
+    </item>
+    
+    <item>
+      <title>Retour sur l&#39;acceleo day</title>
+      <link>http://example.org/2009/07/20/retour-sur-lacceleo-day/</link>
+      <pubDate>Mon, 20 Jul 2009 08:00:22 +0000</pubDate>
+      
+      <guid>http://example.org/2009/07/20/retour-sur-lacceleo-day/</guid>
+      <description>Vendredi 10 juillet avait lieu à Nantes les Rencontres Mondiales du Logiciel Libre. C’est dans ce cadre qu’Acceleo a choisi d’organiser une journée dédiée à leur outil de transformation M2T.
+Etienne Juliot commence cette journée par une présentation de l’outil. Il a reussi à faire une présentation à la fois pour les débutants et pour les plus aguerris en y ajoutant quelques petites astuces bien pratiques. Le reste de la matinée était consacrée aux retours clients.</description>
+    </item>
+    
+    <item>
+      <title>Acceleo M2T et Eclipse 3.5</title>
+      <link>http://example.org/2009/06/25/acceleo-m2t-eclipse/</link>
+      <pubDate>Thu, 25 Jun 2009 23:14:01 +0000</pubDate>
+      
+      <guid>http://example.org/2009/06/25/acceleo-m2t-eclipse/</guid>
+      <description>Comme vous le savez Eclipse 3.5 Galileo est sorti le 24 Juin.
+Une des nouveautés est l’intégration d’Acceleo M2T directement dans la version “Eclipse Modeling Tools”.
+Je n’ai pas passé beaucoup de temps à l’essayer, mais on peut déjà noter plusieurs grosses améliorations. Bien sur la plus importante est le changement de langage de script. On passe d’un format spécifique Acceleo à du MTL standard défini par l’OMG pour les transformations Model to Text.</description>
+    </item>
+    
+    <item>
+      <title>Conflit de lib Apache CXF et hibernate</title>
+      <link>http://example.org/2009/06/24/conflit-de-lib-apache-cxf-et-hibernate/</link>
+      <pubDate>Wed, 24 Jun 2009 20:38:00 +0000</pubDate>
+      
+      <guid>http://example.org/2009/06/24/conflit-de-lib-apache-cxf-et-hibernate/</guid>
+      <description>Je viens de perdre pas mal de temps à faire fonctionner mon projet qui utilise hibernate et apache CXF pour exposer des WebServices.
+Au moment de compiler j’avais l’erreur suivante :
+WARN: Nested in org.springframework.beans.factory.BeanCreationException: Error creating bean with name &#39;sessionFactory&#39; defined in class path resource [applicationContext.xml]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: org/objectweb/asm/CodeVisitor:&amp;lt;br /&amp;gt; at net.sf.cglib.core.KeyFactory$Generator.generateClass
+Au début ça me paraissait être un simple NoClassDefFound, mais la classe recherchée était bien dans mon CLASSPATH.</description>
+    </item>
+    
+    <item>
+      <title>RMLL à Nantes</title>
+      <link>http://example.org/2009/06/02/rmll-a-nantes/</link>
+      <pubDate>Tue, 02 Jun 2009 22:47:23 +0000</pubDate>
+      
+      <guid>http://example.org/2009/06/02/rmll-a-nantes/</guid>
+      <description>Mais c’est quoi au fait les RMLL ? C’est aussi la première question que je me suis posée Et bien ce sont les Rencontres Mondiales du Logiciel Libre et cette année elles sont organisées à Nantes du 7 au 11 juillet 2009. 5 jours bien chargés découpés en 18 thèmes différents !
+Amis du grand Ouest, c’est trop proche pour le louper !</description>
+    </item>
+    
+    <item>
+      <title>Présentation de Modelio par Softeam ou pas</title>
+      <link>http://example.org/2009/05/19/presentation-de-modelio-par-softeam-ou-pas/</link>
+      <pubDate>Tue, 19 May 2009 10:59:33 +0000</pubDate>
+      
+      <guid>http://example.org/2009/05/19/presentation-de-modelio-par-softeam-ou-pas/</guid>
+      <description>J’ai reçu hier une invitation (enfin une publicité) pour un séminaire gratuit Softeam. Jusque là rien d’exceptionnel, Softeam en propose régulièrement. Ce qui est moins habituel c’est de recevoir ce mail via Modelio.
+Regardez le mail :
+Au premier coup d’oeil, je pense qu’il s’agit d’une après-midi de présentation du produit Modelio. Il faut s’inscrire sur le site de softeam.. pourquoi pas.
+Mais en arrivant sur ce site, l’image n’est plus la même.</description>
+    </item>
+    
+    <item>
+      <title>Petit lifting</title>
+      <link>http://example.org/2009/05/17/petit-lifting/</link>
+      <pubDate>Sun, 17 May 2009 17:04:10 +0000</pubDate>
+      
+      <guid>http://example.org/2009/05/17/petit-lifting/</guid>
+      <description>Après un peu plus d’un an de fonctionnement j’ai eu envie de rafraîchir un peu le blog. Malheureusement je suis très vite limité par mes piètres talents de graphiste. Je me suis donc limité à changer de thème en apportant ma petite touche au niveau de l’image sous le titre.
+Petite nouveauté, j’ai ajouté une vidéo en haut à droite de la page créant un buzz où que je trouve drôle.</description>
+    </item>
+    
+    <item>
+      <title>Les domaines .tel</title>
+      <link>http://example.org/2009/05/13/domaines-tel/</link>
+      <pubDate>Wed, 13 May 2009 19:26:17 +0000</pubDate>
+      
+      <guid>http://example.org/2009/05/13/domaines-tel/</guid>
+      <description>La semaine dernière j’ai acheté le domaine liard.tel chez telnic.org.
+L’idée est sympa, on peut retrouver toutes mes coordonnées sur une page web avec une adresse facile à retenir. Pas d’hébergement à gérer ni de html à écrire, grâce à une interface très simple à utiliser :</description>
+    </item>
+    
+    <item>
+      <title>ActiveMQ</title>
+      <link>http://example.org/2009/04/21/activemq/</link>
+      <pubDate>Tue, 21 Apr 2009 07:42:59 +0000</pubDate>
+      
+      <guid>http://example.org/2009/04/21/activemq/</guid>
+      <description>&lt;p&gt;Pendant une petite semaine j’ai regardé de plus près le serveur de JMS ActiveMQ. Je vais vous faire partager mes premières remarques.&lt;/p&gt;
+&lt;h1 id=&#34;le-coeur&#34;&gt;Le coeur&lt;/h1&gt;
+&lt;p&gt;ActiveMQ est un broker de message à utiliser pour le développement d’une architecture MOM (Middleware Oriente Messages). Je l’ai choisi aussi pour sa bonne intégration avec Spring et sa bonne tenue en charge.&lt;/p&gt;
+&lt;p&gt;Son architecture est simple : (source : http://activemq.apache.org/code-overview.html)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://example.org/images/uploads/2009/03/activemq-300x205.png&#34; alt=&#34;photo&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Retour de vacances</title>
+      <link>http://example.org/2009/04/15/retour-de-vacances/</link>
+      <pubDate>Wed, 15 Apr 2009 08:14:50 +0000</pubDate>
+      
+      <guid>http://example.org/2009/04/15/retour-de-vacances/</guid>
+      <description>Après une petite semaine de ski je découvre plusieurs news très intéressantes
+ Google App Engine supporte enfin le Java Modelio sort sa version Entreprise SFR ouvre un concours Android  Pas mal de choses à tester donc.
+Pour le dernier point, j’ai déjà donné au niveau concours. En plus c’est pour SFR, je suis pas sûr que mon patron apprécirait Et puis un coucours SFR pour une appli IPhone aurait été plus drôle !</description>
+    </item>
+    
+    <item>
+      <title>Le PSM est-il toujours utile ?</title>
+      <link>http://example.org/2009/03/05/le-psm-est-il-toujours-utile/</link>
+      <pubDate>Thu, 05 Mar 2009 23:49:05 +0000</pubDate>
+      
+      <guid>http://example.org/2009/03/05/le-psm-est-il-toujours-utile/</guid>
+      <description>Pendant plus de 4 ans nous avons travaillé sur un projet avec un outillage MDA en utilisant le mécanisme suivant pour générer du code :
+Sur le papier nous respections bien les concepts MDA avec une séparation du modèle abstrait de haut niveau (le PIM) et un autre spécifique à nos contraintes techniques (le PSM).
+Mais si on regarde de plus près on trouve dans notre PIM des informations liées à nos choix technologiques que l’on ajoute grâce à un profil (stéréotype finder, tagged value sql_name, etc).</description>
+    </item>
+    
+    <item>
+      <title>Premier test de Modelio</title>
+      <link>http://example.org/2009/02/19/premier-test-de-modelio/</link>
+      <pubDate>Thu, 19 Feb 2009 22:26:32 +0000</pubDate>
+      
+      <guid>http://example.org/2009/02/19/premier-test-de-modelio/</guid>
+      <description>Après avoir passé quelques heures à tester Modelio je vous en fais un petit retour. Installation La première bonne nouvelle est qu’il est possible d’avoir sur un même poste plusieurs versions différentes de Modelio. J’ai installé la version Free et la version Java sur mon poste sans problème. Bien-sûr un projet créé avec la version Java n’est pas utilisable avec la version free (l’inverse est possible par contre).
+L’empreinte mémoire est assez faible (100Mo).</description>
+    </item>
+    
+    <item>
+      <title>Modelio, un nouveau modeleur ?</title>
+      <link>http://example.org/2009/02/13/modelio-un-nouveau-modeleur/</link>
+      <pubDate>Fri, 13 Feb 2009 19:33:35 +0000</pubDate>
+      
+      <guid>http://example.org/2009/02/13/modelio-un-nouveau-modeleur/</guid>
+      <description>Je viens de tomber sur le site web d’un nouveau modeleur UML2 Modelio.
+Au premier screenshot, j’ai comme une impression de déjà vu. Dans le About on peut lire “Modeliosoft is the result of 20 years of experience in OO modeling” et “Based in Paris”. Une boîte qui a 20 ans d’experience dans la modélisation à Paris, c’est étrange de ne pas la connaître !
+En fait non ce n’est pas un nouveau modeleur, c’est une nouvelle version d’objecteering “rebrandée”.</description>
+    </item>
+    
+    <item>
+      <title>Concours d&#39;API d&#39;Orange : les résultats</title>
+      <link>http://example.org/2009/02/09/concours-api-orange-fiasco/</link>
+      <pubDate>Mon, 09 Feb 2009 23:46:06 +0000</pubDate>
+      
+      <guid>http://example.org/2009/02/09/concours-api-orange-fiasco/</guid>
+      <description>La liste des gagnants du concours Orange API d’octobre 2008 est enfin publiée sur le site.
+Ce concours a vraiment été mal géré du début à la fin.
+ Offrir une place pour un salon en Floride sans donner de billet d’avion.. sympa. Promettre une présentation des gagnants dans La Collection de novembre 2008 et au final rien. Mettre 3 mois à envoyer le téléphone portable gagné pour en avoir un avec un firmware UK qu’il faut reflasher pour l’utiliser à 100% en France Et les fameux 500 Euros gagnés… On ne les a toujours pas vus !</description>
+    </item>
+    
+    <item>
+      <title>Les APIs Orange passent en Beta</title>
+      <link>http://example.org/2009/01/14/les-apis-orange-passent-en-beta/</link>
+      <pubDate>Wed, 14 Jan 2009 08:06:40 +0000</pubDate>
+      
+      <guid>http://example.org/2009/01/14/les-apis-orange-passent-en-beta/</guid>
+      <description>Progressivement toutes les APIs Orange du site Orange Partner passent de version alpha en version Beta payante. Après l’API SMS passée en Beta en novembre, l’API de géoloc en Decembre, c’est l’API click-to-call qui devient payante à partir de maintenant.
+Le système fonctionne à base de crédits plus ou moins chers en fonction du volume acheté. Pour envoyer un SMS comptez 10 crédits. Vous pouvez même gagner des credits si vos utilisateurs utilisent des SMS surtaxés.</description>
+    </item>
+    
+    <item>
+      <title>Partner Camp Orange dernier Jour</title>
+      <link>http://example.org/2008/12/18/partner-camp-orange-dernier-jour/</link>
+      <pubDate>Thu, 18 Dec 2008 02:18:35 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/18/partner-camp-orange-dernier-jour/</guid>
+      <description>Le dernier jour du Camp est beaucoup plus calme. Les participants se réveillent plus tard à cause de la soirée et certains doivent partir pour prendre leur avion. Je suis donc resté à la “developer play hut” pour aider mes collègues à faire des démos des API Orange.
+Camp farewell Pendant la cérémonie de clôture du camp, nous avons eu droit aux remises de prix des différents concours. Pas loin d’une vingtaine de téléphones portables sont distribués.</description>
+    </item>
+    
+    <item>
+      <title>Partner Camp Orange deuxieme Jour</title>
+      <link>http://example.org/2008/12/17/partner-camp-orange-deuxieme-jour/</link>
+      <pubDate>Wed, 17 Dec 2008 15:26:53 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/17/partner-camp-orange-deuxieme-jour/</guid>
+      <description>Seconde journée sous le soleil de floride au Partner Camp (27 degrès, c’est très agréable dans la piscine). Au programme aujourd’hui : conférences et soirée Access.
+Géolocalisation Decarta nous présente ses API de cartographie. Elles sont très complètes (carte, calcul de trajet…) et accessibles à l’aide de trois sdk :
+ J2ME IPhone Javascript  Ces SDK sont open source et téléchargeables sur le site : http://developer.decarta.com
+Ils ont fait une belle démo avec une même carte affichée sur un émulateur de téléphone portable et un navigateur.</description>
+    </item>
+    
+    <item>
+      <title>Partner Camp Orange Jour J</title>
+      <link>http://example.org/2008/12/16/partner-camp-orange-jour-j/</link>
+      <pubDate>Tue, 16 Dec 2008 00:17:20 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/16/partner-camp-orange-jour-j/</guid>
+      <description>Le Camp est officiellement ouvert aujourd’hui ! Orange a vraiment fait les choses en grand: musiciens, danseuses, magiciens… même le père Noël en personne est passé pour faire la promo du site www.djinngo.com… la totale ! L’ambiance feux de camps est vraiment là et c’est très agréable.
+  Je vous laisse admirer nos danseuses :
+Ensuite j’ai participé à deux conférences.
+How Java enables the screens of your life by Sun Dans un premier temps ils nous présentent le service www.</description>
+    </item>
+    
+    <item>
+      <title>Partner Camp Orange J-1</title>
+      <link>http://example.org/2008/12/15/partner-camp-orange-j-1/</link>
+      <pubDate>Mon, 15 Dec 2008 04:12:25 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/15/partner-camp-orange-j-1/</guid>
+      <description>Je suis arrivé hier à Orlando pour participer au partner Camp Orange de Cape Canaveral. Vu que le camp commence demain, j’ai passé ce dimanche au space center, c’est vraiment impressionnant !
+Nous sommes arrivés le dimanche soir pour préparer le camp.
+Donc le Jacuzzi fonctionne très bien 😉
+Demain les choses sérieuses commencent !</description>
+    </item>
+    
+    <item>
+      <title>Résumé de la formation Scrum</title>
+      <link>http://example.org/2008/12/10/resume-de-la-formation-scrum/</link>
+      <pubDate>Wed, 10 Dec 2008 20:22:08 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/10/resume-de-la-formation-scrum/</guid>
+      <description>&lt;p&gt;Comme je l’avais promis, je vous fais un retour sur les points qui m’ont paru importants dans la formation SCRUM organisée par &lt;a href=&#34;http://blog.xebia.fr/2008/10/16/certification-scrummaster-par-jeff-sutherland-session-des-1er-et-2-decembre/&#34;&gt;Xebia&lt;/a&gt;. L’objectif n’est pas de vous raconter entièrement les deux jours de formation mais de mettre en avant plusieurs points que j’ai trouvé intéressants.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Certifié SCRUM et UML</title>
+      <link>http://example.org/2008/12/03/certifie-scrum-et-uml/</link>
+      <pubDate>Wed, 03 Dec 2008 20:46:47 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/03/certifie-scrum-et-uml/</guid>
+      <description>Comme je l’avais annoncé, après deux jours de formation SCRUM avec Jeff Sutherland en personne, j’ai été certifié SCRUM Master. C’est un titre un peu pompeux et il faut plus le voir comme un “permis de conduire”, c’est après l’avoir mis en pratique qu’on le maitrise vraiment.
+Et ce matin j’ai passé la certification IBM 834 “Object Oriented Analysis and Design – Part 2” avec succés. C’est surtout la partie UML de la certification IBM qui m’intéresse.</description>
+    </item>
+    
+    <item>
+      <title>Chabal fait du foot</title>
+      <link>http://example.org/2008/11/20/chabal-foot/</link>
+      <pubDate>Thu, 20 Nov 2008 08:53:37 +0000</pubDate>
+      
+      <guid>http://example.org/2008/11/20/chabal-foot/</guid>
+      <description>J’ai pas l’habitude de blogger de la pub, mais cette video est bluffante !
+Regardez : www.chabal-le-duel.com
+Et surtout donnez bien votre numéro de portable.
+[edit du 2/1/09] Desolé mais la vidéo ne fonctionne plus.</description>
+    </item>
+    
+    <item>
+      <title>Formation Scrum</title>
+      <link>http://example.org/2008/11/19/formation-scrum/</link>
+      <pubDate>Wed, 19 Nov 2008 20:47:24 +0000</pubDate>
+      
+      <guid>http://example.org/2008/11/19/formation-scrum/</guid>
+      <description>Xebia organise une formation Scrum de deux jours les 1 et 2 Décembre. C’est Jeff Sutherland en personne qui va officier cette messe.
+Je vais participer à cette formation, j’aurai donc l’occasion de vous en faire un retour. Même si je continue à pousser les approches MDA je suis persuadé que l’utilisation des méthodes agiles ne peut être que bénéfique dans nos projets. J’avais déjà parlé du côté agile du MDA dans le poste Le MDA c’est Agile !</description>
+    </item>
+    
+    <item>
+      <title>Changement d’hébergeur</title>
+      <link>http://example.org/2008/11/17/changement-dhebergeur/</link>
+      <pubDate>Mon, 17 Nov 2008 22:56:48 +0000</pubDate>
+      
+      <guid>http://example.org/2008/11/17/changement-dhebergeur/</guid>
+      <description>Non je ne change pas d’hébergeur juste pour faire comme Le Touilleur Expressmais bien pour éviter les coupures de service et réduire un peu les coups 😉
+Il risque donc d’y avoir quelques dérangements pendant les changements de DNS.</description>
+    </item>
+    
+    <item>
+      <title>Gagné !</title>
+      <link>http://example.org/2008/11/03/gagne/</link>
+      <pubDate>Mon, 03 Nov 2008 23:33:12 +0000</pubDate>
+      
+      <guid>http://example.org/2008/11/03/gagne/</guid>
+      <description>Je viens de recevoir une confirmation par mail pour m’informer que j’ai gagné le premier prix de la catégorie “complexe et futée” du concours Orange Partner ! Aux vues de mes plus que médiocres compétences graphiques je ne pouvais gagner que dans cette catégorie Pour économiser mes crédits, je n’avais pas communiqué l’adresse du site. Maintenant vous pouvez l’utiliser sans problème : www.areuthere.net (jusqu’à épuisement de mes crédits bien sûr)</description>
+    </item>
+    
+    <item>
+      <title>De retour</title>
+      <link>http://example.org/2008/10/30/de-retour-2/</link>
+      <pubDate>Thu, 30 Oct 2008 00:26:11 +0000</pubDate>
+      
+      <guid>http://example.org/2008/10/30/de-retour-2/</guid>
+      <description>Une longue pause dans un blog ça veut soit dire que l’auteur n’a rien fait d’intéressant soit au contraire qu’il a fait trop de choses pour prendre le temps de l’écrire. Et bien je suis plutôt dans le second cas Comme annoncé dans mon dernier post, j’ai participé au concours d’API Orange Partner. Deux semaines de longues soirées à coder. Pour l’occasion j’ai fait un site web de géolocalisation de téléphone portable orange.</description>
+    </item>
+    
+    <item>
+      <title>Concours Orange API</title>
+      <link>http://example.org/2008/09/30/concours-orange-api/</link>
+      <pubDate>Tue, 30 Sep 2008 08:05:30 +0000</pubDate>
+      
+      <guid>http://example.org/2008/09/30/concours-orange-api/</guid>
+      <description>Orange Partner organise un concours des meilleures applications mashup utilisant leurs APIs. On peut y gagner :
+ Un « gadget » électronique d’une valeur de 500 Euros Un téléphone portable Une entrée au Partner Camp qui se déroulera en Floride en décembre 2008 (Mais je n’ai pas l’impresssion qu’ils payent le billet d’avion 😉 )  Personnellement je prépare une petite application, j’en ecrirai plus une fois qu’elle sera terminée 😉</description>
+    </item>
+    
+    <item>
+      <title>Google Developer Day à Paris</title>
+      <link>http://example.org/2008/09/22/google-developer-day-a-paris/</link>
+      <pubDate>Mon, 22 Sep 2008 10:01:57 +0000</pubDate>
+      
+      <guid>http://example.org/2008/09/22/google-developer-day-a-paris/</guid>
+      <description>Jeudi 18 avait lieu le google developer day à Paris. Petit résumé de la journée.
+Accueil Après avoir montré patte blanche deux fois, on peut enfin entrer dans le hall, un petit déjeûner est offert. C’est entre deux petits fours que je croise Grégory Weinbach d’object Direct.
+Une fois bien rassasié je continue le tour du bâtiment pour me diriger vers la salle de repos. Et pour une salle de repos c’est une belle salle de repos !</description>
+    </item>
+    
+    <item>
+      <title>Fuite de threads dans Jonas</title>
+      <link>http://example.org/2008/09/11/fuite-de-threads-dans-jonas/</link>
+      <pubDate>Thu, 11 Sep 2008 08:05:44 +0000</pubDate>
+      
+      <guid>http://example.org/2008/09/11/fuite-de-threads-dans-jonas/</guid>
+      <description>Depuis plusieurs mois nous avions détecté que le nombre de thread de notre serveur jonas augmentait sans arrêt. Un de mes collègues a donc pris le taureau par les cornes pour trouver l’origine du problème. Après 4 jours à fouiller dans le code source de Jonas, il a trouvé le problème au niveau du connecteur Joram (notre application utilise des JMS).
+Dans la classe
+org.objectweb.joram.client.connector.ManagedConnectionFactoryImpl, on peut lire :
+Ca met en évidence deux règles de codage Java importantes qui ne sont pas respectées :</description>
+    </item>
+    
+    <item>
+      <title>Le MDA c&#39;est quoi ?</title>
+      <link>http://example.org/2008/07/10/le-mda-cest-quoi/</link>
+      <pubDate>Thu, 10 Jul 2008 15:23:05 +0000</pubDate>
+      
+      <guid>http://example.org/2008/07/10/le-mda-cest-quoi/</guid>
+      <description>Je suis toujours étonné de lire autant de réticences à propos du MDA. Cette méthode est peut être victime d’une communication trop éloignée des problèmes concrets des développeurs. Alors soyons clairs, moi non plus je ne suis pas en phase avec les grands théoritiens. Deux exemples concrets :
+J’ai participé il y a 3 ans à une présentation d’une thèse sur le MDA. J’ai vu pendant 1 heure des séries d’équations pour m’expliquer le principe du MDA.</description>
+    </item>
+    
+    <item>
+      <title>Le MDA c&#39;est Agile !</title>
+      <link>http://example.org/2008/07/09/le-mda-cest-agile/</link>
+      <pubDate>Wed, 09 Jul 2008 15:25:05 +0000</pubDate>
+      
+      <guid>http://example.org/2008/07/09/le-mda-cest-agile/</guid>
+      <description>Je viens de lire Je viens de lire résumant la soirée Paris JUG d’hier soir.
+Et au milieu on peut lire : “non MDA n’est pas une méthode Agile“
+Horreur ! Je ne peux donc pas m’empecher de réagir
+Bien sur que le MDA aide à être plus agile ! Mais attention, il ne faut pas non plus trop écouter les puristes…
+Je ne crois pas non plus à la notion “d’indépendance du langage”… c’est utopique, mais ça permet une certaine abstraction.</description>
+    </item>
+    
+  </channel>
+</rss>

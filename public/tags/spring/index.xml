@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring on Tech blog</title>
+    <link>http://example.org/tags/spring/</link>
+    <description>Recent content in Spring on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 21 Apr 2009 07:42:59 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ActiveMQ</title>
+      <link>http://example.org/2009/04/21/activemq/</link>
+      <pubDate>Tue, 21 Apr 2009 07:42:59 +0000</pubDate>
+      
+      <guid>http://example.org/2009/04/21/activemq/</guid>
+      <description>&lt;p&gt;Pendant une petite semaine j’ai regardé de plus près le serveur de JMS ActiveMQ. Je vais vous faire partager mes premières remarques.&lt;/p&gt;
+&lt;h1 id=&#34;le-coeur&#34;&gt;Le coeur&lt;/h1&gt;
+&lt;p&gt;ActiveMQ est un broker de message à utiliser pour le développement d’une architecture MOM (Middleware Oriente Messages). Je l’ai choisi aussi pour sa bonne intégration avec Spring et sa bonne tenue en charge.&lt;/p&gt;
+&lt;p&gt;Son architecture est simple : (source : http://activemq.apache.org/code-overview.html)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://example.org/images/uploads/2009/03/activemq-300x205.png&#34; alt=&#34;photo&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

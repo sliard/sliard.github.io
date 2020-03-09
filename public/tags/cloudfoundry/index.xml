@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CloudFoundry on Tech blog</title>
+    <link>http://example.org/tags/cloudfoundry/</link>
+    <description>Recent content in CloudFoundry on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 21 Jul 2011 23:33:18 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/cloudfoundry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Active MQ dans le cloud</title>
+      <link>http://example.org/2011/07/21/active-mq-dans-le-cloud/</link>
+      <pubDate>Thu, 21 Jul 2011 23:33:18 +0000</pubDate>
+      
+      <guid>http://example.org/2011/07/21/active-mq-dans-le-cloud/</guid>
+      <description>En ce moment je regarde pour développer une plateforme de push notification iPhone. Le but est d’offrir une surcouche applicative plus simple à utiliser que les sockets d’Apple. Un peu comme le service offert par urbanairship.
+Ce qu’il faut bien comprendre avec le push d’Apple, c’est que pour envoyer une notification à 400 000 iPhone il faut ouvrir une socket chez eux et envoyer 400 000 trames avec un token différent par iPhone.</description>
+    </item>
+    
+  </channel>
+</rss>

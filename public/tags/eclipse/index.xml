@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eclipse on Tech blog</title>
+    <link>http://example.org/tags/eclipse/</link>
+    <description>Recent content in Eclipse on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 25 Jun 2009 23:14:01 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/eclipse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Acceleo M2T et Eclipse 3.5</title>
+      <link>http://example.org/2009/06/25/acceleo-m2t-eclipse/</link>
+      <pubDate>Thu, 25 Jun 2009 23:14:01 +0000</pubDate>
+      
+      <guid>http://example.org/2009/06/25/acceleo-m2t-eclipse/</guid>
+      <description>Comme vous le savez Eclipse 3.5 Galileo est sorti le 24 Juin.
+Une des nouveautés est l’intégration d’Acceleo M2T directement dans la version “Eclipse Modeling Tools”.
+Je n’ai pas passé beaucoup de temps à l’essayer, mais on peut déjà noter plusieurs grosses améliorations. Bien sur la plus importante est le changement de langage de script. On passe d’un format spécifique Acceleo à du MTL standard défini par l’OMG pour les transformations Model to Text.</description>
+    </item>
+    
+  </channel>
+</rss>

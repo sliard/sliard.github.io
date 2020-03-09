@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Partner on Tech blog</title>
+    <link>http://example.org/tags/partner/</link>
+    <description>Recent content in Partner on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 09 Oct 2012 08:11:03 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/partner/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Amazon Web Services Consulting Partners</title>
+      <link>http://example.org/2012/10/09/amazon-web-services-consulting-partners/</link>
+      <pubDate>Tue, 09 Oct 2012 08:11:03 +0000</pubDate>
+      
+      <guid>http://example.org/2012/10/09/amazon-web-services-consulting-partners/</guid>
+      <description>Apptom devient officiellement “Amazon Web Services Consulting Partners” niveau Standard. Aujourd’hui seulement une dizaine de sociétés en France ont ce niveau et Apptom est la seule basée en Bretagne. Ce statut nous apporte une communication directe avec les équipes techniques d’Amazon.
+Apptom se positionne aussi comme revendeur Amazon, nous allons pouvoir simplifier la facturation pour nos clients tout en réduisant les coûts.
+Pour vous aider à trouver un partenaire Amazon proche de chez vous, j’ai créé le site www.</description>
+    </item>
+    
+  </channel>
+</rss>

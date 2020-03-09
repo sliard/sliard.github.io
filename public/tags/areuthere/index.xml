@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>areuthere on Tech blog</title>
+    <link>http://example.org/tags/areuthere/</link>
+    <description>Recent content in areuthere on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 23 Oct 2009 15:32:23 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/areuthere/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Résultat trophées innovation d&#39;OBS</title>
+      <link>http://example.org/2009/10/23/resultat-trophees-innovation-dobs/</link>
+      <pubDate>Fri, 23 Oct 2009 15:32:23 +0000</pubDate>
+      
+      <guid>http://example.org/2009/10/23/resultat-trophees-innovation-dobs/</guid>
+      <description>Je viens de trouver sur le web les résultats du trophées de l’innovation du Syntec et d’Orange Business Services. Et quelle ne fut pas ma surprise de découvrir le coup de coeur du jury : le site GeoFamily. Ca ressemble beaucoup au service AreUThere que j’avais réalisé 😉 Ce n’est donc pas forcement super “innovant” puisque j’ai fait le site il y a un an.
+J’avais même proposé plus de services, mais Webtiss a réussit à sortir un vrai service.</description>
+    </item>
+    
+  </channel>
+</rss>

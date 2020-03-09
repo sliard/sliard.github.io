@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile on Tech blog</title>
+    <link>http://example.org/categories/agile/</link>
+    <description>Recent content in Agile on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 11 Mar 2011 17:52:32 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/agile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Peut-on réussir un forfait ?</title>
+      <link>http://example.org/2011/03/11/peut-on-reussir-un-forfait/</link>
+      <pubDate>Fri, 11 Mar 2011 17:52:32 +0000</pubDate>
+      
+      <guid>http://example.org/2011/03/11/peut-on-reussir-un-forfait/</guid>
+      <description>Plus je travaille avec des SSII et plus je trouve que les projets gérés au forfait se passent mal. Les torts sont souvent partagés, mais je constate plusieurs causes d’échec :
+Le client est incapable de rédiger un cahier des charges Là je sais de quoi je parle, j’ai souvent le rôle de client en ce moment Le besoin évolue, n’est pas forcément clair et donc il est très dur de rédiger un cahier des charges exhaustif.</description>
+    </item>
+    
+    <item>
+      <title>Retour sur la soirée Scrum User Group</title>
+      <link>http://example.org/2010/04/03/retour-sur-la-soiree-scrum-user-group/</link>
+      <pubDate>Sat, 03 Apr 2010 11:01:53 +0000</pubDate>
+      
+      <guid>http://example.org/2010/04/03/retour-sur-la-soiree-scrum-user-group/</guid>
+      <description>Mardi soir j’ai participé à la soirée anniversaire du French Scrum User Group.
+Direction Microsoft à Issy Les Moulineaux.
+A propos si vous recherchez des locaux, il y a de la place ! Accueil J’entre donc dans l’amphi Grand bleu pour l’ouverture de la soirée. Salle très impressionnante que l’on remplit à moitié au début. On commence par une vidéo de Ken Schwaber en personne buvant une flûte de champagne pour fêter cet anniversaire, clin d’oeil plutôt sympa Ensuite Luc Legardeur, président du Scrum User Group et de Xebia, fait le bilan de la première année.</description>
+    </item>
+    
+    <item>
+      <title>Anniversaire du Scrum User Group</title>
+      <link>http://example.org/2010/03/10/anniversaire-du-scrum-user-group/</link>
+      <pubDate>Wed, 10 Mar 2010 21:54:00 +0000</pubDate>
+      
+      <guid>http://example.org/2010/03/10/anniversaire-du-scrum-user-group/</guid>
+      <description>Le Mardi 30 Mars le Scrum User Group fête son premier anniversaire dans les locaux de Microsoft à Issy-Les-Moulineaux.
+Plus d’informations sur ce lien.
+Comme je suis justement sur Paris à ce moment là, je vais en profiter pour y participer </description>
+    </item>
+    
+    <item>
+      <title>Résumé de la formation Scrum</title>
+      <link>http://example.org/2008/12/10/resume-de-la-formation-scrum/</link>
+      <pubDate>Wed, 10 Dec 2008 20:22:08 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/10/resume-de-la-formation-scrum/</guid>
+      <description>&lt;p&gt;Comme je l’avais promis, je vous fais un retour sur les points qui m’ont paru importants dans la formation SCRUM organisée par &lt;a href=&#34;http://blog.xebia.fr/2008/10/16/certification-scrummaster-par-jeff-sutherland-session-des-1er-et-2-decembre/&#34;&gt;Xebia&lt;/a&gt;. L’objectif n’est pas de vous raconter entièrement les deux jours de formation mais de mettre en avant plusieurs points que j’ai trouvé intéressants.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Certifié SCRUM et UML</title>
+      <link>http://example.org/2008/12/03/certifie-scrum-et-uml/</link>
+      <pubDate>Wed, 03 Dec 2008 20:46:47 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/03/certifie-scrum-et-uml/</guid>
+      <description>Comme je l’avais annoncé, après deux jours de formation SCRUM avec Jeff Sutherland en personne, j’ai été certifié SCRUM Master. C’est un titre un peu pompeux et il faut plus le voir comme un “permis de conduire”, c’est après l’avoir mis en pratique qu’on le maitrise vraiment.
+Et ce matin j’ai passé la certification IBM 834 “Object Oriented Analysis and Design – Part 2” avec succés. C’est surtout la partie UML de la certification IBM qui m’intéresse.</description>
+    </item>
+    
+    <item>
+      <title>Formation Scrum</title>
+      <link>http://example.org/2008/11/19/formation-scrum/</link>
+      <pubDate>Wed, 19 Nov 2008 20:47:24 +0000</pubDate>
+      
+      <guid>http://example.org/2008/11/19/formation-scrum/</guid>
+      <description>Xebia organise une formation Scrum de deux jours les 1 et 2 Décembre. C’est Jeff Sutherland en personne qui va officier cette messe.
+Je vais participer à cette formation, j’aurai donc l’occasion de vous en faire un retour. Même si je continue à pousser les approches MDA je suis persuadé que l’utilisation des méthodes agiles ne peut être que bénéfique dans nos projets. J’avais déjà parlé du côté agile du MDA dans le poste Le MDA c’est Agile !</description>
+    </item>
+    
+  </channel>
+</rss>

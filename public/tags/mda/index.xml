@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MDA on Tech blog</title>
+    <link>http://example.org/tags/mda/</link>
+    <description>Recent content in MDA on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 22 Sep 2010 00:12:25 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/mda/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Le MDA va-t-il devenir à la mode ?</title>
+      <link>http://example.org/2010/09/22/le-mda-va-t-il-devenir-a-la-mode/</link>
+      <pubDate>Wed, 22 Sep 2010 00:12:25 +0000</pubDate>
+      
+      <guid>http://example.org/2010/09/22/le-mda-va-t-il-devenir-a-la-mode/</guid>
+      <description>C’est en effet la question que l’on peut se poser vu le nombre grandissant de conférences sur le sujet. Par exemple pendant le JUG Summer Camp 2010, je l’ai découvert en lisant le résumé sur le blog d’ippon. Je ne l’ai par contre pas vu sur le blog du Touilleur, Nicolas ne doit toujours pas être convaincu 😉
+La prochaine ? Le lundi 4 Octobre à Rennes pour le BreizhJug. Soirée MDA &amp;amp; Fodnation Eclipse par Etienne Juliot.</description>
+    </item>
+    
+    <item>
+      <title>MDA Day et Acceleo 3</title>
+      <link>http://example.org/2010/09/14/mda-day-et-acceleo-3/</link>
+      <pubDate>Tue, 14 Sep 2010 23:21:47 +0000</pubDate>
+      
+      <guid>http://example.org/2010/09/14/mda-day-et-acceleo-3/</guid>
+      <description>Je viens de recevoir un email pour annoncer la date du MD Day 2010 : le Jeudi 25 Novembre. C’est à Issy les Moulineaux donc surement chez Microsoft comme en 2009. Ils ratissent large Microsoft, après avoir accueilli le SCRUM User Group pour vendre Visual Studio comme l’outil idéal pour faire du SCRUM, ils vont peut être présenter Visio comme le meilleur modeleur UML du marché. La preuve ? c’est Steve Cook qui fait la Key note d’ouverture, un architecte logiciel de Microsoft de l’équipe Visual Studio, bref super indépendant.</description>
+    </item>
+    
+    <item>
+      <title>Retour sur l&#39;acceleo day</title>
+      <link>http://example.org/2009/07/20/retour-sur-lacceleo-day/</link>
+      <pubDate>Mon, 20 Jul 2009 08:00:22 +0000</pubDate>
+      
+      <guid>http://example.org/2009/07/20/retour-sur-lacceleo-day/</guid>
+      <description>Vendredi 10 juillet avait lieu à Nantes les Rencontres Mondiales du Logiciel Libre. C’est dans ce cadre qu’Acceleo a choisi d’organiser une journée dédiée à leur outil de transformation M2T.
+Etienne Juliot commence cette journée par une présentation de l’outil. Il a reussi à faire une présentation à la fois pour les débutants et pour les plus aguerris en y ajoutant quelques petites astuces bien pratiques. Le reste de la matinée était consacrée aux retours clients.</description>
+    </item>
+    
+    <item>
+      <title>Acceleo M2T et Eclipse 3.5</title>
+      <link>http://example.org/2009/06/25/acceleo-m2t-eclipse/</link>
+      <pubDate>Thu, 25 Jun 2009 23:14:01 +0000</pubDate>
+      
+      <guid>http://example.org/2009/06/25/acceleo-m2t-eclipse/</guid>
+      <description>Comme vous le savez Eclipse 3.5 Galileo est sorti le 24 Juin.
+Une des nouveautés est l’intégration d’Acceleo M2T directement dans la version “Eclipse Modeling Tools”.
+Je n’ai pas passé beaucoup de temps à l’essayer, mais on peut déjà noter plusieurs grosses améliorations. Bien sur la plus importante est le changement de langage de script. On passe d’un format spécifique Acceleo à du MTL standard défini par l’OMG pour les transformations Model to Text.</description>
+    </item>
+    
+    <item>
+      <title>Le PSM est-il toujours utile ?</title>
+      <link>http://example.org/2009/03/05/le-psm-est-il-toujours-utile/</link>
+      <pubDate>Thu, 05 Mar 2009 23:49:05 +0000</pubDate>
+      
+      <guid>http://example.org/2009/03/05/le-psm-est-il-toujours-utile/</guid>
+      <description>Pendant plus de 4 ans nous avons travaillé sur un projet avec un outillage MDA en utilisant le mécanisme suivant pour générer du code :
+Sur le papier nous respections bien les concepts MDA avec une séparation du modèle abstrait de haut niveau (le PIM) et un autre spécifique à nos contraintes techniques (le PSM).
+Mais si on regarde de plus près on trouve dans notre PIM des informations liées à nos choix technologiques que l’on ajoute grâce à un profil (stéréotype finder, tagged value sql_name, etc).</description>
+    </item>
+    
+    <item>
+      <title>Premier test de Modelio</title>
+      <link>http://example.org/2009/02/19/premier-test-de-modelio/</link>
+      <pubDate>Thu, 19 Feb 2009 22:26:32 +0000</pubDate>
+      
+      <guid>http://example.org/2009/02/19/premier-test-de-modelio/</guid>
+      <description>Après avoir passé quelques heures à tester Modelio je vous en fais un petit retour. Installation La première bonne nouvelle est qu’il est possible d’avoir sur un même poste plusieurs versions différentes de Modelio. J’ai installé la version Free et la version Java sur mon poste sans problème. Bien-sûr un projet créé avec la version Java n’est pas utilisable avec la version free (l’inverse est possible par contre).
+L’empreinte mémoire est assez faible (100Mo).</description>
+    </item>
+    
+    <item>
+      <title>Modelio, un nouveau modeleur ?</title>
+      <link>http://example.org/2009/02/13/modelio-un-nouveau-modeleur/</link>
+      <pubDate>Fri, 13 Feb 2009 19:33:35 +0000</pubDate>
+      
+      <guid>http://example.org/2009/02/13/modelio-un-nouveau-modeleur/</guid>
+      <description>Je viens de tomber sur le site web d’un nouveau modeleur UML2 Modelio.
+Au premier screenshot, j’ai comme une impression de déjà vu. Dans le About on peut lire “Modeliosoft is the result of 20 years of experience in OO modeling” et “Based in Paris”. Une boîte qui a 20 ans d’experience dans la modélisation à Paris, c’est étrange de ne pas la connaître !
+En fait non ce n’est pas un nouveau modeleur, c’est une nouvelle version d’objecteering “rebrandée”.</description>
+    </item>
+    
+    <item>
+      <title>Formation Scrum</title>
+      <link>http://example.org/2008/11/19/formation-scrum/</link>
+      <pubDate>Wed, 19 Nov 2008 20:47:24 +0000</pubDate>
+      
+      <guid>http://example.org/2008/11/19/formation-scrum/</guid>
+      <description>Xebia organise une formation Scrum de deux jours les 1 et 2 Décembre. C’est Jeff Sutherland en personne qui va officier cette messe.
+Je vais participer à cette formation, j’aurai donc l’occasion de vous en faire un retour. Même si je continue à pousser les approches MDA je suis persuadé que l’utilisation des méthodes agiles ne peut être que bénéfique dans nos projets. J’avais déjà parlé du côté agile du MDA dans le poste Le MDA c’est Agile !</description>
+    </item>
+    
+    <item>
+      <title>Le MDA c&#39;est quoi ?</title>
+      <link>http://example.org/2008/07/10/le-mda-cest-quoi/</link>
+      <pubDate>Thu, 10 Jul 2008 15:23:05 +0000</pubDate>
+      
+      <guid>http://example.org/2008/07/10/le-mda-cest-quoi/</guid>
+      <description>Je suis toujours étonné de lire autant de réticences à propos du MDA. Cette méthode est peut être victime d’une communication trop éloignée des problèmes concrets des développeurs. Alors soyons clairs, moi non plus je ne suis pas en phase avec les grands théoritiens. Deux exemples concrets :
+J’ai participé il y a 3 ans à une présentation d’une thèse sur le MDA. J’ai vu pendant 1 heure des séries d’équations pour m’expliquer le principe du MDA.</description>
+    </item>
+    
+    <item>
+      <title>Le MDA c&#39;est Agile !</title>
+      <link>http://example.org/2008/07/09/le-mda-cest-agile/</link>
+      <pubDate>Wed, 09 Jul 2008 15:25:05 +0000</pubDate>
+      
+      <guid>http://example.org/2008/07/09/le-mda-cest-agile/</guid>
+      <description>Je viens de lire Je viens de lire résumant la soirée Paris JUG d’hier soir.
+Et au milieu on peut lire : “non MDA n’est pas une méthode Agile“
+Horreur ! Je ne peux donc pas m’empecher de réagir
+Bien sur que le MDA aide à être plus agile ! Mais attention, il ne faut pas non plus trop écouter les puristes…
+Je ne crois pas non plus à la notion “d’indépendance du langage”… c’est utopique, mais ça permet une certaine abstraction.</description>
+    </item>
+    
+  </channel>
+</rss>

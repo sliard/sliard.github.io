@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML on Tech blog</title>
+    <link>http://example.org/categories/html/</link>
+    <description>Recent content in HTML on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 20 Oct 2011 22:36:04 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Premier essai de PhoneGap</title>
+      <link>http://example.org/2011/10/20/premier-essai-phonegap/</link>
+      <pubDate>Thu, 20 Oct 2011 22:36:04 +0000</pubDate>
+      
+      <guid>http://example.org/2011/10/20/premier-essai-phonegap/</guid>
+      <description>Dernièrement j’avais à développer une application mobile sans grosse difficulté technique. J’ai donc eu envie d’essayer de la réaliser avec PhoneGap.
+Je ne vais pas faire d’article pour expliquer comment fonctionne PhoneGap car beaucoup l’on déjà fait mieux que je ne peux le faire (comme octo par exemple) mais juste faire un petit retour d’expérience.
+La base de PhoneGap c’est de pouvoir faire des applications mobiles mutliplate-forme en développement en HTML/CSS/Javascript.</description>
+    </item>
+    
+    <item>
+      <title>Formation XHTM ou la fausse bonne idée</title>
+      <link>http://example.org/2011/09/28/formation-xhtml-fbi/</link>
+      <pubDate>Wed, 28 Sep 2011 20:36:05 +0000</pubDate>
+      
+      <guid>http://example.org/2011/09/28/formation-xhtml-fbi/</guid>
+      <description>Après avoir pas mal développé sur iPhone j’ai eu envie de me mettre à niveau sur HTML et CSS. En Juin j’ai donc suivi 3 jours de formation sur ces technos. C’était vraiment pro avec un formateur très bon. Avec ces bonnes bases j’ai eu envie d’aller encore plus loin et regarder comment réaliser des sites Web pour mobiles. Fort de cette bonne expérience de formation j’en ai cherché une autre.</description>
+    </item>
+    
+  </channel>
+</rss>

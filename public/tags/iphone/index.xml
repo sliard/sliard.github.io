@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iPhone on Tech blog</title>
+    <link>http://example.org/tags/iphone/</link>
+    <description>Recent content in iPhone on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sat, 07 Jul 2012 17:28:56 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/iphone/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jenkins pour xCode</title>
+      <link>http://example.org/2012/07/07/jenkins-pour-xcode/</link>
+      <pubDate>Sat, 07 Jul 2012 17:28:56 +0000</pubDate>
+      
+      <guid>http://example.org/2012/07/07/jenkins-pour-xcode/</guid>
+      <description>Il n’est pas concevable pour moi de développer sans avoir une plateforme d’intégration continue. Il existe pas mal de solutions pour le faire en mode SAAS (sur cloudbeespas exemple). Par contre pour le faire sur des projets iOS c’est plus dur à trouver car il faut le faire sur un MAC. J’ai donc installé un jenkins sur un Mac mini et ce n’est pas si évident que ça à faire.</description>
+    </item>
+    
+    <item>
+      <title>Création de Apptom</title>
+      <link>http://example.org/2012/06/10/creation-de-apptom/</link>
+      <pubDate>Sun, 10 Jun 2012 11:11:30 +0000</pubDate>
+      
+      <guid>http://example.org/2012/06/10/creation-de-apptom/</guid>
+      <description>C’est maintenant officiel, en Septembre je vais quitter Orange pour créer la société Apptom. Après 7 ans dans le service R&amp;amp;D de cet opérateur, j’ai envie de me lancer un nouveau défi. Progresser dans une grosse entreprise française sans devenir chef de projet ou manager devient de plus en plus difficile. Donc je me lance en solo afin de partager mon expertise technique avec un maximum de monde.
+Mon objectif est de mettre en avant mon expertise sur la conception et le développement d’applications web et notamment sur la réalisation d’applications iOS natives.</description>
+    </item>
+    
+    <item>
+      <title>Fuck XCode !</title>
+      <link>http://example.org/2011/10/27/fuck-xcode/</link>
+      <pubDate>Thu, 27 Oct 2011 21:55:58 +0000</pubDate>
+      
+      <guid>http://example.org/2011/10/27/fuck-xcode/</guid>
+      <description>Oui le titre est vulgaire, mais ça fait du bien de se défouler! Dans le précedent post j’expliquais pourquoi j’avais abandonner PhoneGap pour faire mon application. J’étais alors loin d’imaginer la galère que ça allait être en natif avec XCode.
+Notez que j’avais mis à jour mon XCode à la sortie de iOS 5 pour avoir la dernière version 4.2.
+ Donc je me lance : “Fichier -&amp;gt; nouveau projet” et je tombe sur un nouveau type d’application “Page-Based Application”.</description>
+    </item>
+    
+    <item>
+      <title>Premier essai de PhoneGap</title>
+      <link>http://example.org/2011/10/20/premier-essai-phonegap/</link>
+      <pubDate>Thu, 20 Oct 2011 22:36:04 +0000</pubDate>
+      
+      <guid>http://example.org/2011/10/20/premier-essai-phonegap/</guid>
+      <description>Dernièrement j’avais à développer une application mobile sans grosse difficulté technique. J’ai donc eu envie d’essayer de la réaliser avec PhoneGap.
+Je ne vais pas faire d’article pour expliquer comment fonctionne PhoneGap car beaucoup l’on déjà fait mieux que je ne peux le faire (comme octo par exemple) mais juste faire un petit retour d’expérience.
+La base de PhoneGap c’est de pouvoir faire des applications mobiles mutliplate-forme en développement en HTML/CSS/Javascript.</description>
+    </item>
+    
+    <item>
+      <title>Retour de la WWDC 2010</title>
+      <link>http://example.org/2010/06/14/retour-de-la-wwdc-2010/</link>
+      <pubDate>Mon, 14 Jun 2010 10:02:37 +0000</pubDate>
+      
+      <guid>http://example.org/2010/06/14/retour-de-la-wwdc-2010/</guid>
+      <description>Et voilà je suis de retour en France après une semaine à San Francisco pour la WWDC 2010. Je ne peux pas vous faire un article par session car il est strictement interdit de communiquer sur ce que nous avons entendu. Mais par contre je peux vous résumer le voyage, la Key Note et l’ambiance.
+Le voyage Comme je suis de Lannion, le trajet pour Paris c’est déjà une aventure Je vous passe les détails des 4 heures de train au milieu d’un groupe de 50 gamins de 12 ans.</description>
+    </item>
+    
+    <item>
+      <title>Départ pour San Francisco !</title>
+      <link>http://example.org/2010/06/04/depart-pour-san-francisco/</link>
+      <pubDate>Fri, 04 Jun 2010 00:08:05 +0000</pubDate>
+      
+      <guid>http://example.org/2010/06/04/depart-pour-san-francisco/</guid>
+      <description>Voila c’est parti Demain j’arrive à San Francisco pour participer à la WWDC 2010. Je ne suis pas sur d’avoir le temps de faire de gros articles sur le blog et dans ce cas Twitter est peut être mieux adapté.
+Donc même si je ne suis pas un Twitter, je vais tester l’exercice pendant ce voyage et surtout pendant la Key Note avec Steve Jobs !
+Vous pourrez donc me suivre sur : http://twitter.</description>
+    </item>
+    
+    <item>
+      <title>Premier bilan pour iMovies Collection</title>
+      <link>http://example.org/2010/02/15/premier-bilan-pour-imovies-collection/</link>
+      <pubDate>Mon, 15 Feb 2010 22:46:10 +0000</pubDate>
+      
+      <guid>http://example.org/2010/02/15/premier-bilan-pour-imovies-collection/</guid>
+      <description>Cela fait maintenant un peu plus d’un mois que l’application iMovies Collection est en ligne, je vais donc vous faire un premier petit bilan.
+Début difficile Première bonne surprise, l’application a été validée du premier coup et en trois jours. Ca été même un peu trop rapide, la FAQ et la doc sur le site n’étaient pas prètes. J’avais aussi laissé un gros bug. Même si je l’ai corrigé directement et que Apple l’a validé dans la journée, cela a quand même nuit à l’image de l’application.</description>
+    </item>
+    
+    <item>
+      <title>Peut-on vendre du vent sur l&#39;AppStrore ?</title>
+      <link>http://example.org/2010/02/11/peut-on-vendre-du-vent-sur-lappstrore/</link>
+      <pubDate>Thu, 11 Feb 2010 21:40:03 +0000</pubDate>
+      
+      <guid>http://example.org/2010/02/11/peut-on-vendre-du-vent-sur-lappstrore/</guid>
+      <description>Suite à la publication de iMovies Collection sur l’AppStore, j’ai eu envie de réaliser une petite expérience. Je voulais savoir si grâce au volume important d’iPhone il était possible de vendre facilement une application pratiquement vide à 1$. J’ai donc cherché une idée la plus simple possible et avec très peu de développement. Ensuite je l’ai réalisée en 1h chrono un Dimanche après midi sur mon canapé.
+L’idée est simple : afficher des photos de chatons.</description>
+    </item>
+    
+    <item>
+      <title>Etape 3 : publier l&#39;application</title>
+      <link>http://example.org/2010/01/08/etape-3-publier-lapplication/</link>
+      <pubDate>Fri, 08 Jan 2010 12:00:59 +0000</pubDate>
+      
+      <guid>http://example.org/2010/01/08/etape-3-publier-lapplication/</guid>
+      <description>Voilà, j’ai une application qui fonctionne, un beau site web, il est temps de passer à la phase importante : publier l’application.
+Dans un premier temps il faut rejoindre le “iPhone developer programme” pour obtenir un certificat Apple.
+C’est ce certificat qui vous permet aussi de tester l’application sur un vrai iPhone. Avant de payer vous avez accès au SDK et au simulateur iPhone. Le SDK est gratuit, mais ne fonctionne que sur Mac bien-sûr.</description>
+    </item>
+    
+    <item>
+      <title>Etape 2 : iMovies collection</title>
+      <link>http://example.org/2010/01/07/imoviescollection/</link>
+      <pubDate>Thu, 07 Jan 2010 18:40:36 +0000</pubDate>
+      
+      <guid>http://example.org/2010/01/07/imoviescollection/</guid>
+      <description>Avant d’entrer dans le détail du process de publication Apple regardons par quoi il faut commencer.
+1 – Trouver un nom La première chose est en effet de trouver un nom à cette application. Et pour ça je ne suis vraiment pas très doué. Mais comme je n’ai pas les moyens de faire appel à une boîte de comm, on va faire avec mes petits moyens.
+Après plusieurs heures à tourner autour des idées : DVD, film, collection… J’ai fini par choisir le nom : iMovies Collection.</description>
+    </item>
+    
+    <item>
+      <title>Application iPhone, étape 1 : l&#39;idée</title>
+      <link>http://example.org/2010/01/06/application-iphone-idee/</link>
+      <pubDate>Wed, 06 Jan 2010 21:35:45 +0000</pubDate>
+      
+      <guid>http://example.org/2010/01/06/application-iphone-idee/</guid>
+      <description>Comme je vous l’annonçais dans le dernier post, j’ai envie d’essayer de développer une application iPhone et de la vendre sur l’appStore.
+L’idée est simple, je souhaite pouvoir consulter ma collection de DVD/Blue-Ray n’importe où. Ca peut être pratique pour la partager avec des amis ou pour préparer une soirée video.
+Pour gérer ma collection j’utilise le logiciel DVDProfiler sur PC. J’entre le nom d’un DVD ou juste son code barre et il me retrouve une description détaillée du film (images, acteurs, genre etc… ).</description>
+    </item>
+    
+    <item>
+      <title>J&#39;ai switch !</title>
+      <link>http://example.org/2009/12/15/j-ai-switch/</link>
+      <pubDate>Tue, 15 Dec 2009 00:01:09 +0000</pubDate>
+      
+      <guid>http://example.org/2009/12/15/j-ai-switch/</guid>
+      <description>C’est fait je suis passé au MAC Après plus de 15 ans d’utilisation de PC je découvre le monde Mac avec un beau Mac Book pro. En fait c’est mon second Mac puisque dans les années 90 j’avais eu un Apple IIc, mais bon ça ne compte pas.
+Alors que dire sur cette belle bête ? Et bien pas de scoop, c’est bien très agréable à utiliser. Plusieurs exemples d’éléments super agréables :</description>
+    </item>
+    
+  </channel>
+</rss>

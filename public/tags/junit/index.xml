@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JUnit on Tech blog</title>
+    <link>http://example.org/tags/junit/</link>
+    <description>Recent content in JUnit on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 29 Nov 2010 09:56:23 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/junit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Maven, JUnit et la JVM</title>
+      <link>http://example.org/2010/11/29/maven-junit-et-la-jvm/</link>
+      <pubDate>Mon, 29 Nov 2010 09:56:23 +0000</pubDate>
+      
+      <guid>http://example.org/2010/11/29/maven-junit-et-la-jvm/</guid>
+      <description>Ca fait longtemps que je n’ai pas fait de petit post technique où je decris la solution d’un problème simple. Et bien justement j’ai eu à en résoudre quelques uns ces derniers temps. Je vais donc les partager.
+En ce moment je travaille sur un projet qui charge beaucoup d’objets en mémoire. Il faut donc redéfinir la taille de mémoire max à allouer pour le faire tourner. Une simple option “-Xmx512m” au niveau de la JVM et les tests unitaires fonctionnent sans pb.</description>
+    </item>
+    
+  </channel>
+</rss>

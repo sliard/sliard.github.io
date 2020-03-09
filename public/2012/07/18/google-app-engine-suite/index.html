@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr-fr">
+  <head>
+    <title>Google App Engine Suite // Tech blog</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.66.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="http://example.org/css/main.min.d59a293bff4cb6f7fcce92a5c9833de7107393f80e4efe3110eea46955464842.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Google App Engine Suite"/>
+<meta name="twitter:description" content="Comme expliqué dans le premier article j’ai rencontré certaines difficultés au niveau du développement avec Google App Engine. L’intégration et la gestion de la plate-forme a aussi amené son lot de surprises.
+Gestion des instances Nous utilisons GAE pour un service qui a peu de trafic. En mode gratuit aucune instance n’est lancée par défaut, donc chaque utilisateur a un risque de déclencher le lancement d’une instance. Il faut 18 secondes pour démarrer mon instance: 18 secondes ce n’est pas énorme pour démarrer un serveur d’applications, par contre pour répondre à une requête HTTP c’est une éternité."/>
+
+    <meta property="og:title" content="Google App Engine Suite" />
+<meta property="og:description" content="Comme expliqué dans le premier article j’ai rencontré certaines difficultés au niveau du développement avec Google App Engine. L’intégration et la gestion de la plate-forme a aussi amené son lot de surprises.
+Gestion des instances Nous utilisons GAE pour un service qui a peu de trafic. En mode gratuit aucune instance n’est lancée par défaut, donc chaque utilisateur a un risque de déclencher le lancement d’une instance. Il faut 18 secondes pour démarrer mon instance: 18 secondes ce n’est pas énorme pour démarrer un serveur d’applications, par contre pour répondre à une requête HTTP c’est une éternité." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/2012/07/18/google-app-engine-suite/" />
+<meta property="article:published_time" content="2012-07-18T22:01:10+00:00" />
+<meta property="article:modified_time" content="2012-07-18T22:01:10+00:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://example.org/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>Tech blog</h1>
+      <p>Vieux blog technique</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/sliard" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Google App Engine Suite</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jul 18, 2012
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          3 min read
+        </div><div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+          <a class="tag" href="http://example.org/tags/cloud/">cloud</a><a class="tag" href="http://example.org/tags/gae/">GAE</a><a class="tag" href="http://example.org/tags/google/">Google</a></div></div>
+    </header>
+    <div class="post-content">
+      <p>Comme expliqué dans le premier article j’ai rencontré certaines difficultés au niveau du développement avec Google App Engine. L’intégration et la gestion de la plate-forme a aussi amené son lot de surprises.</p>
+<h2 id="gestion-des-instances">Gestion des instances</h2>
+<p>Nous utilisons GAE pour un service qui a peu de trafic. En mode gratuit aucune instance n’est lancée par défaut, donc chaque utilisateur a un risque de déclencher le lancement d’une instance. Il faut 18 secondes pour démarrer mon instance: 18 secondes ce n’est pas énorme pour démarrer un serveur d’applications, par contre pour répondre à une requête HTTP c’est une éternité.</p>
+<p>Pourquoi ces 18 secondes ? J’ai décomposé un peu les choses :</p>
+<ul>
+<li>2s – GAE avec juste une servlet</li>
+<li>11s – Spring (MVC + Security)</li>
+<li>2s – URLRewrite</li>
+<li>2s – objectify</li>
+</ul>
+<p>C’est donc clairement Spring qui prend le plus de temps au démarrage. Mais d’un autre côté, même sans 6 secondes pour répondre à une requête c’est déjà trop.</p>
+<p>Pour éviter ce problème, il faut donc minimiser le nombre de démarrages d’instance. La solution “lowcost” est de configurer un cron toutes les minutes sur votre application. De cette façon vous avez une chance d’avoir toujours une instance en ligne et vos clients ont des temps de réponse corrects. Mais ce n’est pas une science exacte, j’ai quand même eu des problèmes. L’autre solution est d’activer la facturation (2,10$ par semaine au minimum) pour utiliser les instances “idle”. Vous pouvez garder N instances démarrées sans arrêt. Mais même avec cette option je n’ai pas un comportement satisfaisant. Déjà certains clients tombent encore sur une requête de 18s, c’est très rare heureusement, mais ce qui m’inquiète le plus c’est de voir GAE devoir lancer 3 instances pour répondre à 2 clients ! Sur les 24 dernières heures j’ai eu 400 requêtes (statiques et dynamiques), je pense que même un simple apache sur une instance micro Amazon est capable d’encaisser cette charge et bien GAE a eu besoin de lancer 2 instances.</p>
+<p>D’un autre côté, la notion d’instance “idle” veut bien dire ce qu’elle veut dire : “instance inactive”. C’est un moyen de pouvoir anticiper un pic de charge. Donc dès qu’un utilisateur arrive sur mon service, une seconde instance est lancée (par une requête /_ah/warmup). Donc il est assez logique de voir souvent 2 instances. Mais pourquoi GAE en lance régulièrement une troisième !?</p>
+<p>J’ai donc beaucoup de mal à comprendre ce fonctionnement difficilement prévisible, les joies du PAAS <!-- raw HTML omitted --></p>
+<h2 id="un-problème-avec-la-3g">Un problème avec la 3G</h2>
+<p>On a eu un autre problème heureusement passager. Le 18 juin pendant plusieurs heures tous les services hébergés sur GAE n’étaient plus accessibles sur les réseaux 3G Bouygues et Orange. J’ai fait le test sur plusieurs services utilisant GAE en wifi, sur une box ou sur le réseau SFR aucun problème, mais sur les réseaux Orange et Bouygues on avait la page :</p>
+<p><img src="/images/uploads/2012/07/photo-217x300.png" alt="photo"></p>
+<p>Aucun retour de google sur ce problème qui heureusement ne s’est pas reproduit.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>C’est donc une expérience un peu mitigée. Ce manque de contrôle me gêne un peu. Si on ajoute à cela que le développement réalisé est complètement dédié à GAE, il faut vraiment réfléchir avant de choisir cette plateforme. En tout cas si vous tentez l’aventure, surtout pensez au temps de démarrage de l’instance dès le début. Mais oubliez Spring ou Play qui ne fait pas mieux à ce niveau-là.</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

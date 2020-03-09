@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Startup Week-end on Tech blog</title>
+    <link>http://example.org/tags/startup-week-end/</link>
+    <description>Recent content in Startup Week-end on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 01 Nov 2011 01:37:26 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/startup-week-end/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Startup Week-end Bretagne</title>
+      <link>http://example.org/2011/11/01/startup-week-end-bretagne/</link>
+      <pubDate>Tue, 01 Nov 2011 01:37:26 +0000</pubDate>
+      
+      <guid>http://example.org/2011/11/01/startup-week-end-bretagne/</guid>
+      <description>Le Week-end a commencé dès le vendredi à 18h30. On a débuté par deux petits jeux histoire de faire connaissance entre participants. Ensuite on est rentré dans le vif du sujet, les organisateurs nous ont expliqué comment allait se dérouler le week-end.
+Chaque porteur de projet a eu 1 minute pour présenter son projet. Il y avait 25 projets de présentés, avec par exemple :
+ Time is money : payer une personne pour faire la queue à votre place GreenBanque : Banque 2.</description>
+    </item>
+    
+  </channel>
+</rss>
