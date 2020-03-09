@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr-fr">
+  <head>
+    <title>Active MQ dans le cloud // Tech blog</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.66.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="http://example.org/css/main.min.d59a293bff4cb6f7fcce92a5c9833de7107393f80e4efe3110eea46955464842.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Active MQ dans le cloud"/>
+<meta name="twitter:description" content="En ce moment je regarde pour développer une plateforme de push notification iPhone. Le but est d’offrir une surcouche applicative plus simple à utiliser que les sockets d’Apple. Un peu comme le service offert par urbanairship.
+Ce qu’il faut bien comprendre avec le push d’Apple, c’est que pour envoyer une notification à 400 000 iPhone il faut ouvrir une socket chez eux et envoyer 400 000 trames avec un token différent par iPhone."/>
+
+    <meta property="og:title" content="Active MQ dans le cloud" />
+<meta property="og:description" content="En ce moment je regarde pour développer une plateforme de push notification iPhone. Le but est d’offrir une surcouche applicative plus simple à utiliser que les sockets d’Apple. Un peu comme le service offert par urbanairship.
+Ce qu’il faut bien comprendre avec le push d’Apple, c’est que pour envoyer une notification à 400 000 iPhone il faut ouvrir une socket chez eux et envoyer 400 000 trames avec un token différent par iPhone." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/2011/07/21/active-mq-dans-le-cloud/" />
+<meta property="article:published_time" content="2011-07-21T23:33:18+00:00" />
+<meta property="article:modified_time" content="2011-07-21T23:33:18+00:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://example.org/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>Tech blog</h1>
+      <p>Vieux blog technique</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/sliard" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Active MQ dans le cloud</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jul 21, 2011
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          4 min read
+        </div><div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+          <a class="tag" href="http://example.org/tags/activemq/">ActiveMQ</a><a class="tag" href="http://example.org/tags/cloud/">cloud</a><a class="tag" href="http://example.org/tags/cloudbees/">CloudBees</a><a class="tag" href="http://example.org/tags/cloudfoundry/">CloudFoundry</a><a class="tag" href="http://example.org/tags/jms/">JMS</a></div></div>
+    </header>
+    <div class="post-content">
+      <p>En ce moment je regarde pour développer une plateforme de push notification iPhone. Le but est d’offrir une surcouche applicative plus simple à utiliser que les sockets d’Apple. Un peu comme le service offert par <a href="http://urbanairship.com/">urbanairship</a>.</p>
+<p>Ce qu’il faut bien comprendre avec le push d’Apple, c’est que pour envoyer une notification à 400 000 iPhone il faut ouvrir une socket chez eux et envoyer 400 000 trames avec un token différent par iPhone. En sachant qu’Apple peut banir une IP serveur si on envoie plus de 200 messages par seconde, il est important de répartir la charge sur plusieurs serveurs (ou au moins plusieurs IP publiques).</p>
+<p>Donc j’ai pensé à mettre en place une architecture <a href="http://fr.wikipedia.org/wiki/Message-Oriented_Middleware">MOM</a> :</p>
+<p><img src="/images/uploads/2011/07/activemq11.jpg" alt="photo"></p>
+<p>Avec cette architecture on peut ajouter des Brokers JMS en fonction de la charge à absorber. L’idée est de profiter au maximum des services de cloud computing et offrant la possibilité d’ajouter/retirer au runtime des VM avec un Broker. C’est donc pour héberger cette solution que j’ai creusé les différentes offres de cloud computing (cf ce post). Mais c’est au moment du déploiement que j’ai rencontré des difficultés (bah oui comme d’habitude en fait…).</p>
+<p>Le code qui va envoyer les messages JMS doit connaitre la liste de Broker. Or comme nous sommes dans le cloud, cette liste peut être modifiée au bon vouloir de l’administrateur. Pire je ne connais même pas forcément à l’avance les IP des Broker que je vais ajouter.</p>
+<p>Donc imaginez si dans la configuration client je définis une URI du type :</p>
+<!-- raw HTML omitted -->
+<p>Il va falloir modifier le code du client à chaque ajout d’un nouveau Broker. C’est donc impossible. Heureusement pour ce genre de cas Active MQ propose un système de multicast. Ce qui donne au niveau URI du client :</p>
+<!-- raw HTML omitted -->
+<p>Là c’est magique sur mon serveur en local ça marche très bien. Et oui mais non  <!-- raw HTML omitted -->Sur les offres cloud le multicast (sur UDP) n’est pas souvent supporté. Sur Amazon EC2 (donc sur CloudBees) et CloudFoundry (VMWare) impossible de faire fonctionner le multicast.</p>
+<p>Donc comment faire ? Le client JMS a besoin de récupérer une liste de Broker. Il faut donc que chaque Broker vienne se faire connaitre au moment de leur lancement. Comme j’ai déjà un BDD autant l’utiliser pour référencer ces Brokers. J’ai donc développer un module de multicast via une BDD : <a href="https://github.com/sliard/multicastdb">multicasdb</a>.</p>
+<p>Donc on arrive sur une architecture comme celle-ci :</p>
+<p><img src="/images/uploads/2011/07/activemq2.jpg" alt="photo"></p>
+<p>Pour le faire je me suis beaucoup inspiré du code du multicast UDP. Ca fonctionne bien sur mes serveurs de test mais là encore je tombe sur des problèmes spécifiques aux serveurs cloud : l’adresse du serveur. Comme c’est le même war qui est déployé sur tous les serveurs la configuration du broker doit être générique. Pas de pb : j’utilise localhost comme nom de serveur :</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Donc oui je peux utiliser cette configuration sur tous les serveurs, mais si je persiste “localhost:8080” en base le client ne pourra pas y accéder depuis un autre serveur. Donc il faut que mon code trouve l’IP du serveur pour le persister au runtime.</p>
+<p>Aujourd’hui même si le code n’est pas finalisé, il fonctionne. Malheureusement j’ai toujours des problèmes pour l’héberger.</p>
+<p>Chez <strong>Cloudbees</strong> la communication tcp entre VM est bloquée. Même si leur support affirme que ça peut fonctionner j’ai toujours des erreurs : java.net.ConnectException: Connection refused</p>
+<p>Chez <strong>CloudFoundry</strong> j’ai même eu du mal à obtenir l’IP des VM. Le code qui fonctionne sur Cloudbees retourne 127.0.0.1 comme IP chez CloudFoundry. Pour trouver cette IP il faut utiliser un SDK fourni. Mais là encore :Connection refused <!-- raw HTML omitted --></p>
+<h2 id="bilan">Bilan</h2>
+<p>Au final je n’ai pas réussi à faire fonctionner mon code comme je le voulais. Par contre cette petite expérience m’a permis de faire mes premiers pas sur 2 offres de cloud intéressantes. Aujourd’hui je trouve CloudFoundry beaucoup plus agréable à utiliser que CloudBees. Son SDK est très simple et en 20 secondes je peux redéployer une version. Avec CloudBees j’ai beaucoup de mal avec le SDK. Déjà c’est basé sur un script Ant… Alors il y a aussi un plug-in maven mais je n’ai pas pu l’utiliser en mode “Delta” du coup il faut uploader totalement mon War à chaque modification : 10 minutes. Je trouve aussi le plug-in Eclipse de CloudFoundry mieux fait. Par contre CloudBees possède une vrai interface d’administration web et son offre DEV@Cloud est vraiment intéressante. Un bon point pour les 2 : la réactivité du support. Une réponse dans la journée, pour mon compte gratuit de test, c’est vraiment bien (n’est ce pas <a href="http://twitter.com/#!/ndeloof">Nicolas</a> 😉 )</p>
+<p>Pour revenir à mon problème initial, je vais continuer à creuser ce problème de communication inter VM et si je n’avance pas je vais revoir l’architecture. Peut-être persister les messages à envoyer: c’est moins performant mais ça peut aussi répondre à un besoin de suivi de diffusion.</p>
+<p>La phase d’intégration d’un projet est toujours sous estimée J’ai vu des projets où cette phase était même plus importante en terme d’homme/jour que la phase de développement. Mais pour un hébergement dans le cloud il faut vraiment prendre cette problématique dès le début de la conception. C’est loin d’être un détail <!-- raw HTML omitted --></p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

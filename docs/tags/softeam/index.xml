@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Softeam on Tech blog</title>
+    <link>http://example.org/tags/softeam/</link>
+    <description>Recent content in Softeam on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 19 May 2009 10:59:33 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/softeam/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Présentation de Modelio par Softeam ou pas</title>
+      <link>http://example.org/2009/05/19/presentation-de-modelio-par-softeam-ou-pas/</link>
+      <pubDate>Tue, 19 May 2009 10:59:33 +0000</pubDate>
+      
+      <guid>http://example.org/2009/05/19/presentation-de-modelio-par-softeam-ou-pas/</guid>
+      <description>J’ai reçu hier une invitation (enfin une publicité) pour un séminaire gratuit Softeam. Jusque là rien d’exceptionnel, Softeam en propose régulièrement. Ce qui est moins habituel c’est de recevoir ce mail via Modelio.
+Regardez le mail :
+Au premier coup d’oeil, je pense qu’il s’agit d’une après-midi de présentation du produit Modelio. Il faut s’inscrire sur le site de softeam.. pourquoi pas.
+Mais en arrivant sur ce site, l’image n’est plus la même.</description>
+    </item>
+    
+  </channel>
+</rss>

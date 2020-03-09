@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>imdb on Tech blog</title>
+    <link>http://example.org/tags/imdb/</link>
+    <description>Recent content in imdb on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 06 Jan 2010 21:35:45 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/imdb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Application iPhone, étape 1 : l&#39;idée</title>
+      <link>http://example.org/2010/01/06/application-iphone-idee/</link>
+      <pubDate>Wed, 06 Jan 2010 21:35:45 +0000</pubDate>
+      
+      <guid>http://example.org/2010/01/06/application-iphone-idee/</guid>
+      <description>Comme je vous l’annonçais dans le dernier post, j’ai envie d’essayer de développer une application iPhone et de la vendre sur l’appStore.
+L’idée est simple, je souhaite pouvoir consulter ma collection de DVD/Blue-Ray n’importe où. Ca peut être pratique pour la partager avec des amis ou pour préparer une soirée video.
+Pour gérer ma collection j’utilise le logiciel DVDProfiler sur PC. J’entre le nom d’un DVD ou juste son code barre et il me retrouve une description détaillée du film (images, acteurs, genre etc… ).</description>
+    </item>
+    
+  </channel>
+</rss>

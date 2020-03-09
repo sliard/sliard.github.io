@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>developpeur on Tech blog</title>
+    <link>http://example.org/tags/developpeur/</link>
+    <description>Recent content in developpeur on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sun, 08 Jan 2012 22:16:39 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/developpeur/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Du nouveau ?</title>
+      <link>http://example.org/2012/01/08/du-nouveau/</link>
+      <pubDate>Sun, 08 Jan 2012 22:16:39 +0000</pubDate>
+      
+      <guid>http://example.org/2012/01/08/du-nouveau/</guid>
+      <description>Et oui 2 mois déjà sans publier sur ce blog. Après le startup week-end tout s’est un peu accéléré, j’en profite donc pour vous raconter ma fin d’année 2011.
+Code d’Armor Sur Lannion nous avons deux grosses entreprises Alcatel Lucent et Orange. Autour de ces 2 mastodontes gravitent pas mal de SSII et un beau vivier de startups. Il y a donc beaucoup de développeurs dans la zone. Mais pourtant nous ne nous connaissons pas, il n’y a ni cantine numérique ni aucun “User Group”.</description>
+    </item>
+    
+    <item>
+      <title>Le blues du développeur</title>
+      <link>http://example.org/2011/06/18/le-blues-du-developpeur/</link>
+      <pubDate>Sat, 18 Jun 2011 20:43:30 +0000</pubDate>
+      
+      <guid>http://example.org/2011/06/18/le-blues-du-developpeur/</guid>
+      <description>En revenant d’une conférence sur GIT dans le cadre du BreizhCamp (faite par Sebastien Douche, excellent orateur) je rentre chez mon frère qui m’héberge. Et commence la conversation type que nous développeurs nous avons déjà eu des dizaines de fois:
+Mon frère : Alors cette conf, sympa ? C’était sur quoi ?
+Moi : Ouep super bien, on nous a présenté GIT
+Mon frère : Ah ? C’est quoi GIT</description>
+    </item>
+    
+  </channel>
+</rss>

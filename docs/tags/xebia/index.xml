@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xebia on Tech blog</title>
+    <link>http://example.org/tags/xebia/</link>
+    <description>Recent content in Xebia on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 10 Dec 2008 20:22:08 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/xebia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Résumé de la formation Scrum</title>
+      <link>http://example.org/2008/12/10/resume-de-la-formation-scrum/</link>
+      <pubDate>Wed, 10 Dec 2008 20:22:08 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/10/resume-de-la-formation-scrum/</guid>
+      <description>&lt;p&gt;Comme je l’avais promis, je vous fais un retour sur les points qui m’ont paru importants dans la formation SCRUM organisée par &lt;a href=&#34;http://blog.xebia.fr/2008/10/16/certification-scrummaster-par-jeff-sutherland-session-des-1er-et-2-decembre/&#34;&gt;Xebia&lt;/a&gt;. L’objectif n’est pas de vous raconter entièrement les deux jours de formation mais de mettre en avant plusieurs points que j’ai trouvé intéressants.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

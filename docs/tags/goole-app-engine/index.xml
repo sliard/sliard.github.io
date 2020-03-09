@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Goole App Engine on Tech blog</title>
+    <link>http://example.org/tags/goole-app-engine/</link>
+    <description>Recent content in Goole App Engine on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 18 Jul 2012 22:01:10 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/goole-app-engine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google App Engine Suite</title>
+      <link>http://example.org/2012/07/18/google-app-engine-suite/</link>
+      <pubDate>Wed, 18 Jul 2012 22:01:10 +0000</pubDate>
+      
+      <guid>http://example.org/2012/07/18/google-app-engine-suite/</guid>
+      <description>Comme expliqué dans le premier article j’ai rencontré certaines difficultés au niveau du développement avec Google App Engine. L’intégration et la gestion de la plate-forme a aussi amené son lot de surprises.
+Gestion des instances Nous utilisons GAE pour un service qui a peu de trafic. En mode gratuit aucune instance n’est lancée par défaut, donc chaque utilisateur a un risque de déclencher le lancement d’une instance. Il faut 18 secondes pour démarrer mon instance: 18 secondes ce n’est pas énorme pour démarrer un serveur d’applications, par contre pour répondre à une requête HTTP c’est une éternité.</description>
+    </item>
+    
+  </channel>
+</rss>

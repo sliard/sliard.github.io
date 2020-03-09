@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on Tech blog</title>
+    <link>http://example.org/categories/cloud/</link>
+    <description>Recent content in Cloud on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 05 Feb 2014 09:32:50 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Création d&#39;un cron avec SNS</title>
+      <link>http://example.org/2014/02/05/creation-dun-cron-avec-sns/</link>
+      <pubDate>Wed, 05 Feb 2014 09:32:50 +0000</pubDate>
+      
+      <guid>http://example.org/2014/02/05/creation-dun-cron-avec-sns/</guid>
+      <description>Ou comment complètement détourner l’usage du service Amazon SNS.
+Mon besoin est simple : pouvoir exécuter du code toutes les 30s. Cette tâche commencera et s’arrêtera en fonction d’actions utilisateur. En java j’aurais simplement utilisé Quartz, mais là mon code est en PHP et hébergé sur Beanstalk d’Amazon.
+Je n’ai pas trouvé de service simple à utiliser sur AWS pour faire ça. On trouve bien un peu de doc pour le faire avec Data Pipeline mais c’est loin d’être trivial.</description>
+    </item>
+    
+    <item>
+      <title>Premiers tests de Google App Engine en PHP</title>
+      <link>http://example.org/2013/05/30/premiers-tests-de-google-app-engine-en-php/</link>
+      <pubDate>Thu, 30 May 2013 21:50:22 +0000</pubDate>
+      
+      <guid>http://example.org/2013/05/30/premiers-tests-de-google-app-engine-en-php/</guid>
+      <description>C’est une des grosses annonces de la Google I/O 2013, Google App Engine supporte maintenant PHP. J’ai eu l’occasion de le tester sur un de mes projets. La première chose qu’il faut constater, c’est que l’utilisation du service en PHP n’est pas vraiment ouverte. Pour le moment il faut passer par une phase de validation de son projet pour avoir le droit d’utiliser le service. On est maintenant à 2 semaines de l’annonce et seulement 282 projets on été acceptés.</description>
+    </item>
+    
+    <item>
+      <title>Lancer un cron sur un cluster</title>
+      <link>http://example.org/2013/01/07/lancer-un-cron-sur-un-cluster/</link>
+      <pubDate>Mon, 07 Jan 2013 09:39:50 +0000</pubDate>
+      
+      <guid>http://example.org/2013/01/07/lancer-un-cron-sur-un-cluster/</guid>
+      <description>Sur un de mes projets j’ai besoin d’exécuter une tâche tous les jours. Cet exercice pourtant trivial peut devenir plus complexe si mon service utilise plusieurs serveurs et que je ne veux exécuter la tâche qu’une seule fois. En Java j’utilisais le scheduler Quartz pour régler ce problème. Il est très efficace et en cas de cluster il utilise une base de données pour s’assurer que la tâche n’est lancée que sur un seul serveur.</description>
+    </item>
+    
+    <item>
+      <title>New Relic sur du Beanstalk PHP</title>
+      <link>http://example.org/2012/11/15/new-relic-sur-beanstalk-php/</link>
+      <pubDate>Thu, 15 Nov 2012 21:34:41 +0000</pubDate>
+      
+      <guid>http://example.org/2012/11/15/new-relic-sur-beanstalk-php/</guid>
+      <description>Ces derniers temps j’ai beaucoup travaillé sur les produits Amazon Web Services. J’ai notamment utilisé Beanstalk pour mettre en production un site web important. Pour mesurer l’activité des serveurs et l’utilisation de l’application j’ai utilisé le service New Relic. En plus il existe un partenariat entre AWS et New Relicpour utiliser un compte standard gratuitement (vous économisez $50 par mois).
+Pour utiliser New Relic il faut l’installer sur une image et en faire une nouvelle AMI.</description>
+    </item>
+    
+    <item>
+      <title>Amazon Web Services Consulting Partners</title>
+      <link>http://example.org/2012/10/09/amazon-web-services-consulting-partners/</link>
+      <pubDate>Tue, 09 Oct 2012 08:11:03 +0000</pubDate>
+      
+      <guid>http://example.org/2012/10/09/amazon-web-services-consulting-partners/</guid>
+      <description>Apptom devient officiellement “Amazon Web Services Consulting Partners” niveau Standard. Aujourd’hui seulement une dizaine de sociétés en France ont ce niveau et Apptom est la seule basée en Bretagne. Ce statut nous apporte une communication directe avec les équipes techniques d’Amazon.
+Apptom se positionne aussi comme revendeur Amazon, nous allons pouvoir simplifier la facturation pour nos clients tout en réduisant les coûts.
+Pour vous aider à trouver un partenaire Amazon proche de chez vous, j’ai créé le site www.</description>
+    </item>
+    
+    <item>
+      <title>Google App Engine Suite</title>
+      <link>http://example.org/2012/07/18/google-app-engine-suite/</link>
+      <pubDate>Wed, 18 Jul 2012 22:01:10 +0000</pubDate>
+      
+      <guid>http://example.org/2012/07/18/google-app-engine-suite/</guid>
+      <description>Comme expliqué dans le premier article j’ai rencontré certaines difficultés au niveau du développement avec Google App Engine. L’intégration et la gestion de la plate-forme a aussi amené son lot de surprises.
+Gestion des instances Nous utilisons GAE pour un service qui a peu de trafic. En mode gratuit aucune instance n’est lancée par défaut, donc chaque utilisateur a un risque de déclencher le lancement d’une instance. Il faut 18 secondes pour démarrer mon instance: 18 secondes ce n’est pas énorme pour démarrer un serveur d’applications, par contre pour répondre à une requête HTTP c’est une éternité.</description>
+    </item>
+    
+    <item>
+      <title>Développer sur Google App Engine</title>
+      <link>http://example.org/2012/06/19/developper-sur-google-app-engine/</link>
+      <pubDate>Tue, 19 Jun 2012 22:07:32 +0000</pubDate>
+      
+      <guid>http://example.org/2012/06/19/developper-sur-google-app-engine/</guid>
+      <description>Depuis 1 mois je teste le déploiement de services sur Google App Engine. Le moins que l’on puisse dire c’est que c’est loin d’être aussi simple que ce que j’avais vu pendant la Devoxx France. Je vous propose un petit tour sur ce que j’ai remarqué.
+Le Data Store Même si Google propose une base SQL en version Beta, j’ai utilisé le datastore No SQL par défaut. Pour simplifier la gestion de la persistance, la librairie Objectify est très bien adaptée.</description>
+    </item>
+    
+  </channel>
+</rss>

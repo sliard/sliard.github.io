@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud Computing on Tech blog</title>
+    <link>http://example.org/tags/cloud-computing/</link>
+    <description>Recent content in Cloud Computing on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 19 Jun 2012 22:07:32 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Développer sur Google App Engine</title>
+      <link>http://example.org/2012/06/19/developper-sur-google-app-engine/</link>
+      <pubDate>Tue, 19 Jun 2012 22:07:32 +0000</pubDate>
+      
+      <guid>http://example.org/2012/06/19/developper-sur-google-app-engine/</guid>
+      <description>Depuis 1 mois je teste le déploiement de services sur Google App Engine. Le moins que l’on puisse dire c’est que c’est loin d’être aussi simple que ce que j’avais vu pendant la Devoxx France. Je vous propose un petit tour sur ce que j’ai remarqué.
+Le Data Store Même si Google propose une base SQL en version Beta, j’ai utilisé le datastore No SQL par défaut. Pour simplifier la gestion de la persistance, la librairie Objectify est très bien adaptée.</description>
+    </item>
+    
+  </channel>
+</rss>

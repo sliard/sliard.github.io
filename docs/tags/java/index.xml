@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Tech blog</title>
+    <link>http://example.org/tags/java/</link>
+    <description>Recent content in Java on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 20 Oct 2011 22:36:04 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Profiling SQL</title>
+      <link>http://example.org/2011/03/11/profiling-sql/</link>
+      <pubDate>Fri, 11 Mar 2011 00:04:54 +0000</pubDate>
+      
+      <guid>http://example.org/2011/03/11/profiling-sql/</guid>
+      <description>C’est une étape souvent négligée par les projets utilisant des librairies de mapping objet. Mais faire de l’Hibernate c’est bien, regarder les requêtes générées sur la base c’est mieux.
+J’ai le souvenir d’un vieux projet utilisant des EJB Entity 2 où à un moment on ajoutait un objet dans une liste. En regardant les requêtes on s’est aperçu que le conteneur chargeait toute la liste avant de faire l’insert. C’était complètement inutile.</description>
+    </item>
+    
+    <item>
+      <title>Maven, JUnit et la JVM</title>
+      <link>http://example.org/2010/11/29/maven-junit-et-la-jvm/</link>
+      <pubDate>Mon, 29 Nov 2010 09:56:23 +0000</pubDate>
+      
+      <guid>http://example.org/2010/11/29/maven-junit-et-la-jvm/</guid>
+      <description>Ca fait longtemps que je n’ai pas fait de petit post technique où je decris la solution d’un problème simple. Et bien justement j’ai eu à en résoudre quelques uns ces derniers temps. Je vais donc les partager.
+En ce moment je travaille sur un projet qui charge beaucoup d’objets en mémoire. Il faut donc redéfinir la taille de mémoire max à allouer pour le faire tourner. Une simple option “-Xmx512m” au niveau de la JVM et les tests unitaires fonctionnent sans pb.</description>
+    </item>
+    
+  </channel>
+</rss>

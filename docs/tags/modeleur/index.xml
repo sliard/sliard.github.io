@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modeleur on Tech blog</title>
+    <link>http://example.org/tags/modeleur/</link>
+    <description>Recent content in Modeleur on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 13 Feb 2009 19:33:35 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/modeleur/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modelio, un nouveau modeleur ?</title>
+      <link>http://example.org/2009/02/13/modelio-un-nouveau-modeleur/</link>
+      <pubDate>Fri, 13 Feb 2009 19:33:35 +0000</pubDate>
+      
+      <guid>http://example.org/2009/02/13/modelio-un-nouveau-modeleur/</guid>
+      <description>Je viens de tomber sur le site web d’un nouveau modeleur UML2 Modelio.
+Au premier screenshot, j’ai comme une impression de déjà vu. Dans le About on peut lire “Modeliosoft is the result of 20 years of experience in OO modeling” et “Based in Paris”. Une boîte qui a 20 ans d’experience dans la modélisation à Paris, c’est étrange de ne pas la connaître !
+En fait non ce n’est pas un nouveau modeleur, c’est une nouvelle version d’objecteering “rebrandée”.</description>
+    </item>
+    
+  </channel>
+</rss>

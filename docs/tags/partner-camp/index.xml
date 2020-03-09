@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Partner Camp on Tech blog</title>
+    <link>http://example.org/tags/partner-camp/</link>
+    <description>Recent content in Partner Camp on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 18 Dec 2008 02:18:35 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/partner-camp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Partner Camp Orange dernier Jour</title>
+      <link>http://example.org/2008/12/18/partner-camp-orange-dernier-jour/</link>
+      <pubDate>Thu, 18 Dec 2008 02:18:35 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/18/partner-camp-orange-dernier-jour/</guid>
+      <description>Le dernier jour du Camp est beaucoup plus calme. Les participants se réveillent plus tard à cause de la soirée et certains doivent partir pour prendre leur avion. Je suis donc resté à la “developer play hut” pour aider mes collègues à faire des démos des API Orange.
+Camp farewell Pendant la cérémonie de clôture du camp, nous avons eu droit aux remises de prix des différents concours. Pas loin d’une vingtaine de téléphones portables sont distribués.</description>
+    </item>
+    
+    <item>
+      <title>Partner Camp Orange deuxieme Jour</title>
+      <link>http://example.org/2008/12/17/partner-camp-orange-deuxieme-jour/</link>
+      <pubDate>Wed, 17 Dec 2008 15:26:53 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/17/partner-camp-orange-deuxieme-jour/</guid>
+      <description>Seconde journée sous le soleil de floride au Partner Camp (27 degrès, c’est très agréable dans la piscine). Au programme aujourd’hui : conférences et soirée Access.
+Géolocalisation Decarta nous présente ses API de cartographie. Elles sont très complètes (carte, calcul de trajet…) et accessibles à l’aide de trois sdk :
+ J2ME IPhone Javascript  Ces SDK sont open source et téléchargeables sur le site : http://developer.decarta.com
+Ils ont fait une belle démo avec une même carte affichée sur un émulateur de téléphone portable et un navigateur.</description>
+    </item>
+    
+  </channel>
+</rss>

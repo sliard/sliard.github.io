@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modelio on Tech blog</title>
+    <link>http://example.org/tags/modelio/</link>
+    <description>Recent content in Modelio on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 19 May 2009 10:59:33 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/modelio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Présentation de Modelio par Softeam ou pas</title>
+      <link>http://example.org/2009/05/19/presentation-de-modelio-par-softeam-ou-pas/</link>
+      <pubDate>Tue, 19 May 2009 10:59:33 +0000</pubDate>
+      
+      <guid>http://example.org/2009/05/19/presentation-de-modelio-par-softeam-ou-pas/</guid>
+      <description>J’ai reçu hier une invitation (enfin une publicité) pour un séminaire gratuit Softeam. Jusque là rien d’exceptionnel, Softeam en propose régulièrement. Ce qui est moins habituel c’est de recevoir ce mail via Modelio.
+Regardez le mail :
+Au premier coup d’oeil, je pense qu’il s’agit d’une après-midi de présentation du produit Modelio. Il faut s’inscrire sur le site de softeam.. pourquoi pas.
+Mais en arrivant sur ce site, l’image n’est plus la même.</description>
+    </item>
+    
+    <item>
+      <title>Premier test de Modelio</title>
+      <link>http://example.org/2009/02/19/premier-test-de-modelio/</link>
+      <pubDate>Thu, 19 Feb 2009 22:26:32 +0000</pubDate>
+      
+      <guid>http://example.org/2009/02/19/premier-test-de-modelio/</guid>
+      <description>Après avoir passé quelques heures à tester Modelio je vous en fais un petit retour. Installation La première bonne nouvelle est qu’il est possible d’avoir sur un même poste plusieurs versions différentes de Modelio. J’ai installé la version Free et la version Java sur mon poste sans problème. Bien-sûr un projet créé avec la version Java n’est pas utilisable avec la version free (l’inverse est possible par contre).
+L’empreinte mémoire est assez faible (100Mo).</description>
+    </item>
+    
+    <item>
+      <title>Modelio, un nouveau modeleur ?</title>
+      <link>http://example.org/2009/02/13/modelio-un-nouveau-modeleur/</link>
+      <pubDate>Fri, 13 Feb 2009 19:33:35 +0000</pubDate>
+      
+      <guid>http://example.org/2009/02/13/modelio-un-nouveau-modeleur/</guid>
+      <description>Je viens de tomber sur le site web d’un nouveau modeleur UML2 Modelio.
+Au premier screenshot, j’ai comme une impression de déjà vu. Dans le About on peut lire “Modeliosoft is the result of 20 years of experience in OO modeling” et “Based in Paris”. Une boîte qui a 20 ans d’experience dans la modélisation à Paris, c’est étrange de ne pas la connaître !
+En fait non ce n’est pas un nouveau modeleur, c’est une nouvelle version d’objecteering “rebrandée”.</description>
+    </item>
+    
+  </channel>
+</rss>

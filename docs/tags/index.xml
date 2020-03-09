@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tech blog</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 05 Feb 2014 09:32:50 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AWS</title>
+      <link>http://example.org/tags/aws/</link>
+      <pubDate>Wed, 05 Feb 2014 09:32:50 +0000</pubDate>
+      
+      <guid>http://example.org/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>http://example.org/tags/cloud/</link>
+      <pubDate>Thu, 30 May 2013 21:50:22 +0000</pubDate>
+      
+      <guid>http://example.org/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>codeigniter</title>
+      <link>http://example.org/tags/codeigniter/</link>
+      <pubDate>Thu, 30 May 2013 21:50:22 +0000</pubDate>
+      
+      <guid>http://example.org/tags/codeigniter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GAE</title>
+      <link>http://example.org/tags/gae/</link>
+      <pubDate>Thu, 30 May 2013 21:50:22 +0000</pubDate>
+      
+      <guid>http://example.org/tags/gae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>http://example.org/tags/php/</link>
+      <pubDate>Thu, 30 May 2013 21:50:22 +0000</pubDate>
+      
+      <guid>http://example.org/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amazon</title>
+      <link>http://example.org/tags/amazon/</link>
+      <pubDate>Mon, 07 Jan 2013 09:39:50 +0000</pubDate>
+      
+      <guid>http://example.org/tags/amazon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EC2</title>
+      <link>http://example.org/tags/ec2/</link>
+      <pubDate>Mon, 07 Jan 2013 09:39:50 +0000</pubDate>
+      
+      <guid>http://example.org/tags/ec2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AMI</title>
+      <link>http://example.org/tags/ami/</link>
+      <pubDate>Thu, 15 Nov 2012 21:34:41 +0000</pubDate>
+      
+      <guid>http://example.org/tags/ami/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beanstalk</title>
+      <link>http://example.org/tags/beanstalk/</link>
+      <pubDate>Thu, 15 Nov 2012 21:34:41 +0000</pubDate>
+      
+      <guid>http://example.org/tags/beanstalk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Relic</title>
+      <link>http://example.org/tags/new-relic/</link>
+      <pubDate>Thu, 15 Nov 2012 21:34:41 +0000</pubDate>
+      
+      <guid>http://example.org/tags/new-relic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>APN</title>
+      <link>http://example.org/tags/apn/</link>
+      <pubDate>Tue, 09 Oct 2012 08:11:03 +0000</pubDate>
+      
+      <guid>http://example.org/tags/apn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Partner</title>
+      <link>http://example.org/tags/partner/</link>
+      <pubDate>Tue, 09 Oct 2012 08:11:03 +0000</pubDate>
+      
+      <guid>http://example.org/tags/partner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>http://example.org/tags/google/</link>
+      <pubDate>Wed, 18 Jul 2012 22:01:10 +0000</pubDate>
+      
+      <guid>http://example.org/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Goole App Engine</title>
+      <link>http://example.org/tags/goole-app-engine/</link>
+      <pubDate>Wed, 18 Jul 2012 22:01:10 +0000</pubDate>
+      
+      <guid>http://example.org/tags/goole-app-engine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ios</title>
+      <link>http://example.org/tags/ios/</link>
+      <pubDate>Sat, 07 Jul 2012 17:28:56 +0000</pubDate>
+      
+      <guid>http://example.org/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iPhone</title>
+      <link>http://example.org/tags/iphone/</link>
+      <pubDate>Sat, 07 Jul 2012 17:28:56 +0000</pubDate>
+      
+      <guid>http://example.org/tags/iphone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jenkins</title>
+      <link>http://example.org/tags/jenkins/</link>
+      <pubDate>Sat, 07 Jul 2012 17:28:56 +0000</pubDate>
+      
+      <guid>http://example.org/tags/jenkins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ota</title>
+      <link>http://example.org/tags/ota/</link>
+      <pubDate>Sat, 07 Jul 2012 17:28:56 +0000</pubDate>
+      
+      <guid>http://example.org/tags/ota/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XCode</title>
+      <link>http://example.org/tags/xcode/</link>
+      <pubDate>Sat, 07 Jul 2012 17:28:56 +0000</pubDate>
+      
+      <guid>http://example.org/tags/xcode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Computing</title>
+      <link>http://example.org/tags/cloud-computing/</link>
+      <pubDate>Tue, 19 Jun 2012 22:07:32 +0000</pubDate>
+      
+      <guid>http://example.org/tags/cloud-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google App Engine</title>
+      <link>http://example.org/tags/google-app-engine/</link>
+      <pubDate>Tue, 19 Jun 2012 22:07:32 +0000</pubDate>
+      
+      <guid>http://example.org/tags/google-app-engine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apptom</title>
+      <link>http://example.org/tags/apptom/</link>
+      <pubDate>Sun, 10 Jun 2012 11:11:30 +0000</pubDate>
+      
+      <guid>http://example.org/tags/apptom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>http://example.org/tags/android/</link>
+      <pubDate>Mon, 14 May 2012 10:03:44 +0000</pubDate>
+      
+      <guid>http://example.org/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>game</title>
+      <link>http://example.org/tags/game/</link>
+      <pubDate>Mon, 30 Jan 2012 22:10:07 +0000</pubDate>
+      
+      <guid>http://example.org/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ggj12</title>
+      <link>http://example.org/tags/ggj12/</link>
+      <pubDate>Mon, 30 Jan 2012 22:10:07 +0000</pubDate>
+      
+      <guid>http://example.org/tags/ggj12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>global</title>
+      <link>http://example.org/tags/global/</link>
+      <pubDate>Mon, 30 Jan 2012 22:10:07 +0000</pubDate>
+      
+      <guid>http://example.org/tags/global/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jam</title>
+      <link>http://example.org/tags/jam/</link>
+      <pubDate>Mon, 30 Jan 2012 22:10:07 +0000</pubDate>
+      
+      <guid>http://example.org/tags/jam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jeux video</title>
+      <link>http://example.org/tags/jeux-video/</link>
+      <pubDate>Mon, 30 Jan 2012 22:10:07 +0000</pubDate>
+      
+      <guid>http://example.org/tags/jeux-video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>developpeur</title>
+      <link>http://example.org/tags/developpeur/</link>
+      <pubDate>Sun, 08 Jan 2012 22:16:39 +0000</pubDate>
+      
+      <guid>http://example.org/tags/developpeur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iPad</title>
+      <link>http://example.org/tags/ipad/</link>
+      <pubDate>Sun, 08 Jan 2012 22:16:39 +0000</pubDate>
+      
+      <guid>http://example.org/tags/ipad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Startup Week-end</title>
+      <link>http://example.org/tags/startup-week-end/</link>
+      <pubDate>Tue, 01 Nov 2011 01:37:26 +0000</pubDate>
+      
+      <guid>http://example.org/tags/startup-week-end/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>armv6</title>
+      <link>http://example.org/tags/armv6/</link>
+      <pubDate>Thu, 27 Oct 2011 21:55:58 +0000</pubDate>
+      
+      <guid>http://example.org/tags/armv6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS</title>
+      <link>http://example.org/tags/css/</link>
+      <pubDate>Thu, 20 Oct 2011 22:36:04 +0000</pubDate>
+      
+      <guid>http://example.org/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>http://example.org/tags/java/</link>
+      <pubDate>Thu, 20 Oct 2011 22:36:04 +0000</pubDate>
+      
+      <guid>http://example.org/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>http://example.org/tags/javascript/</link>
+      <pubDate>Thu, 20 Oct 2011 22:36:04 +0000</pubDate>
+      
+      <guid>http://example.org/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PhoneGap</title>
+      <link>http://example.org/tags/phonegap/</link>
+      <pubDate>Thu, 20 Oct 2011 22:36:04 +0000</pubDate>
+      
+      <guid>http://example.org/tags/phonegap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eric Sarrion</title>
+      <link>http://example.org/tags/eric-sarrion/</link>
+      <pubDate>Wed, 28 Sep 2011 20:36:05 +0000</pubDate>
+      
+      <guid>http://example.org/tags/eric-sarrion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>formation</title>
+      <link>http://example.org/tags/formation/</link>
+      <pubDate>Wed, 28 Sep 2011 20:36:05 +0000</pubDate>
+      
+      <guid>http://example.org/tags/formation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>http://example.org/tags/html/</link>
+      <pubDate>Wed, 28 Sep 2011 20:36:05 +0000</pubDate>
+      
+      <guid>http://example.org/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ActiveMQ</title>
+      <link>http://example.org/tags/activemq/</link>
+      <pubDate>Wed, 27 Jul 2011 17:33:09 +0000</pubDate>
+      
+      <guid>http://example.org/tags/activemq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Foundry</title>
+      <link>http://example.org/tags/cloud-foundry/</link>
+      <pubDate>Wed, 27 Jul 2011 17:33:09 +0000</pubDate>
+      
+      <guid>http://example.org/tags/cloud-foundry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CloudBees</title>
+      <link>http://example.org/tags/cloudbees/</link>
+      <pubDate>Wed, 27 Jul 2011 17:33:09 +0000</pubDate>
+      
+      <guid>http://example.org/tags/cloudbees/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JMS</title>
+      <link>http://example.org/tags/jms/</link>
+      <pubDate>Wed, 27 Jul 2011 17:33:09 +0000</pubDate>
+      
+      <guid>http://example.org/tags/jms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CloudFoundry</title>
+      <link>http://example.org/tags/cloudfoundry/</link>
+      <pubDate>Thu, 21 Jul 2011 23:33:18 +0000</pubDate>
+      
+      <guid>http://example.org/tags/cloudfoundry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>embauche</title>
+      <link>http://example.org/tags/embauche/</link>
+      <pubDate>Sun, 08 May 2011 15:32:32 +0000</pubDate>
+      
+      <guid>http://example.org/tags/embauche/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>entretien</title>
+      <link>http://example.org/tags/entretien/</link>
+      <pubDate>Sun, 08 May 2011 15:32:32 +0000</pubDate>
+      
+      <guid>http://example.org/tags/entretien/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fun</title>
+      <link>http://example.org/tags/fun/</link>
+      <pubDate>Fri, 08 Apr 2011 21:55:26 +0000</pubDate>
+      
+      <guid>http://example.org/tags/fun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ippon</title>
+      <link>http://example.org/tags/ippon/</link>
+      <pubDate>Fri, 08 Apr 2011 21:55:26 +0000</pubDate>
+      
+      <guid>http://example.org/tags/ippon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>offre emploi</title>
+      <link>http://example.org/tags/offre-emploi/</link>
+      <pubDate>Fri, 08 Apr 2011 21:55:26 +0000</pubDate>
+      
+      <guid>http://example.org/tags/offre-emploi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Agile</title>
+      <link>http://example.org/tags/agile/</link>
+      <pubDate>Fri, 11 Mar 2011 17:52:32 +0000</pubDate>
+      
+      <guid>http://example.org/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>forfait</title>
+      <link>http://example.org/tags/forfait/</link>
+      <pubDate>Fri, 11 Mar 2011 17:52:32 +0000</pubDate>
+      
+      <guid>http://example.org/tags/forfait/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>prestation</title>
+      <link>http://example.org/tags/prestation/</link>
+      <pubDate>Fri, 11 Mar 2011 17:52:32 +0000</pubDate>
+      
+      <guid>http://example.org/tags/prestation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ironsql</title>
+      <link>http://example.org/tags/ironsql/</link>
+      <pubDate>Fri, 11 Mar 2011 00:04:54 +0000</pubDate>
+      
+      <guid>http://example.org/tags/ironsql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>p6spy</title>
+      <link>http://example.org/tags/p6spy/</link>
+      <pubDate>Fri, 11 Mar 2011 00:04:54 +0000</pubDate>
+      
+      <guid>http://example.org/tags/p6spy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JUnit</title>
+      <link>http://example.org/tags/junit/</link>
+      <pubDate>Mon, 29 Nov 2010 09:56:23 +0000</pubDate>
+      
+      <guid>http://example.org/tags/junit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maven</title>
+      <link>http://example.org/tags/maven/</link>
+      <pubDate>Mon, 29 Nov 2010 09:56:23 +0000</pubDate>
+      
+      <guid>http://example.org/tags/maven/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows Phone</title>
+      <link>http://example.org/tags/windows-phone/</link>
+      <pubDate>Fri, 22 Oct 2010 22:26:35 +0000</pubDate>
+      
+      <guid>http://example.org/tags/windows-phone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Acceleo</title>
+      <link>http://example.org/tags/acceleo/</link>
+      <pubDate>Wed, 22 Sep 2010 00:12:25 +0000</pubDate>
+      
+      <guid>http://example.org/tags/acceleo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MDA</title>
+      <link>http://example.org/tags/mda/</link>
+      <pubDate>Wed, 22 Sep 2010 00:12:25 +0000</pubDate>
+      
+      <guid>http://example.org/tags/mda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MD Day</title>
+      <link>http://example.org/tags/md-day/</link>
+      <pubDate>Tue, 14 Sep 2010 23:21:47 +0000</pubDate>
+      
+      <guid>http://example.org/tags/md-day/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Obeo</title>
+      <link>http://example.org/tags/obeo/</link>
+      <pubDate>Tue, 14 Sep 2010 23:21:47 +0000</pubDate>
+      
+      <guid>http://example.org/tags/obeo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Apple</title>
+      <link>http://example.org/tags/apple/</link>
+      <pubDate>Mon, 14 Jun 2010 10:02:37 +0000</pubDate>
+      
+      <guid>http://example.org/tags/apple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WWDC</title>
+      <link>http://example.org/tags/wwdc/</link>
+      <pubDate>Mon, 14 Jun 2010 10:02:37 +0000</pubDate>
+      
+      <guid>http://example.org/tags/wwdc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>French Scrum User Group</title>
+      <link>http://example.org/tags/french-scrum-user-group/</link>
+      <pubDate>Sat, 03 Apr 2010 11:01:53 +0000</pubDate>
+      
+      <guid>http://example.org/tags/french-scrum-user-group/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IBM</title>
+      <link>http://example.org/tags/ibm/</link>
+      <pubDate>Sat, 03 Apr 2010 11:01:53 +0000</pubDate>
+      
+      <guid>http://example.org/tags/ibm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IceScrum</title>
+      <link>http://example.org/tags/icescrum/</link>
+      <pubDate>Sat, 03 Apr 2010 11:01:53 +0000</pubDate>
+      
+      <guid>http://example.org/tags/icescrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft</title>
+      <link>http://example.org/tags/microsoft/</link>
+      <pubDate>Sat, 03 Apr 2010 11:01:53 +0000</pubDate>
+      
+      <guid>http://example.org/tags/microsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RSA</title>
+      <link>http://example.org/tags/rsa/</link>
+      <pubDate>Sat, 03 Apr 2010 11:01:53 +0000</pubDate>
+      
+      <guid>http://example.org/tags/rsa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scrum</title>
+      <link>http://example.org/tags/scrum/</link>
+      <pubDate>Sat, 03 Apr 2010 11:01:53 +0000</pubDate>
+      
+      <guid>http://example.org/tags/scrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AppStore</title>
+      <link>http://example.org/tags/appstore/</link>
+      <pubDate>Fri, 02 Apr 2010 21:21:40 +0000</pubDate>
+      
+      <guid>http://example.org/tags/appstore/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D</title>
+      <link>http://example.org/tags/3d/</link>
+      <pubDate>Wed, 31 Mar 2010 23:10:30 +0000</pubDate>
+      
+      <guid>http://example.org/tags/3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>réalité augmentée</title>
+      <link>http://example.org/tags/r%C3%A9alit%C3%A9-augment%C3%A9e/</link>
+      <pubDate>Wed, 31 Mar 2010 23:10:30 +0000</pubDate>
+      
+      <guid>http://example.org/tags/r%C3%A9alit%C3%A9-augment%C3%A9e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DVDProfiler</title>
+      <link>http://example.org/tags/dvdprofiler/</link>
+      <pubDate>Wed, 06 Jan 2010 21:35:45 +0000</pubDate>
+      
+      <guid>http://example.org/tags/dvdprofiler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>imdb</title>
+      <link>http://example.org/tags/imdb/</link>
+      <pubDate>Wed, 06 Jan 2010 21:35:45 +0000</pubDate>
+      
+      <guid>http://example.org/tags/imdb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>http://example.org/tags/mac/</link>
+      <pubDate>Tue, 15 Dec 2009 00:01:09 +0000</pubDate>
+      
+      <guid>http://example.org/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>API</title>
+      <link>http://example.org/tags/api/</link>
+      <pubDate>Fri, 23 Oct 2009 15:32:23 +0000</pubDate>
+      
+      <guid>http://example.org/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>areuthere</title>
+      <link>http://example.org/tags/areuthere/</link>
+      <pubDate>Fri, 23 Oct 2009 15:32:23 +0000</pubDate>
+      
+      <guid>http://example.org/tags/areuthere/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>géolocalisation</title>
+      <link>http://example.org/tags/g%C3%A9olocalisation/</link>
+      <pubDate>Fri, 23 Oct 2009 15:32:23 +0000</pubDate>
+      
+      <guid>http://example.org/tags/g%C3%A9olocalisation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dreamcast</title>
+      <link>http://example.org/tags/dreamcast/</link>
+      <pubDate>Mon, 07 Sep 2009 08:15:23 +0000</pubDate>
+      
+      <guid>http://example.org/tags/dreamcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dreamcast2Jamma</title>
+      <link>http://example.org/tags/dreamcast2jamma/</link>
+      <pubDate>Mon, 07 Sep 2009 08:15:23 +0000</pubDate>
+      
+      <guid>http://example.org/tags/dreamcast2jamma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jamma</title>
+      <link>http://example.org/tags/jamma/</link>
+      <pubDate>Mon, 07 Sep 2009 08:15:23 +0000</pubDate>
+      
+      <guid>http://example.org/tags/jamma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PCB</title>
+      <link>http://example.org/tags/pcb/</link>
+      <pubDate>Mon, 07 Sep 2009 08:15:23 +0000</pubDate>
+      
+      <guid>http://example.org/tags/pcb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eclipse</title>
+      <link>http://example.org/tags/eclipse/</link>
+      <pubDate>Thu, 25 Jun 2009 23:14:01 +0000</pubDate>
+      
+      <guid>http://example.org/tags/eclipse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cglig</title>
+      <link>http://example.org/tags/cglig/</link>
+      <pubDate>Wed, 24 Jun 2009 20:38:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/cglig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CXF</title>
+      <link>http://example.org/tags/cxf/</link>
+      <pubDate>Wed, 24 Jun 2009 20:38:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/cxf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hibernate</title>
+      <link>http://example.org/tags/hibernate/</link>
+      <pubDate>Wed, 24 Jun 2009 20:38:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/hibernate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NoClassDefFoundError</title>
+      <link>http://example.org/tags/noclassdeffounderror/</link>
+      <pubDate>Wed, 24 Jun 2009 20:38:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/noclassdeffounderror/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelio</title>
+      <link>http://example.org/tags/modelio/</link>
+      <pubDate>Tue, 19 May 2009 10:59:33 +0000</pubDate>
+      
+      <guid>http://example.org/tags/modelio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>objecteering</title>
+      <link>http://example.org/tags/objecteering/</link>
+      <pubDate>Tue, 19 May 2009 10:59:33 +0000</pubDate>
+      
+      <guid>http://example.org/tags/objecteering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Softeam</title>
+      <link>http://example.org/tags/softeam/</link>
+      <pubDate>Tue, 19 May 2009 10:59:33 +0000</pubDate>
+      
+      <guid>http://example.org/tags/softeam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UML</title>
+      <link>http://example.org/tags/uml/</link>
+      <pubDate>Tue, 19 May 2009 10:59:33 +0000</pubDate>
+      
+      <guid>http://example.org/tags/uml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.tel</title>
+      <link>http://example.org/tags/.tel/</link>
+      <pubDate>Wed, 13 May 2009 19:26:17 +0000</pubDate>
+      
+      <guid>http://example.org/tags/.tel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>domaine</title>
+      <link>http://example.org/tags/domaine/</link>
+      <pubDate>Wed, 13 May 2009 19:26:17 +0000</pubDate>
+      
+      <guid>http://example.org/tags/domaine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spring</title>
+      <link>http://example.org/tags/spring/</link>
+      <pubDate>Tue, 21 Apr 2009 07:42:59 +0000</pubDate>
+      
+      <guid>http://example.org/tags/spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enterprise Architect</title>
+      <link>http://example.org/tags/enterprise-architect/</link>
+      <pubDate>Thu, 05 Mar 2009 23:49:05 +0000</pubDate>
+      
+      <guid>http://example.org/tags/enterprise-architect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PIM</title>
+      <link>http://example.org/tags/pim/</link>
+      <pubDate>Thu, 05 Mar 2009 23:49:05 +0000</pubDate>
+      
+      <guid>http://example.org/tags/pim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PSM</title>
+      <link>http://example.org/tags/psm/</link>
+      <pubDate>Thu, 05 Mar 2009 23:49:05 +0000</pubDate>
+      
+      <guid>http://example.org/tags/psm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeleur</title>
+      <link>http://example.org/tags/modeleur/</link>
+      <pubDate>Fri, 13 Feb 2009 19:33:35 +0000</pubDate>
+      
+      <guid>http://example.org/tags/modeleur/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concours</title>
+      <link>http://example.org/tags/concours/</link>
+      <pubDate>Mon, 09 Feb 2009 23:46:06 +0000</pubDate>
+      
+      <guid>http://example.org/tags/concours/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concours Orange API</title>
+      <link>http://example.org/tags/concours-orange-api/</link>
+      <pubDate>Mon, 09 Feb 2009 23:46:06 +0000</pubDate>
+      
+      <guid>http://example.org/tags/concours-orange-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orange</title>
+      <link>http://example.org/tags/orange/</link>
+      <pubDate>Mon, 09 Feb 2009 23:46:06 +0000</pubDate>
+      
+      <guid>http://example.org/tags/orange/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Orange Partner</title>
+      <link>http://example.org/tags/orange-partner/</link>
+      <pubDate>Mon, 09 Feb 2009 23:46:06 +0000</pubDate>
+      
+      <guid>http://example.org/tags/orange-partner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SMS</title>
+      <link>http://example.org/tags/sms/</link>
+      <pubDate>Wed, 14 Jan 2009 08:06:40 +0000</pubDate>
+      
+      <guid>http://example.org/tags/sms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cape Canaveral</title>
+      <link>http://example.org/tags/cape-canaveral/</link>
+      <pubDate>Thu, 18 Dec 2008 02:18:35 +0000</pubDate>
+      
+      <guid>http://example.org/tags/cape-canaveral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Partner Camp</title>
+      <link>http://example.org/tags/partner-camp/</link>
+      <pubDate>Thu, 18 Dec 2008 02:18:35 +0000</pubDate>
+      
+      <guid>http://example.org/tags/partner-camp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaFx</title>
+      <link>http://example.org/tags/javafx/</link>
+      <pubDate>Wed, 17 Dec 2008 15:26:53 +0000</pubDate>
+      
+      <guid>http://example.org/tags/javafx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Camp</title>
+      <link>http://example.org/tags/camp/</link>
+      <pubDate>Tue, 16 Dec 2008 00:17:20 +0000</pubDate>
+      
+      <guid>http://example.org/tags/camp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jeff Sutherland</title>
+      <link>http://example.org/tags/jeff-sutherland/</link>
+      <pubDate>Wed, 10 Dec 2008 20:22:08 +0000</pubDate>
+      
+      <guid>http://example.org/tags/jeff-sutherland/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xebia</title>
+      <link>http://example.org/tags/xebia/</link>
+      <pubDate>Wed, 10 Dec 2008 20:22:08 +0000</pubDate>
+      
+      <guid>http://example.org/tags/xebia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>certification</title>
+      <link>http://example.org/tags/certification/</link>
+      <pubDate>Wed, 03 Dec 2008 20:46:47 +0000</pubDate>
+      
+      <guid>http://example.org/tags/certification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RUP</title>
+      <link>http://example.org/tags/rup/</link>
+      <pubDate>Wed, 03 Dec 2008 20:46:47 +0000</pubDate>
+      
+      <guid>http://example.org/tags/rup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chabal</title>
+      <link>http://example.org/tags/chabal/</link>
+      <pubDate>Thu, 20 Nov 2008 08:53:37 +0000</pubDate>
+      
+      <guid>http://example.org/tags/chabal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>foot</title>
+      <link>http://example.org/tags/foot/</link>
+      <pubDate>Thu, 20 Nov 2008 08:53:37 +0000</pubDate>
+      
+      <guid>http://example.org/tags/foot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pub</title>
+      <link>http://example.org/tags/pub/</link>
+      <pubDate>Thu, 20 Nov 2008 08:53:37 +0000</pubDate>
+      
+      <guid>http://example.org/tags/pub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mashup</title>
+      <link>http://example.org/tags/mashup/</link>
+      <pubDate>Tue, 30 Sep 2008 08:05:30 +0000</pubDate>
+      
+      <guid>http://example.org/tags/mashup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chrome</title>
+      <link>http://example.org/tags/chrome/</link>
+      <pubDate>Mon, 22 Sep 2008 10:01:57 +0000</pubDate>
+      
+      <guid>http://example.org/tags/chrome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gear</title>
+      <link>http://example.org/tags/gear/</link>
+      <pubDate>Mon, 22 Sep 2008 10:01:57 +0000</pubDate>
+      
+      <guid>http://example.org/tags/gear/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fuite de threads</title>
+      <link>http://example.org/tags/fuite-de-threads/</link>
+      <pubDate>Thu, 11 Sep 2008 08:05:44 +0000</pubDate>
+      
+      <guid>http://example.org/tags/fuite-de-threads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jonas</title>
+      <link>http://example.org/tags/jonas/</link>
+      <pubDate>Thu, 11 Sep 2008 08:05:44 +0000</pubDate>
+      
+      <guid>http://example.org/tags/jonas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joram</title>
+      <link>http://example.org/tags/joram/</link>
+      <pubDate>Thu, 11 Sep 2008 08:05:44 +0000</pubDate>
+      
+      <guid>http://example.org/tags/joram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thread</title>
+      <link>http://example.org/tags/thread/</link>
+      <pubDate>Thu, 11 Sep 2008 08:05:44 +0000</pubDate>
+      
+      <guid>http://example.org/tags/thread/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

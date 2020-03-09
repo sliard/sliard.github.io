@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Non classé on Tech blog</title>
+    <link>http://example.org/categories/non-class%C3%A9/</link>
+    <description>Recent content in Non classé on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 23 Apr 2012 10:14:58 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/categories/non-class%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Devoxx France</title>
+      <link>http://example.org/2012/04/23/devoxx-france/</link>
+      <pubDate>Mon, 23 Apr 2012 10:14:58 +0000</pubDate>
+      
+      <guid>http://example.org/2012/04/23/devoxx-france/</guid>
+      <description>La première édition de Devoxx France a eu lieu les 18, 19 et 20 avril 2012. Un grand rassemblement de développeurs français (essentiellement) et donc beaucoup de geeks !
+Sans vous refaire toutes les conférences en détail (il y aura des vidéos sur parleys pour ça) revenons sur ce que j’ai vu et l’ambiance générale.
+Mercredi Venant de province (Lannion), réveil à 5h30 pour prendre l’avion et arriver juste avant 9h à l’hôtel Marriott.</description>
+    </item>
+    
+    <item>
+      <title>Windows Phone</title>
+      <link>http://example.org/2010/10/22/windows-phone/</link>
+      <pubDate>Fri, 22 Oct 2010 22:26:35 +0000</pubDate>
+      
+      <guid>http://example.org/2010/10/22/windows-phone/</guid>
+      <description>Cette semaine Microsoft a sorti son nouvel OS pour les “Windows Phone”. Vous le savez je ne suis pas un grand fan de Microsoft. De plus je ne garde pas de bons souvenirs de ma petite expérience de développement sur PDA Windows Mobile en 2001. Mais après avoir regardé une vidéo de démonstration de ces nouveaux téléphones, j’ai eu envie de savoir ce que Microsoft offrait aux développeurs.
+J’ai donc été sur leur site pour avoir des informations sur le kit de développement :</description>
+    </item>
+    
+    <item>
+      <title>iMovies Collection publié !</title>
+      <link>http://example.org/2010/01/10/imovies-collection-publie/</link>
+      <pubDate>Sun, 10 Jan 2010 22:41:21 +0000</pubDate>
+      
+      <guid>http://example.org/2010/01/10/imovies-collection-publie/</guid>
+      <description>Voila c’est fait, Apple a validé mon application. Vendredi à 22h34 j’ai reçu un mail pour me prévenir que l’application était “Ready for Sale” Ca a été trés rapide :
+Dès le samedi matin j’avais un email d’un client pour me signaler un bug Mon premier utilisateur est un américain qui a une collection de 1500 films. Mon application n’a pas tenu la charge. En fait j’ai fait une grosse erreur de gestion de mémoire, ça divergeait.</description>
+    </item>
+    
+  </channel>
+</rss>

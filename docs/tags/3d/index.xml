@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3D on Tech blog</title>
+    <link>http://example.org/tags/3d/</link>
+    <description>Recent content in 3D on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 31 Mar 2010 23:10:30 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/3d/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Salon Display 2010</title>
+      <link>http://example.org/2010/03/31/salon-display-2010/</link>
+      <pubDate>Wed, 31 Mar 2010 23:10:30 +0000</pubDate>
+      
+      <guid>http://example.org/2010/03/31/salon-display-2010/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://example.org/images/uploads/2010/03/logo-display10.gif&#34; alt=&#34;photo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Comme je travaille en ce moment sur un projet avec de la 3D, le salon Display m’a attiré pour une conférence sur l’évolution des technos 3D et la réalité augmentée.&lt;/p&gt;
+&lt;p&gt;Par contre je pensais voir des exposants avec des écrans 3D de fou et bien, perdu. En fait ce salon fait partie d’une plus grande manifestation “les salons solutions électroniques”. Et en effet c’était très très électronique. Il y avait bien des écrans mais plus pour de l’embarqué et aucun avec de la 3D &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Par contre la présentation était assez intéressante.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

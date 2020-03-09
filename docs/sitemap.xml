@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/tags/aws/</loc>
+    <lastmod>2014-02-05T09:32:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <lastmod>2014-02-05T09:32:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/cloud/</loc>
+    <lastmod>2014-02-05T09:32:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2014/02/05/creation-dun-cron-avec-sns/</loc>
+    <lastmod>2014-02-05T09:32:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2014-02-05T09:32:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2014-02-05T09:32:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2014-02-05T09:32:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/cloud/</loc>
+    <lastmod>2013-05-30T21:50:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/codeigniter/</loc>
+    <lastmod>2013-05-30T21:50:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/gae/</loc>
+    <lastmod>2013-05-30T21:50:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/php/</loc>
+    <lastmod>2013-05-30T21:50:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2013/05/30/premiers-tests-de-google-app-engine-en-php/</loc>
+    <lastmod>2013-05-30T21:50:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/amazon/</loc>
+    <lastmod>2013-01-07T09:39:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/ec2/</loc>
+    <lastmod>2013-01-07T09:39:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2013/01/07/lancer-un-cron-sur-un-cluster/</loc>
+    <lastmod>2013-01-07T09:39:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/ami/</loc>
+    <lastmod>2012-11-15T21:34:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/beanstalk/</loc>
+    <lastmod>2012-11-15T21:34:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/new-relic/</loc>
+    <lastmod>2012-11-15T21:34:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2012/11/15/new-relic-sur-beanstalk-php/</loc>
+    <lastmod>2012-11-15T21:34:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2012/10/09/amazon-web-services-consulting-partners/</loc>
+    <lastmod>2012-10-09T08:11:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/apn/</loc>
+    <lastmod>2012-10-09T08:11:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/partner/</loc>
+    <lastmod>2012-10-09T08:11:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/google/</loc>
+    <lastmod>2012-07-18T22:01:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2012/07/18/google-app-engine-suite/</loc>
+    <lastmod>2012-07-18T22:01:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/goole-app-engine/</loc>
+    <lastmod>2012-07-18T22:01:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/ios/</loc>
+    <lastmod>2012-07-07T17:28:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/iphone/</loc>
+    <lastmod>2012-07-07T17:28:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/iphone/</loc>
+    <lastmod>2012-07-07T17:28:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/jenkins/</loc>
+    <lastmod>2012-07-07T17:28:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2012/07/07/jenkins-pour-xcode/</loc>
+    <lastmod>2012-07-07T17:28:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/ota/</loc>
+    <lastmod>2012-07-07T17:28:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/xcode/</loc>
+    <lastmod>2012-07-07T17:28:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/cloud-computing/</loc>
+    <lastmod>2012-06-19T22:07:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2012/06/19/developper-sur-google-app-engine/</loc>
+    <lastmod>2012-06-19T22:07:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/google-app-engine/</loc>
+    <lastmod>2012-06-19T22:07:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/apptom/</loc>
+    <lastmod>2012-06-10T11:11:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2012/06/10/creation-de-apptom/</loc>
+    <lastmod>2012-06-10T11:11:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/perso/</loc>
+    <lastmod>2012-06-10T11:11:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/android/</loc>
+    <lastmod>2012-05-14T10:03:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2012/05/14/soiree-coding-android/</loc>
+    <lastmod>2012-05-14T10:03:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2012/04/23/devoxx-france/</loc>
+    <lastmod>2012-04-23T10:14:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/non-class%C3%A9/</loc>
+    <lastmod>2012-04-23T10:14:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/game/</loc>
+    <lastmod>2012-01-30T22:10:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/ggj12/</loc>
+    <lastmod>2012-01-30T22:10:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/global/</loc>
+    <lastmod>2012-01-30T22:10:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2012/01/30/global-game-jam/</loc>
+    <lastmod>2012-01-30T22:10:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/jam/</loc>
+    <lastmod>2012-01-30T22:10:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/jeux-video/</loc>
+    <lastmod>2012-01-30T22:10:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/developpeur/</loc>
+    <lastmod>2012-01-08T22:16:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2012/01/08/du-nouveau/</loc>
+    <lastmod>2012-01-08T22:16:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/ipad/</loc>
+    <lastmod>2012-01-08T22:16:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/innovation/</loc>
+    <lastmod>2011-11-01T01:37:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/startup-week-end/</loc>
+    <lastmod>2011-11-01T01:37:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/11/01/startup-week-end-bretagne/</loc>
+    <lastmod>2011-11-01T01:37:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/armv6/</loc>
+    <lastmod>2011-10-27T21:55:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/10/27/fuck-xcode/</loc>
+    <lastmod>2011-10-27T21:55:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/css/</loc>
+    <lastmod>2011-10-20T22:36:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/html/</loc>
+    <lastmod>2011-10-20T22:36:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/java/</loc>
+    <lastmod>2011-10-20T22:36:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/javascript/</loc>
+    <lastmod>2011-10-20T22:36:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/phonegap/</loc>
+    <lastmod>2011-10-20T22:36:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/10/20/premier-essai-phonegap/</loc>
+    <lastmod>2011-10-20T22:36:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/eric-sarrion/</loc>
+    <lastmod>2011-09-28T20:36:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/formation/</loc>
+    <lastmod>2011-09-28T20:36:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/09/28/formation-xhtml-fbi/</loc>
+    <lastmod>2011-09-28T20:36:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/html/</loc>
+    <lastmod>2011-09-28T20:36:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/07/27/active-mq-dans-le-cloud-suit/</loc>
+    <lastmod>2011-07-27T17:33:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/activemq/</loc>
+    <lastmod>2011-07-27T17:33:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/cloud-foundry/</loc>
+    <lastmod>2011-07-27T17:33:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/cloudbees/</loc>
+    <lastmod>2011-07-27T17:33:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/java/</loc>
+    <lastmod>2011-07-27T17:33:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/jms/</loc>
+    <lastmod>2011-07-27T17:33:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/07/21/active-mq-dans-le-cloud/</loc>
+    <lastmod>2011-07-21T23:33:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/cloudfoundry/</loc>
+    <lastmod>2011-07-21T23:33:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/07/10/dans-ton-cloud/</loc>
+    <lastmod>2011-07-10T23:09:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/modelisation/</loc>
+    <lastmod>2011-06-29T15:32:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/06/29/obeo-designer-roadshow/</loc>
+    <lastmod>2011-06-29T15:32:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/06/18/le-blues-du-developpeur/</loc>
+    <lastmod>2011-06-18T20:43:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/05/08/choisir-un-developpeur/</loc>
+    <lastmod>2011-05-08T15:32:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/embauche/</loc>
+    <lastmod>2011-05-08T15:32:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/entretien/</loc>
+    <lastmod>2011-05-08T15:32:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/fun/</loc>
+    <lastmod>2011-04-08T21:55:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/ippon/</loc>
+    <lastmod>2011-04-08T21:55:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/offre-emploi/</loc>
+    <lastmod>2011-04-08T21:55:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/04/08/recrutement-ippon-vraiment-original/</loc>
+    <lastmod>2011-04-08T21:55:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/agile/</loc>
+    <lastmod>2011-03-11T17:52:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/agile/</loc>
+    <lastmod>2011-03-11T17:52:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/forfait/</loc>
+    <lastmod>2011-03-11T17:52:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/03/11/peut-on-reussir-un-forfait/</loc>
+    <lastmod>2011-03-11T17:52:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/prestation/</loc>
+    <lastmod>2011-03-11T17:52:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/ironsql/</loc>
+    <lastmod>2011-03-11T00:04:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/p6spy/</loc>
+    <lastmod>2011-03-11T00:04:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/03/11/profiling-sql/</loc>
+    <lastmod>2011-03-11T00:04:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/02/13/best-of-cdp/</loc>
+    <lastmod>2011-02-13T19:39:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2011/01/17/my-orange-en-suisse/</loc>
+    <lastmod>2011-01-17T10:29:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/junit/</loc>
+    <lastmod>2010-11-29T09:56:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/maven/</loc>
+    <lastmod>2010-11-29T09:56:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/11/29/maven-junit-et-la-jvm/</loc>
+    <lastmod>2010-11-29T09:56:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/windows-phone/</loc>
+    <lastmod>2010-10-22T22:26:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/10/22/windows-phone/</loc>
+    <lastmod>2010-10-22T22:26:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/acceleo/</loc>
+    <lastmod>2010-09-22T00:12:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/09/22/le-mda-va-t-il-devenir-a-la-mode/</loc>
+    <lastmod>2010-09-22T00:12:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/mda/</loc>
+    <lastmod>2010-09-22T00:12:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/md-day/</loc>
+    <lastmod>2010-09-14T23:21:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/09/14/mda-day-et-acceleo-3/</loc>
+    <lastmod>2010-09-14T23:21:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/obeo/</loc>
+    <lastmod>2010-09-14T23:21:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/09/03/cest-reparti/</loc>
+    <lastmod>2010-09-03T23:07:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/apple/</loc>
+    <lastmod>2010-06-14T10:02:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/06/14/retour-de-la-wwdc-2010/</loc>
+    <lastmod>2010-06-14T10:02:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/wwdc/</loc>
+    <lastmod>2010-06-14T10:02:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/06/04/depart-pour-san-francisco/</loc>
+    <lastmod>2010-06-04T00:08:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/04/30/wwdc-2010/</loc>
+    <lastmod>2010-04-30T19:57:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/french-scrum-user-group/</loc>
+    <lastmod>2010-04-03T11:01:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/ibm/</loc>
+    <lastmod>2010-04-03T11:01:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/icescrum/</loc>
+    <lastmod>2010-04-03T11:01:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/microsoft/</loc>
+    <lastmod>2010-04-03T11:01:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/04/03/retour-sur-la-soiree-scrum-user-group/</loc>
+    <lastmod>2010-04-03T11:01:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/rsa/</loc>
+    <lastmod>2010-04-03T11:01:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/scrum/</loc>
+    <lastmod>2010-04-03T11:01:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/appstore/</loc>
+    <lastmod>2010-04-02T21:21:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/04/02/version-ipad-non-validee/</loc>
+    <lastmod>2010-04-02T21:21:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/3d/</loc>
+    <lastmod>2010-03-31T23:10:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/r%C3%A9alit%C3%A9-augment%C3%A9e/</loc>
+    <lastmod>2010-03-31T23:10:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/03/31/salon-display-2010/</loc>
+    <lastmod>2010-03-31T23:10:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/03/23/en-avant-pour-lipad/</loc>
+    <lastmod>2010-03-23T21:05:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/03/10/anniversaire-du-scrum-user-group/</loc>
+    <lastmod>2010-03-10T21:54:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/02/15/premier-bilan-pour-imovies-collection/</loc>
+    <lastmod>2010-02-15T22:46:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/02/11/peut-on-vendre-du-vent-sur-lappstrore/</loc>
+    <lastmod>2010-02-11T21:40:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/01/10/imovies-collection-publie/</loc>
+    <lastmod>2010-01-10T22:41:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/01/08/etape-3-publier-lapplication/</loc>
+    <lastmod>2010-01-08T12:00:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/01/07/imoviescollection/</loc>
+    <lastmod>2010-01-07T18:40:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2010/01/06/application-iphone-idee/</loc>
+    <lastmod>2010-01-06T21:35:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/dvdprofiler/</loc>
+    <lastmod>2010-01-06T21:35:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/imdb/</loc>
+    <lastmod>2010-01-06T21:35:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/12/15/j-ai-switch/</loc>
+    <lastmod>2009-12-15T00:01:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/mac/</loc>
+    <lastmod>2009-12-15T00:01:09+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/api/</loc>
+    <lastmod>2009-10-23T15:32:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/areuthere/</loc>
+    <lastmod>2009-10-23T15:32:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/g%C3%A9olocalisation/</loc>
+    <lastmod>2009-10-23T15:32:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/10/23/resultat-trophees-innovation-dobs/</loc>
+    <lastmod>2009-10-23T15:32:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/arcade/</loc>
+    <lastmod>2009-09-07T08:15:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/dreamcast/</loc>
+    <lastmod>2009-09-07T08:15:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/09/07/dreamcast-to-jamma-la-video/</loc>
+    <lastmod>2009-09-07T08:15:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/dreamcast2jamma/</loc>
+    <lastmod>2009-09-07T08:15:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/jamma/</loc>
+    <lastmod>2009-09-07T08:15:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/pcb/</loc>
+    <lastmod>2009-09-07T08:15:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/09/03/cest-la-rentree/</loc>
+    <lastmod>2009-09-03T23:35:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/07/20/retour-sur-lacceleo-day/</loc>
+    <lastmod>2009-07-20T08:00:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/06/25/acceleo-m2t-eclipse/</loc>
+    <lastmod>2009-06-25T23:14:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/eclipse/</loc>
+    <lastmod>2009-06-25T23:14:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/cglig/</loc>
+    <lastmod>2009-06-24T20:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/06/24/conflit-de-lib-apache-cxf-et-hibernate/</loc>
+    <lastmod>2009-06-24T20:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/cxf/</loc>
+    <lastmod>2009-06-24T20:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/hibernate/</loc>
+    <lastmod>2009-06-24T20:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/noclassdeffounderror/</loc>
+    <lastmod>2009-06-24T20:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/logiciel-libre/</loc>
+    <lastmod>2009-06-02T22:47:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/06/02/rmll-a-nantes/</loc>
+    <lastmod>2009-06-02T22:47:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/modelio/</loc>
+    <lastmod>2009-05-19T10:59:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/objecteering/</loc>
+    <lastmod>2009-05-19T10:59:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/05/19/presentation-de-modelio-par-softeam-ou-pas/</loc>
+    <lastmod>2009-05-19T10:59:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/softeam/</loc>
+    <lastmod>2009-05-19T10:59:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/uml/</loc>
+    <lastmod>2009-05-19T10:59:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/05/17/petit-lifting/</loc>
+    <lastmod>2009-05-17T17:04:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/.tel/</loc>
+    <lastmod>2009-05-13T19:26:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/domaine/</loc>
+    <lastmod>2009-05-13T19:26:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/05/13/domaines-tel/</loc>
+    <lastmod>2009-05-13T19:26:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/04/21/activemq/</loc>
+    <lastmod>2009-04-21T07:42:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/spring/</loc>
+    <lastmod>2009-04-21T07:42:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/04/15/retour-de-vacances/</loc>
+    <lastmod>2009-04-15T08:14:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/enterprise-architect/</loc>
+    <lastmod>2009-03-05T23:49:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/03/05/le-psm-est-il-toujours-utile/</loc>
+    <lastmod>2009-03-05T23:49:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/pim/</loc>
+    <lastmod>2009-03-05T23:49:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/psm/</loc>
+    <lastmod>2009-03-05T23:49:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/02/19/premier-test-de-modelio/</loc>
+    <lastmod>2009-02-19T22:26:32+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/modeleur/</loc>
+    <lastmod>2009-02-13T19:33:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/02/13/modelio-un-nouveau-modeleur/</loc>
+    <lastmod>2009-02-13T19:33:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/api/</loc>
+    <lastmod>2009-02-09T23:46:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/concours/</loc>
+    <lastmod>2009-02-09T23:46:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/02/09/concours-api-orange-fiasco/</loc>
+    <lastmod>2009-02-09T23:46:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/concours-orange-api/</loc>
+    <lastmod>2009-02-09T23:46:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/orange/</loc>
+    <lastmod>2009-02-09T23:46:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/orange-partner/</loc>
+    <lastmod>2009-02-09T23:46:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2009/01/14/les-apis-orange-passent-en-beta/</loc>
+    <lastmod>2009-01-14T08:06:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/sms/</loc>
+    <lastmod>2009-01-14T08:06:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/cape-canaveral/</loc>
+    <lastmod>2008-12-18T02:18:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/partner-camp/</loc>
+    <lastmod>2008-12-18T02:18:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/12/18/partner-camp-orange-dernier-jour/</loc>
+    <lastmod>2008-12-18T02:18:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/javafx/</loc>
+    <lastmod>2008-12-17T15:26:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/12/17/partner-camp-orange-deuxieme-jour/</loc>
+    <lastmod>2008-12-17T15:26:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/camp/</loc>
+    <lastmod>2008-12-16T00:17:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/12/16/partner-camp-orange-jour-j/</loc>
+    <lastmod>2008-12-16T00:17:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/12/15/partner-camp-orange-j-1/</loc>
+    <lastmod>2008-12-15T04:12:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/jeff-sutherland/</loc>
+    <lastmod>2008-12-10T20:22:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/12/10/resume-de-la-formation-scrum/</loc>
+    <lastmod>2008-12-10T20:22:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/xebia/</loc>
+    <lastmod>2008-12-10T20:22:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/certification/</loc>
+    <lastmod>2008-12-03T20:46:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/12/03/certifie-scrum-et-uml/</loc>
+    <lastmod>2008-12-03T20:46:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/rup/</loc>
+    <lastmod>2008-12-03T20:46:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/chabal/</loc>
+    <lastmod>2008-11-20T08:53:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/11/20/chabal-foot/</loc>
+    <lastmod>2008-11-20T08:53:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/foot/</loc>
+    <lastmod>2008-11-20T08:53:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/humour/</loc>
+    <lastmod>2008-11-20T08:53:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/pub/</loc>
+    <lastmod>2008-11-20T08:53:37+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/11/19/formation-scrum/</loc>
+    <lastmod>2008-11-19T20:47:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/11/17/changement-dhebergeur/</loc>
+    <lastmod>2008-11-17T22:56:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/11/03/gagne/</loc>
+    <lastmod>2008-11-03T23:33:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/10/30/de-retour-2/</loc>
+    <lastmod>2008-10-30T00:26:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/09/30/concours-orange-api/</loc>
+    <lastmod>2008-09-30T08:05:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/mashup/</loc>
+    <lastmod>2008-09-30T08:05:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/chrome/</loc>
+    <lastmod>2008-09-22T10:01:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/gear/</loc>
+    <lastmod>2008-09-22T10:01:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/09/22/google-developer-day-a-paris/</loc>
+    <lastmod>2008-09-22T10:01:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/fuite-de-threads/</loc>
+    <lastmod>2008-09-11T08:05:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/09/11/fuite-de-threads-dans-jonas/</loc>
+    <lastmod>2008-09-11T08:05:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/jonas/</loc>
+    <lastmod>2008-09-11T08:05:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/joram/</loc>
+    <lastmod>2008-09-11T08:05:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/thread/</loc>
+    <lastmod>2008-09-11T08:05:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/07/10/le-mda-cest-quoi/</loc>
+    <lastmod>2008-07-10T15:23:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2008/07/09/le-mda-cest-agile/</loc>
+    <lastmod>2008-07-09T15:25:05+00:00</lastmod>
+  </url>
+  
+</urlset>

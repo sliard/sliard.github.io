@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr-fr">
+  <head>
+    <title>Le MDA c&#39;est quoi ? // Tech blog</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.66.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Doe" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="http://example.org/css/main.min.d59a293bff4cb6f7fcce92a5c9833de7107393f80e4efe3110eea46955464842.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Le MDA c&#39;est quoi ?"/>
+<meta name="twitter:description" content="Je suis toujours étonné de lire autant de réticences à propos du MDA. Cette méthode est peut être victime d’une communication trop éloignée des problèmes concrets des développeurs. Alors soyons clairs, moi non plus je ne suis pas en phase avec les grands théoritiens. Deux exemples concrets :
+J’ai participé il y a 3 ans à une présentation d’une thèse sur le MDA. J’ai vu pendant 1 heure des séries d’équations pour m’expliquer le principe du MDA."/>
+
+    <meta property="og:title" content="Le MDA c&#39;est quoi ?" />
+<meta property="og:description" content="Je suis toujours étonné de lire autant de réticences à propos du MDA. Cette méthode est peut être victime d’une communication trop éloignée des problèmes concrets des développeurs. Alors soyons clairs, moi non plus je ne suis pas en phase avec les grands théoritiens. Deux exemples concrets :
+J’ai participé il y a 3 ans à une présentation d’une thèse sur le MDA. J’ai vu pendant 1 heure des séries d’équations pour m’expliquer le principe du MDA." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/2008/07/10/le-mda-cest-quoi/" />
+<meta property="article:published_time" content="2008-07-10T15:23:05+00:00" />
+<meta property="article:modified_time" content="2008-07-10T15:23:05+00:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://example.org/"><img class="app-header-avatar" src="/avatar.jpg" alt="John Doe" /></a>
+      <h1>Tech blog</h1>
+      <p>Vieux blog technique</p>
+      <div class="app-header-social">
+        
+          <a target="_blank" href="https://github.com/sliard" rel="noreferrer noopener"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg></a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Le MDA c&#39;est quoi ?</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Jul 10, 2008
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          2 min read
+        </div><div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line>
+</svg>
+          <a class="tag" href="http://example.org/tags/mda/">MDA</a></div></div>
+    </header>
+    <div class="post-content">
+      <p>Je suis toujours étonné de lire autant de réticences à propos du MDA. Cette méthode est peut être victime d’une communication trop éloignée des problèmes concrets des développeurs. Alors soyons clairs, moi non plus je ne suis pas en phase avec les grands théoritiens. Deux exemples concrets :</p>
+<p>J’ai participé il y a 3 ans à une présentation d’une thèse sur le MDA. J’ai vu pendant 1 heure des séries d’équations pour m’expliquer le principe du MDA. Au final, je n’ai pas vu une ligne de code et je suis sorti avec un beau mal de crâne.</p>
+<p>Un autre expert MDA m’a très sérieusement expliqué qu’il passait par 3 à 4 transformations successives pour arriver au code Java. De plus pour lui le principe du “round trip” ne sert à rien car son modèle ne change jamais. Bien sûr son super architecte a pensé à tout et les petits développeurs n’ont pas besoin de réfléchir… On rève..</p>
+<p>Si on vous a présenté le MDA de cette façon je comprends mieux vos griefs.</p>
+<p>Mais pour moi le MDA c’est :</p>
+<ul>
+<li><strong>Mettre le modèle au centre du pojet.</strong></li>
+<li><strong>Un outil pour produire mieux et plus vite.</strong></li>
+<li><strong>Une façon d’abstraire des mécanismes techniques complexes.</strong></li>
+</ul>
+<p>Il faut que le passage du modèle au code soit simple et rapide. Il faut aussi que ce soit le transformateur qui s’adapte au projet et non l’inverse. Là aussi j’ai vu trop d’outils imposer une façon de faire qui rebutait l’équipe de développeurs.</p>
+<p>Oui on m’a déjà reproché de faire des PIM orientés Java et c’est aussi pour cette raison que l’on parle maintenant plutôt de MDD Model Driven Developpment. Mais mon objectif n’est pas d’être conforme à 100% avec la définition du MDA rédigée par l’OMG, mais bien de réaliser les trois points notés plus haut.</p>
+<p>C’est assez paradoxal de pousser la modélisation UML et de mettre nos beaux modèles au placard lorsqu’ils sont terminés. C’est ça le MDA : s’appuyer sur un modèle pour structurer son développement.</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

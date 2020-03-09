@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>formation on Tech blog</title>
+    <link>http://example.org/tags/formation/</link>
+    <description>Recent content in formation on Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 28 Sep 2011 20:36:05 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/formation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Formation XHTM ou la fausse bonne idée</title>
+      <link>http://example.org/2011/09/28/formation-xhtml-fbi/</link>
+      <pubDate>Wed, 28 Sep 2011 20:36:05 +0000</pubDate>
+      
+      <guid>http://example.org/2011/09/28/formation-xhtml-fbi/</guid>
+      <description>Après avoir pas mal développé sur iPhone j’ai eu envie de me mettre à niveau sur HTML et CSS. En Juin j’ai donc suivi 3 jours de formation sur ces technos. C’était vraiment pro avec un formateur très bon. Avec ces bonnes bases j’ai eu envie d’aller encore plus loin et regarder comment réaliser des sites Web pour mobiles. Fort de cette bonne expérience de formation j’en ai cherché une autre.</description>
+    </item>
+    
+    <item>
+      <title>Résumé de la formation Scrum</title>
+      <link>http://example.org/2008/12/10/resume-de-la-formation-scrum/</link>
+      <pubDate>Wed, 10 Dec 2008 20:22:08 +0000</pubDate>
+      
+      <guid>http://example.org/2008/12/10/resume-de-la-formation-scrum/</guid>
+      <description>&lt;p&gt;Comme je l’avais promis, je vous fais un retour sur les points qui m’ont paru importants dans la formation SCRUM organisée par &lt;a href=&#34;http://blog.xebia.fr/2008/10/16/certification-scrummaster-par-jeff-sutherland-session-des-1er-et-2-decembre/&#34;&gt;Xebia&lt;/a&gt;. L’objectif n’est pas de vous raconter entièrement les deux jours de formation mais de mettre en avant plusieurs points que j’ai trouvé intéressants.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Formation Scrum</title>
+      <link>http://example.org/2008/11/19/formation-scrum/</link>
+      <pubDate>Wed, 19 Nov 2008 20:47:24 +0000</pubDate>
+      
+      <guid>http://example.org/2008/11/19/formation-scrum/</guid>
+      <description>Xebia organise une formation Scrum de deux jours les 1 et 2 Décembre. C’est Jeff Sutherland en personne qui va officier cette messe.
+Je vais participer à cette formation, j’aurai donc l’occasion de vous en faire un retour. Même si je continue à pousser les approches MDA je suis persuadé que l’utilisation des méthodes agiles ne peut être que bénéfique dans nos projets. J’avais déjà parlé du côté agile du MDA dans le poste Le MDA c’est Agile !</description>
+    </item>
+    
+  </channel>
+</rss>
