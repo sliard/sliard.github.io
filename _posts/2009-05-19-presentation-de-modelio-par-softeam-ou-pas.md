@@ -37,7 +37,7 @@ Et là je suis un peu perdu&#8230; Moi qui espérait justement que softeam en pr
 
 Donc les clients Objecteering vont recevoir des pubs modelio ?
 
-Ceci mis de côté, ces séminaires sont souvent intéressants et les présentations de Philippe Desfray valent le déplacement <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Ceci mis de côté, ces séminaires sont souvent intéressants et les présentations de Philippe Desfray valent le déplacement :)
 
 EDIT : Le 30 Avril Objecteering a communiqué sur le lien avec Modelio [http://www.objecteering.fr/company\_event\_2009\_avr\_modelio.php](http://www.objecteering.fr/company_event_2009_avr_modelio.php)
 

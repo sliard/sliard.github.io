@@ -18,6 +18,6 @@ Après une petite semaine de ski je découvre plusieurs news très intéressante
 
 Pas mal de choses à tester donc.
 
-Pour le dernier point, j&#8217;ai déjà donné au niveau concours. En plus c&#8217;est pour SFR, je suis pas sûr que mon patron apprécirait  <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />Et puis un coucours SFR pour une appli IPhone aurait été plus drôle !
+Pour le dernier point, j&#8217;ai déjà donné au niveau concours. En plus c&#8217;est pour SFR, je suis pas sûr que mon patron apprécirait  :)Et puis un coucours SFR pour une appli IPhone aurait été plus drôle !
 
 Avant ces tests je vais finaliser un article sur la mise en place de [activeMQ](http://activemq.apache.org/).

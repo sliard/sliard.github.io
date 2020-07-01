@@ -29,10 +29,10 @@ J&#8217;ai ensuite acheté une offre d&#8217;hébergement mutualisé chez OVH 
 
 ## 3 &#8211; Faire un site
 
-C&#8217;est quand même dingue de pouvoir mettre en place des architectures JEE très complexes et de ne pas être capable de réaliser un beau site en HTLM. C&#8217;est pourtant mon cas. J&#8217;ai toujours été tres mauvais pour faire de belles IHM. D&#8217;un autre coté c&#8217;est plus le travail d&#8217;un designer que d&#8217;un architecte JEE, chacun son job <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+C&#8217;est quand même dingue de pouvoir mettre en place des architectures JEE très complexes et de ne pas être capable de réaliser un beau site en HTLM. C&#8217;est pourtant mon cas. J&#8217;ai toujours été tres mauvais pour faire de belles IHM. D&#8217;un autre coté c&#8217;est plus le travail d&#8217;un designer que d&#8217;un architecte JEE, chacun son job :)
 
 Heureusement j&#8217;ai trouvé un outil super bien fait : [WebAcapella](http://www.webacappella.fr/)
 
 Grâce à lui j&#8217;ai pu réaliser [un site pas trop mal](http://www.imoviescollection.com/). Par contre j&#8217;ai du l&#8217;acheter 49 Euros. Encore une dépense de plus.
 
-Voilà pour le début de l&#8217;histoire. Reste à proposer l&#8217;application à Apple, j&#8217;y consacrerai un post entier car c&#8217;est un peu long <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Voilà pour le début de l&#8217;histoire. Reste à proposer l&#8217;application à Apple, j&#8217;y consacrerai un post entier car c&#8217;est un peu long :)

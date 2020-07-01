@@ -42,7 +42,7 @@ Pour éviter ce problème, il faut donc minimiser le nombre de démarrages d&#82
 
 D&#8217;un autre côté, la notion d&#8217;instance &#8220;idle&#8221; veut bien dire ce qu&#8217;elle veut dire : &#8220;instance inactive&#8221;. C&#8217;est un moyen de pouvoir anticiper un pic de charge. Donc dès qu&#8217;un utilisateur arrive sur mon service, une seconde instance est lancée (par une requête /_ah/warmup). Donc il est assez logique de voir souvent 2 instances. Mais pourquoi GAE en lance régulièrement une troisième !?
 
-J&#8217;ai donc beaucoup de mal à comprendre ce fonctionnement difficilement prévisible, les joies du PAAS <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+J&#8217;ai donc beaucoup de mal à comprendre ce fonctionnement difficilement prévisible, les joies du PAAS :)
 
 ## Un problème avec la 3G
 

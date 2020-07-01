@@ -30,7 +30,7 @@ Venant de province (Lannion), réveil à 5h30 pour prendre l&#8217;avion et arri
 
 #### Google App Engine
 
-L&#8217;objectif de cette session est de réaliser un site web pour annoncer les résultats de l&#8217;élection présidentielle. Donc de prouver la capacité de monter en charge de Google App Engine. Parmi les ingénieurs Google présents il y avait [Ludovic Champenois](http://twitter.com/#/ludoch). Il développe la plateforme, donc forcément il la maitrise <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+L&#8217;objectif de cette session est de réaliser un site web pour annoncer les résultats de l&#8217;élection présidentielle. Donc de prouver la capacité de monter en charge de Google App Engine. Parmi les ingénieurs Google présents il y avait [Ludovic Champenois](http://twitter.com/#/ludoch). Il développe la plateforme, donc forcément il la maitrise :)
 
 Google App Engine utilise les mêmes data center que ceux utilisés par le fameux moteur de recherche pour héberger vos applications. La présentation commence donc par un avertissement amusant :
 
@@ -78,7 +78,7 @@ Pour cela il nous présente le &#8220;egoless programming manifesto&#8221;. 1o r
   9. Ne soyez pas &#8220;le gars dans le bureau&#8221;
  10. Critiquez le code pas le codeur. Soyez tolérant avec le codeur et sans pitié avec le code
 
-Des règles à respecter dans tout bon open space qui se respecte ! <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Des règles à respecter dans tout bon open space qui se respecte ! :)
 
 #### This could be Heaven or this could be Hell by Ben Evans and Martijn Verburg
 
@@ -94,7 +94,7 @@ ElasticSearch est une plateforme utilisable pour indexer de gros volumes de donn
 
 Bon là, rien de vraiment nouveau pour moi, mais j&#8217;étais curieux de voir ce que donnait le projet [Tatami](http://blog.ippon.fr/2012/04/11/resultat-du-concours-tatami-pour-devoxx-france/) de Ippon et j&#8217;aime bien les présentations de Julien. Ce qu&#8217;il faut savoir c&#8217;est que spring n&#8217;a pas vraiment la cote à Devoxx. D&#8217;ailleurs la conf de Julien n&#8217;avait pas été retenue au &#8220;Call for paper&#8221;. Mais comme Ippon est sponsor Julien a habilement utilisé leur slot partenaire pour la faire.
 
-A la fin de la présentation il lance donc un test de charge comparatif entre son service Tatami (Jquery, Spring, Casandra avec persistance sur disque) contre le service démo de Play utilisant une base de données en mémoire. Et là c&#8217;est le drame  <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />Julien explose le score avec Spring alors que Play plante sous la charge. Je peux vous assurer qu&#8217;il ne s&#8217;est pas fait que des copains dans la salle.
+A la fin de la présentation il lance donc un test de charge comparatif entre son service Tatami (Jquery, Spring, Casandra avec persistance sur disque) contre le service démo de Play utilisant une base de données en mémoire. Et là c&#8217;est le drame  :)Julien explose le score avec Spring alors que Play plante sous la charge. Je peux vous assurer qu&#8217;il ne s&#8217;est pas fait que des copains dans la salle.
 
 #### Programmation concurrente en Java dans la pratique par Alex Snaps
 
@@ -102,11 +102,11 @@ Une bonne présentation des différents moyens de faire du code thead safe et co
 
 #### Pour une fois soyons physiques ! Une introduction à Arduino par David Delabassee
 
-Depuis le temps que j&#8217;entends parler de arduino j&#8217;ai enfin pu voir à quoi ça ressemblait. Enfin un peu de matériel ça fait du bien. Passer de Google App Engine où on parle d&#8217;espace disque en Téra à Arduino avec un processeur 8 bits et 16k de mémoire c&#8217;est un peu le grand écart <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Depuis le temps que j&#8217;entends parler de arduino j&#8217;ai enfin pu voir à quoi ça ressemblait. Enfin un peu de matériel ça fait du bien. Passer de Google App Engine où on parle d&#8217;espace disque en Téra à Arduino avec un processeur 8 bits et 16k de mémoire c&#8217;est un peu le grand écart :)
 
 Arduino est une petite plaque avec un micro controller et des connecteurs d&#8217;entrée/sortie. Ensuite en fonction des constructeurs et du niveau de gamme il y a plus ou moins de mémoire, d&#8217;adaptateurs (USB, RJ45 ou autre). Pour étendre les possibilités il faut ajouter des &#8220;Shields&#8221;. Un Shield est une extension spécifique avec par exemple un écran LCD ou des relais pour contrôler des appareils 220V.
 
-A savoir aussi que le fameux Hello Word en arduino consiste à allumer une LED <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+A savoir aussi que le fameux Hello Word en arduino consiste à allumer une LED :)
 
 #### Cloud et PaaS: les développeurs reprennent le pouvoir par Sacha Labourey
 
@@ -124,7 +124,7 @@ Neal Ford nous a ensuite fait une présentation très dynamique sur comment on s
 
 Encore une petite piqûre de rappel sur comment la JVM gère la mémoire. Alex Snaps travaille chez Terracotta sur EhCache donc la gestion du HEAP c&#8217;est son dada !
 
-Après le repas il y avait une session sur JavaFX. J&#8217;ai d&#8217;abord pensé à une bonne blague des organisateurs, mais non ! Je n&#8217;y suis pas allé car j&#8217;avais déjà eu une démo à une conf en Floride en 2008. A mon avis ça n&#8217;a pas évoluer <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Après le repas il y avait une session sur JavaFX. J&#8217;ai d&#8217;abord pensé à une bonne blague des organisateurs, mais non ! Je n&#8217;y suis pas allé car j&#8217;avais déjà eu une démo à une conf en Floride en 2008. A mon avis ça n&#8217;a pas évoluer :)
 
 A la place j&#8217;ai fait 2 autres sessions
 
@@ -139,6 +139,6 @@ La dernière conférence sur Google App Engine a été plus intéressante même 
 
 J&#8217;ai vraiment passé 3 très bonnes journées. C&#8217;est toujours enrichissant d&#8217;écouter ce type de conférence, de rencontrer les spécialistes de leur domaine.
 
-Bien sûr, on peut noter quelques points négatifs (des axes d&#8217;amélioration disent les RH  <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />). L&#8217;organisation a été un peu victime de son succès. Il était difficile de se déplacer autour des stands tellement il y avait de monde. J&#8217;ai aussi trouvé le programme très chargé. J&#8217;ai rarement vu des conférences finir après 17h un vendredi. C&#8217;est aussi sur ces détails que l&#8217;on ressent le côté très parisien des organisateurs. Ca peut être sympa de penser aux personnes qui ont 4-5 heures de train pour rentrer chez eux. Personnellement j&#8217;ai loupé les deux dernières conf pour pouvoir prendre mon avion.
+Bien sûr, on peut noter quelques points négatifs (des axes d&#8217;amélioration disent les RH  :)). L&#8217;organisation a été un peu victime de son succès. Il était difficile de se déplacer autour des stands tellement il y avait de monde. J&#8217;ai aussi trouvé le programme très chargé. J&#8217;ai rarement vu des conférences finir après 17h un vendredi. C&#8217;est aussi sur ces détails que l&#8217;on ressent le côté très parisien des organisateurs. Ca peut être sympa de penser aux personnes qui ont 4-5 heures de train pour rentrer chez eux. Personnellement j&#8217;ai loupé les deux dernières conf pour pouvoir prendre mon avion.
 
 Mais à part ça je tire mon chapeau aux organisateurs. Pour avoir participé à quelques conférences aux USA j&#8217;ai retrouvé exactement le même niveau de prestation. Jamais je n&#8217;avais vu une conférence comme celle-ci en France (bon ok, je ne les fais pas toutes non plus&#8230;). Merci aux organisateurs et bonne chance pour l&#8217;organisation de devoxx 2013 !

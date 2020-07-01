@@ -14,7 +14,7 @@ title: J'ai switch !
 url: /2009/12/15/j-ai-switch/
 ---
 
-C&#8217;est fait je suis passé au MAC <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+C&#8217;est fait je suis passé au MAC :)
 
 Après plus de 15 ans d&#8217;utilisation de PC je découvre le monde Mac avec un beau Mac Book pro. En fait c&#8217;est mon second Mac puisque dans les années 90 j&#8217;avais eu un Apple IIc, mais bon ça ne compte pas.
 

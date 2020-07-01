@@ -55,7 +55,7 @@ Mes premiers essais sont assez mitigés, les nouveautés de Modelio sont loin de
 
 Au niveau UML 2, rien à dire, le méta-modèle est bon. Modelio contrôle bien la validité du modèle. Pour moi c&#8217;est un plus. Même si des outils comme EA où on peut faire tout et n&#8217;importe quoi paressent plus simples à prendre en main, au final ils engendrent souvent des modèles inutilisables. 
 
-Par contre le plus grave aujourd&#8217;hui est que l&#8217;import XMI ne fonctionne pas et il n&#8217;y a même pas d&#8217;export XMI. Sans export XMI, le modèle est emprisonné dans Modelio. Pour moi il est hors de question d&#8217;utiliser un outil sans avoir une solution pour exploiter le modèle avec d&#8217;autres outils de transformation de modèle ou de génération de code (comme Acceleo par exemple). J&#8217;ai fait cette erreur avec Objecteering 6 qui n&#8217;avait pas d&#8217;export XMI, on ne m&#8217;y remprendra pas ! <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Par contre le plus grave aujourd&#8217;hui est que l&#8217;import XMI ne fonctionne pas et il n&#8217;y a même pas d&#8217;export XMI. Sans export XMI, le modèle est emprisonné dans Modelio. Pour moi il est hors de question d&#8217;utiliser un outil sans avoir une solution pour exploiter le modèle avec d&#8217;autres outils de transformation de modèle ou de génération de code (comme Acceleo par exemple). J&#8217;ai fait cette erreur avec Objecteering 6 qui n&#8217;avait pas d&#8217;export XMI, on ne m&#8217;y remprendra pas ! :)
 
 J&#8217;attends toujours de tester la partie MDA et multi-user avec SVN de Modelio. Mais il faut attendre la version entreprise en Mars-Avril pour ça.
 

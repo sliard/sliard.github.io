@@ -88,4 +88,4 @@ En 10 ans j&#8217;ai croisé pas mal de chefs de projets différents. J&#8217;ai
   
 
   
-Bien sûr j&#8217;ai croisé plus de bons chefs de projet que de mauvais. Mais c&#8217;est nettement moins amusant à raconter <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Bien sûr j&#8217;ai croisé plus de bons chefs de projet que de mauvais. Mais c&#8217;est nettement moins amusant à raconter :)

@@ -36,7 +36,7 @@ Il va falloir modifier le code du client à chaque ajout d&#8217;un nouveau Brok
 
 <pre>discovery:(multicast://default)</pre>
 
-Là c&#8217;est magique sur mon serveur en local ça marche très bien. Et oui mais non  <img src="http://www.apptom.fr/wp-includes/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />Sur les offres cloud le multicast (sur UDP) n&#8217;est pas souvent supporté. Sur Amazon EC2 (donc sur CloudBees) et CloudFoundry (VMWare) impossible de faire fonctionner le multicast.
+Là c&#8217;est magique sur mon serveur en local ça marche très bien. Et oui mais non  :(Sur les offres cloud le multicast (sur UDP) n&#8217;est pas souvent supporté. Sur Amazon EC2 (donc sur CloudBees) et CloudFoundry (VMWare) impossible de faire fonctionner le multicast.
 
 Donc comment faire ? Le client JMS a besoin de récupérer une liste de Broker. Il faut donc que chaque Broker vienne se faire connaitre au moment de leur lancement. Comme j&#8217;ai déjà un BDD autant l&#8217;utiliser pour référencer ces Brokers. J&#8217;ai donc développer un module de multicast via une BDD : [multicasdb](https://github.com/sliard/multicastdb).
 
@@ -66,7 +66,7 @@ Aujourd&#8217;hui même si le code n&#8217;est pas finalisé, il fonctionne. Mal
 
 Chez **Cloudbees** la communication tcp entre VM est bloquée. Même si leur support affirme que ça peut fonctionner j&#8217;ai toujours des erreurs : java.net.ConnectException: Connection refused
 
-Chez **CloudFoundry** j&#8217;ai même eu du mal à obtenir l&#8217;IP des VM. Le code qui fonctionne sur Cloudbees retourne 127.0.0.1 comme IP chez CloudFoundry. Pour trouver cette IP il faut utiliser un SDK fourni. Mais là encore :Connection refused <img src="http://www.apptom.fr/wp-includes/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Chez **CloudFoundry** j&#8217;ai même eu du mal à obtenir l&#8217;IP des VM. Le code qui fonctionne sur Cloudbees retourne 127.0.0.1 comme IP chez CloudFoundry. Pour trouver cette IP il faut utiliser un SDK fourni. Mais là encore :Connection refused :(
 
 ## Bilan
 
@@ -74,4 +74,4 @@ Au final je n&#8217;ai pas réussi à faire fonctionner mon code comme je le vou
 
 Pour revenir à mon problème initial, je vais continuer à creuser ce problème de communication inter VM et si je n&#8217;avance pas je vais revoir l&#8217;architecture. Peut-être persister les messages à envoyer: c&#8217;est moins performant mais ça peut aussi répondre à un besoin de suivi de diffusion.
 
-La phase d&#8217;intégration d&#8217;un projet est toujours sous estimée J&#8217;ai vu des projets où cette phase était même plus importante en terme d&#8217;homme/jour que la phase de développement. Mais pour un hébergement dans le cloud il faut vraiment prendre cette problématique dès le début de la conception. C&#8217;est loin d&#8217;être un détail <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+La phase d&#8217;intégration d&#8217;un projet est toujours sous estimée J&#8217;ai vu des projets où cette phase était même plus importante en terme d&#8217;homme/jour que la phase de développement. Mais pour un hébergement dans le cloud il faut vraiment prendre cette problématique dès le début de la conception. C&#8217;est loin d&#8217;être un détail :)

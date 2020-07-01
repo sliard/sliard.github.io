@@ -18,4 +18,4 @@ Le Mardi 30 Mars le Scrum User Group fête son premier anniversaire dans les loc
 
 Plus d&#8217;informations sur [ce lien](http://www.SpeSend.net/SpeClicks.aspx?X=2R0T1UXHHVAKFZFW00YBWZ).
 
-Comme je suis justement sur Paris à ce moment là, je vais en profiter pour y participer <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Comme je suis justement sur Paris à ce moment là, je vais en profiter pour y participer :)

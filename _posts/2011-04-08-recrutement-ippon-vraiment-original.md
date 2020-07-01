@@ -26,4 +26,4 @@ Je viens de tomber sur une offre emploi super bien faite d&#8217;Ippon Technolo
 
 <span><a href="http://www.julien-dubois.com/">Julien Dubois</a> (passé de SpringSource à Ippon Technologies récemment) a même poussé le vis en encodant le texte de l&#8217;annonce dans le code. Il faut donc l&#8217;exécuter pour la lire.</span>
 
-<span>Bravo Julien, j&#8217;adore l&#8217;idée ! <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span>
+<span>Bravo Julien, j&#8217;adore l&#8217;idée ! :)</span>

@@ -40,7 +40,7 @@ Grosse pub pour leur VM à 1 Euro mais c&#8217;est uniquement des VM Windows -> 
 
 &nbsp;
 
-Obtenir une VM avec un OS c&#8217;est bien, malheureusement je ne suis pas ingé système mais développeur Java donc si je pouvais utiliser des offres clouds faites pour déployer un war je gagnerais du temps. Et c&#8217;est exactement ce que propose Cloud Foundry et CloudBees. Oui Google App Engine le fait aussi mais dans mon cas j&#8217;ai besoin d&#8217;ouvrir une socket vers un serveur distant et donc GAE est out <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Obtenir une VM avec un OS c&#8217;est bien, malheureusement je ne suis pas ingé système mais développeur Java donc si je pouvais utiliser des offres clouds faites pour déployer un war je gagnerais du temps. Et c&#8217;est exactement ce que propose Cloud Foundry et CloudBees. Oui Google App Engine le fait aussi mais dans mon cas j&#8217;ai besoin d&#8217;ouvrir une socket vers un serveur distant et donc GAE est out :)
 
 **[Cloud Foundry](http://www.cloudfoundry.com/)**
 

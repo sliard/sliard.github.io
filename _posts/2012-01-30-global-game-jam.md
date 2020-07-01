@@ -84,7 +84,7 @@ A 1h30 du matin j&#8217;avais :
   * L&#8217;ajout de façon aléatoire d&#8217;obstacles dans le jeu
   * La gestion de collision
 
-et là il était temps de dormir, je n&#8217;ai plus 20 ans <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+et là il était temps de dormir, je n&#8217;ai plus 20 ans :)
 
 ## Dimanche 29
 
@@ -114,7 +114,7 @@ Je n&#8217;avais pas bien compris le principe de ce jeu lorsqu&#8217;ils l&#8217
 
 [![photo](/images/uploads/2012/01/jurmungand-300x175.png)](http://globalgamejam.org/2012/j%C3%B6rmungand)
 
-Là par contre leur démo n&#8217;a pas été transcendante  <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />Mais ils ont développé un jeux multi-joueur sur Android avec un écran principal sur un PC. C&#8217;était la seule équipe avec des développeurs travaillant sur la même techno et ça les a bien aidé.
+Là par contre leur démo n&#8217;a pas été transcendante  :)Mais ils ont développé un jeux multi-joueur sur Android avec un écran principal sur un PC. C&#8217;était la seule équipe avec des développeurs travaillant sur la même techno et ça les a bien aidé.
 
 ####Bilan
 

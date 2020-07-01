@@ -72,7 +72,7 @@ Pour aller un cran plus loin, j&#8217;ai eu envie de mettre en place un site pou
 
 &nbsp;
 
-En espérant que cette note vous gagne du temps ! <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+En espérant que cette note vous gagne du temps ! :)
 
 Liens :
 

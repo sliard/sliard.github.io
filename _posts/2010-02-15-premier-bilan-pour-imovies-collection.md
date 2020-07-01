@@ -18,7 +18,7 @@ Cela fait maintenant un peu plus d&#8217;un mois que l&#8217;application iMovies
 
 ### Début difficile
 
-Première bonne surprise, l&#8217;application a été validée du premier coup et en trois jours. Ca été même un peu trop rapide, la FAQ et la doc sur le site n&#8217;étaient pas prètes. J&#8217;avais aussi laissé un gros bug. Même si je l&#8217;ai corrigé directement et que Apple l&#8217;a validé dans la journée, cela a quand même nuit à l&#8217;image de l&#8217;application. <img src="http://www.apptom.fr/wp-includes/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Première bonne surprise, l&#8217;application a été validée du premier coup et en trois jours. Ca été même un peu trop rapide, la FAQ et la doc sur le site n&#8217;étaient pas prètes. J&#8217;avais aussi laissé un gros bug. Même si je l&#8217;ai corrigé directement et que Apple l&#8217;a validé dans la journée, cela a quand même nuit à l&#8217;image de l&#8217;application. :(
 
 ### Version Lite
 

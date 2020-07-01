@@ -66,4 +66,4 @@ Sinon pour le reste de la déclaration rien de bien compliqué, là aussi c&#821
 
 Comme j&#8217;ai décidé de vendre 1$ l&#8217;application je dois remplir des informations sur mon compte bancaire. J&#8217;ai perdu beaucoup de temps pour trouver le bon formulaire. En fait je l&#8217;avais trouvé dès le début mais mon navigateur Google Chrome ne savait pas le gérer. Une fois passé sur Safari, je n&#8217;ai plus eu de problème.
 
-Voilà c&#8217;est fait, mon application est en cours de validation. Histoire à suivre donc <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Voilà c&#8217;est fait, mon application est en cours de validation. Histoire à suivre donc :)

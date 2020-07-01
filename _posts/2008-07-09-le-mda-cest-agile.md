@@ -68,4 +68,4 @@ Pour finir : la cerise sur le gâteau.
   
 L&#8217;année dernière nous avons migré nos EJB 2 vers de l&#8217;hibernate. Et bien nous avons juste changé de transformateur MDA&#8230; zero modif dans notre code.
 
-C&#8217;est pas de l&#8217;agilité ça ! <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+C&#8217;est pas de l&#8217;agilité ça ! :)

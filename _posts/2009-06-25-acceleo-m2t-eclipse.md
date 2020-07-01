@@ -44,6 +44,6 @@ Je gardais le meilleur pour la fin, il est enfin possible de mettre des points d
   
 C&#8217;était le gros manque au niveau outillage d&#8217;Acceleo, c&#8217;est maintenant très bien fait.
 
-Une grosse évolution très intéressante d&#8217;Acceleo donc. Je suis même étonné qu&#8217;il n&#8217;y ait pas plus d&#8217;infos à ce propos sur leur site Web. Ils sont trop occupés à préparer [l&#8217;Acceleo Day](http://www.acceleo.org/wiki/index.php/Eclipse_Acceleo_Day) du 10 Juillet peut être  <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />Journée annoncée sur la page d&#8217;acceuil d&#8217;Eclipse, la classe !
+Une grosse évolution très intéressante d&#8217;Acceleo donc. Je suis même étonné qu&#8217;il n&#8217;y ait pas plus d&#8217;infos à ce propos sur leur site Web. Ils sont trop occupés à préparer [l&#8217;Acceleo Day](http://www.acceleo.org/wiki/index.php/Eclipse_Acceleo_Day) du 10 Juillet peut être  :)Journée annoncée sur la page d&#8217;acceuil d&#8217;Eclipse, la classe !
 
 ![photo](/images/uploads/2009/06/acceleoday.jpg)

@@ -15,7 +15,7 @@ title: MDA Day et Acceleo 3
 url: /2010/09/14/mda-day-et-acceleo-3/
 ---
 
-Je viens de recevoir un email pour annoncer la date du MD Day 2010 : le **Jeudi 25 Novembre**. C&#8217;est à Issy les Moulineaux donc surement chez Microsoft comme en 2009. Ils ratissent large Microsoft, après avoir accueilli le SCRUM User Group pour vendre Visual Studio comme l&#8217;outil idéal pour faire du SCRUM, ils vont peut être présenter Visio comme le meilleur modeleur UML du marché. La preuve ? c&#8217;est **Steve Cook** <span>qui fait la Key note d&#8217;ouverture, un architecte logiciel de Microsoft de l&#8217;équipe Visual Studio, bref super indépendant. Une bonne raison pour bien dormir et arriver à 10h ! <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /></span>
+Je viens de recevoir un email pour annoncer la date du MD Day 2010 : le **Jeudi 25 Novembre**. C&#8217;est à Issy les Moulineaux donc surement chez Microsoft comme en 2009. Ils ratissent large Microsoft, après avoir accueilli le SCRUM User Group pour vendre Visual Studio comme l&#8217;outil idéal pour faire du SCRUM, ils vont peut être présenter Visio comme le meilleur modeleur UML du marché. La preuve ? c&#8217;est **Steve Cook** <span>qui fait la Key note d&#8217;ouverture, un architecte logiciel de Microsoft de l&#8217;équipe Visual Studio, bref super indépendant. Une bonne raison pour bien dormir et arriver à 10h ! :)</span>
 
 Mais plus intéressant, j&#8217;ai aussi reçus un mail suite à la sortie d&#8217;Acceleo 3 (qui date de juin, je suis en retard&#8230;). Si vous utilisiez déjà Acceleo 2, Obeo propose des formations pour vous aider à migrer les :
 

@@ -10,7 +10,7 @@ title: RMLL à Nantes
 url: /2009/06/02/rmll-a-nantes/
 ---
 
-Mais c&#8217;est quoi au fait les RMLL ? C&#8217;est aussi la première question que je me suis posée <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Mais c&#8217;est quoi au fait les RMLL ? C&#8217;est aussi la première question que je me suis posée :)
 
 Et bien ce sont les _Rencontres Mondiales du Logiciel Libre_ et cette année elles sont organisées à **Nantes du 7 au 11 juillet 2009**. 5 jours bien chargés découpés en 18 thèmes différents !
 

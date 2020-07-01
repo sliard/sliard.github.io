@@ -28,9 +28,9 @@ Et voilà je suis de retour en France après une semaine à San Francisco pour l
 
 ## Le voyage
 
-Comme je suis de Lannion, le trajet pour Paris c&#8217;est déjà une aventure  <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />Je vous passe les détails des 4 heures de train au milieu d&#8217;un groupe de 50 gamins de 12 ans. Ensuite il faut 11 heures d&#8217;avion pour arriver à San Francisco. C&#8217;est en me baladant dans l&#8217;avion que j&#8217;ai vite compris que pas mal de monde allait aussi à la WWDC au vu du nombre d&#8217;iPad. 11h de vol c&#8217;est un très bon test pour la batterie, et bien même en regardant des films et en jouant avec l&#8217;iPad ça passe.
+Comme je suis de Lannion, le trajet pour Paris c&#8217;est déjà une aventure  :)Je vous passe les détails des 4 heures de train au milieu d&#8217;un groupe de 50 gamins de 12 ans. Ensuite il faut 11 heures d&#8217;avion pour arriver à San Francisco. C&#8217;est en me baladant dans l&#8217;avion que j&#8217;ai vite compris que pas mal de monde allait aussi à la WWDC au vu du nombre d&#8217;iPad. 11h de vol c&#8217;est un très bon test pour la batterie, et bien même en regardant des films et en jouant avec l&#8217;iPad ça passe.
 
-J&#8217;arrive donc à San Francisco le Samedi vers 13h, le temps de s&#8217;installer à l&#8217;hôtel et on court direct à l&#8217;Apple store. Un collègue en profite pour acheter un iPad 64Go  <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />Après un peu de shopping et un bon gros hamburger, à 20h on est claqué (5h du matin en France). Arrive donc Dimanche après une nuit un peu chaotique. Comme c&#8217;était ma première visite à San Francisco j&#8217;ai fait le tour classique :
+J&#8217;arrive donc à San Francisco le Samedi vers 13h, le temps de s&#8217;installer à l&#8217;hôtel et on court direct à l&#8217;Apple store. Un collègue en profite pour acheter un iPad 64Go  :)Après un peu de shopping et un bon gros hamburger, à 20h on est claqué (5h du matin en France). Arrive donc Dimanche après une nuit un peu chaotique. Comme c&#8217;était ma première visite à San Francisco j&#8217;ai fait le tour classique :
 
   * Cable car
   * Golden Gate
@@ -54,7 +54,7 @@ C&#8217;est à ce moment que la folie commence. Comme c&#8217;est Steve Jobs qui
 
 ![photo](/images/uploads/2010/06/4684056775_9f7a815493-225x300.jpg)
 
-Le premier était arrivé la veille à 18h. Une grand bande de fous dont je faisais partie  <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />Après 4 bonnes heures à poireauter, c&#8217;est le moment d&#8217;entrer dans la salle. Je me retrouve donc au troisième rang grâce à un petit tour de passe passe. Je peux vous dire que je pouvais presque toucher Steve Jobs, un grand moment que je garderais longtemps en mémoire.
+Le premier était arrivé la veille à 18h. Une grand bande de fous dont je faisais partie  :)Après 4 bonnes heures à poireauter, c&#8217;est le moment d&#8217;entrer dans la salle. Je me retrouve donc au troisième rang grâce à un petit tour de passe passe. Je peux vous dire que je pouvais presque toucher Steve Jobs, un grand moment que je garderais longtemps en mémoire.
 
 ![photo](/images/uploads/2010/06/img_0045-225x300.jpg)
 

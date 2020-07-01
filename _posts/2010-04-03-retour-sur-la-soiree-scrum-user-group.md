@@ -24,11 +24,11 @@ Direction Microsoft à Issy Les Moulineaux.
 
 ![photo](/images/uploads/2010/03/microsoft1-300x241.png)
 
-A propos si vous recherchez des locaux, il y a de la place ! <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+A propos si vous recherchez des locaux, il y a de la place ! :)
 
 ## Accueil
 
-J&#8217;entre donc dans l&#8217;amphi Grand bleu pour l&#8217;ouverture de la soirée. Salle très impressionnante que l&#8217;on remplit à moitié au début. On commence par une vidéo de [Ken Schwaber](http://www.scrumalliance.org/profiles/7) en personne buvant une flûte de champagne pour fêter cet anniversaire, clin d&#8217;oeil plutôt sympa <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+J&#8217;entre donc dans l&#8217;amphi Grand bleu pour l&#8217;ouverture de la soirée. Salle très impressionnante que l&#8217;on remplit à moitié au début. On commence par une vidéo de [Ken Schwaber](http://www.scrumalliance.org/profiles/7) en personne buvant une flûte de champagne pour fêter cet anniversaire, clin d&#8217;oeil plutôt sympa :)
 
 Ensuite Luc Legardeur, président du Scrum User Group et de Xebia, fait le bilan de la première année. Il remarque que le public se diversifie et qu&#8217;il n&#8217;y a pas que des SSII dans la salle. Quelques chiffres, le SUG en France c&#8217;est 400 membres et 11 rencontres sur l&#8217;année pour un budget autour de 13 000 Euros. Un petit scoop pour la fin, le Scrum Gathering d&#8217;automne pourrait être organisé en France.
 
@@ -84,7 +84,7 @@ Bref une première session assez décevante. On a beaucoup parlé de Microsoft 
 
 C&#8217;est le titre qui m&#8217;a attiré. J&#8217;étais curieux de voir comment IBM (les rois du RUP) allait nous parler de Scrum. Et bien j&#8217;ai pas été déçu. Dès le premier slide j&#8217;ai failli m&#8217;étouffer. Regardez sur l&#8217;image la phrase &#8220;Adoption de Scrum avec un phasage RUP&#8221;. En fait ce n&#8217;est pas Adoption qu&#8217;il fallait noter mais plutôt Adaptation à mon avis. Alors oui RUP intègre la notion d&#8217;itération, mais c&#8217;est bien le seul point commun avec Scrum.
 
-Par contre je suis toujours fan de modélisation et reste convaincu que cela peut tout à fait s&#8217;intégrer dans une démarche agile. On peut même [faire du MDA](http://www.net-liard.com/blog/2008/07/mda-agile/) !  <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />Sur ces points j&#8217;étais en phase avec IBM. Mais si on regarde de plus près RUP, comment gérer la douzaine de rôles différents définis par RUP en Scrum ? C&#8217;est juste impossible. Et quand IBM nous a dit que l&#8217;architecture de l&#8217;application présentée était gérée par des personnes ne faisant pas partie de l&#8217;équipe de dev, on sent bien que la notion de Team est encore loin.
+Par contre je suis toujours fan de modélisation et reste convaincu que cela peut tout à fait s&#8217;intégrer dans une démarche agile. On peut même [faire du MDA](http://www.net-liard.com/blog/2008/07/mda-agile/) !  :)Sur ces points j&#8217;étais en phase avec IBM. Mais si on regarde de plus près RUP, comment gérer la douzaine de rôles différents définis par RUP en Scrum ? C&#8217;est juste impossible. Et quand IBM nous a dit que l&#8217;architecture de l&#8217;application présentée était gérée par des personnes ne faisant pas partie de l&#8217;équipe de dev, on sent bien que la notion de Team est encore loin.
 
 Avec tout ça je ne vous ai même pas parlé de Team Concert et de RSA, mais franchement là encore c&#8217;est vraiment intégrer Scrum dans un outil pour des raisons marketing. Comme si RSA n&#8217;était pas déjà assez lourd et lent, ils ont ajouté un mini Excel. Ca m&#8217;a un peu énervé, je n&#8217;insiste pas.
 
@@ -115,7 +115,7 @@ C&#8217;est moi ou tout le monde a oublié le manifeste agile ?
 
 Je répète : **Personnes et interaction plutôt que processus et outils**. Alors oui c&#8217;est dur à entendre pour des éditeurs mais il va falloir s&#8217;y faire. Donc essayons déjà de construire des équipes agiles, de former nos Product Owner et nos Scrum Master et seulement après cela on pourra se poser la question des outils à utiliser.
 
-Après j&#8217;ai peut être simplement fait une erreur dans mes choix d&#8217;atelier. Sur les 12 disponibles j&#8217;ai participé aux trois qui parlaient d&#8217;outillage, ce n&#8217;était pas forcément très malin de ma part <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Après j&#8217;ai peut être simplement fait une erreur dans mes choix d&#8217;atelier. Sur les 12 disponibles j&#8217;ai participé aux trois qui parlaient d&#8217;outillage, ce n&#8217;était pas forcément très malin de ma part :)
 
 Liens :
 

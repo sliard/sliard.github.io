@@ -48,7 +48,7 @@ Ca met en évidence deux règles de codage Java importantes qui ne sont pas resp
   La méthode getInvalidConnections permet de chercher dans la liste de connexions passées en paramètre celles qu&#8217;il faut libérer. Mais au lieu de mettre les connexions invalides dans une nouvelle collection, ils suppriment les connexions valides de la collection passée en paramètre. Du coup ces connexions ne sont plus dans la liste des connexions actives, elles ne seront donc jamais libérées.
 </div>
 
-Depuis que nous avons patché le connecteur Joram, nous n&#8217;avons plus de fuite de thread <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Depuis que nous avons patché le connecteur Joram, nous n&#8217;avons plus de fuite de thread :)
 
 Le patch :
 

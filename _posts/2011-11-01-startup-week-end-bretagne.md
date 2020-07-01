@@ -41,7 +41,7 @@ On est donc arrivé à la selection de 10 projets :
   * [Sportsfever](http://twitter.com/#!/MySportsFever)
   * [Jelouemoncampingcar](http://twitter.com/#!/MonCampingCar)
 
-Après est arrivée l&#8217;étape de constitution des équipes. Là encore c&#8217;était un grand moment de rabatage  <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />De mon coté j&#8217;ai intégré le projet GreenBanque. Déjà car c&#8217;était le projet d&#8217;un ami de [Benjamin](http://twitter.com/#!/Anseaume) mais aussi pour le côté complètement mégalo de l&#8217;idée. Fanch et Damien étaient vraiment à fond, les entendre dire très sérieusement &#8220;il faut que l&#8217;on trouve 5 Millions d&#8217;euros&#8221; ou voir Damien appeler ses copains de la BNP m&#8217;a beaucoup fait rire. De notre coté avec Benjamin on s&#8217;est occupé de réaliser un site web et 2 jeux facebook [ici](http://www.facebook.com/GreenBanque) et [là](http://apps.facebook.com/banker-bashing/).
+Après est arrivée l&#8217;étape de constitution des équipes. Là encore c&#8217;était un grand moment de rabatage  :)De mon coté j&#8217;ai intégré le projet GreenBanque. Déjà car c&#8217;était le projet d&#8217;un ami de [Benjamin](http://twitter.com/#!/Anseaume) mais aussi pour le côté complètement mégalo de l&#8217;idée. Fanch et Damien étaient vraiment à fond, les entendre dire très sérieusement &#8220;il faut que l&#8217;on trouve 5 Millions d&#8217;euros&#8221; ou voir Damien appeler ses copains de la BNP m&#8217;a beaucoup fait rire. De notre coté avec Benjamin on s&#8217;est occupé de réaliser un site web et 2 jeux facebook [ici](http://www.facebook.com/GreenBanque) et [là](http://apps.facebook.com/banker-bashing/).
 
 Pendant 2 jours l&#8217;ambiance a été très studieuse et entrecoupée de présentations. Beaucoup de travail et peu de sommeil. J&#8217;ai fait une vidéo et des photos pour montrer l&#8217;ambiance.
 
@@ -49,7 +49,7 @@ Pendant 2 jours l&#8217;ambiance a été très studieuse et entrecoupée de pré
   <br />
 </p>
 
-55 heures ça passe très vite. Il faut rendre le power point de la présentation avant 16h. Arrive alors les membres du jury. VIP de dernière minute : Jean-Loup Chretien. Pour la petite histoire il est venu avec son avion privé de Morlaix soit 37 km de distance. L&#8217;aéroport de Lannion a même été ouvert rien que pour lui. J&#8217;ai réussi à prendre une photo avec lui <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+55 heures ça passe très vite. Il faut rendre le power point de la présentation avant 16h. Arrive alors les membres du jury. VIP de dernière minute : Jean-Loup Chretien. Pour la petite histoire il est venu avec son avion privé de Morlaix soit 37 km de distance. L&#8217;aéroport de Lannion a même été ouvert rien que pour lui. J&#8217;ai réussi à prendre une photo avec lui :)
 
 ![photo](/images/uploads/2011/10/6299483821_aed663d06e.jpg)
 

@@ -45,7 +45,7 @@ http://<em>your_app_id</em>.appspot.com/randomStringImageId<strong>=s32</strong>
 // Crop the image to 32 pixels
 http://<em>your_app_id</em>.appspot.com/randomStringImageId=s32<strong>-c</strong></pre>
 
-Pour trouver de l&#8217;information sur cette fonction, il faut lire la version Anglaise de la doc. En effet au début on apprécie le fait que toute la doc de Google App Engine ait été traduite en Français. On déchante vite lorsqu&#8217;on s&#8217;aperçoit que cette dernière n&#8217;est pas au même niveau que la version anglaise. Donc n&#8217;oubliez pas de lire la VO <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Pour trouver de l&#8217;information sur cette fonction, il faut lire la version Anglaise de la doc. En effet au début on apprécie le fait que toute la doc de Google App Engine ait été traduite en Français. On déchante vite lorsqu&#8217;on s&#8217;aperçoit que cette dernière n&#8217;est pas au même niveau que la version anglaise. Donc n&#8217;oubliez pas de lire la VO :)
 
 Pour revenir au BlobStore, j&#8217;ai eu un problème pour gérer les fichiers non renseignés dans un formulaire. Sur un formulaire où l&#8217;utilisateur peut éventuellement uploader 1 fichier, un blobstore vide est créé s&#8217;il n&#8217;y a pas de fichier.
 

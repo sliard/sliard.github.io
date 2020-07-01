@@ -54,6 +54,6 @@ La fin de la seconde journée a été décisive, la goutte d&#8217;eau comme o
 
 Bref, j&#8217;ai donc pris mes affaires pour rentrer à la maison plus rapidement.
 
-Alors attention, je n&#8217;ai pas la prétention de dire que cette formation est nulle. C&#8217;est loin d&#8217;être le cas. Mais elle n&#8217;est pas adaptée aux personnes avec un peu d&#8217;expérience, c&#8217;est plus pour les débutants. De mon côté j&#8217;ai aussi fait des erreurs en choisissant cette formation. Une ligne aurait du me mettre la puce à l&#8217;oreille : &#8220;Profils : Développeurs et chefs de projet&#8221;, j&#8217;aurais du savoir que ça n&#8217;allait pas être assez technique <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Alors attention, je n&#8217;ai pas la prétention de dire que cette formation est nulle. C&#8217;est loin d&#8217;être le cas. Mais elle n&#8217;est pas adaptée aux personnes avec un peu d&#8217;expérience, c&#8217;est plus pour les débutants. De mon côté j&#8217;ai aussi fait des erreurs en choisissant cette formation. Une ligne aurait du me mettre la puce à l&#8217;oreille : &#8220;Profils : Développeurs et chefs de projet&#8221;, j&#8217;aurais du savoir que ça n&#8217;allait pas être assez technique :)
 
 Mon seul regret est de ne pas être là à la fin car [Karen](http://twitter.com/#!/KarenChevallier) nous aurait sûrement préparé un gâteau bio !

@@ -52,6 +52,6 @@ Pour conclure j&#8217;ai passé une bonne journée et c&#8217;est toujours un pl
 
 C&#8217;est donc sûrement pour me faire plaisir qu&#8217;Obeo a annoncé Mardi qu&#8217;ils allaient donner gratuitement un modeleur UML construit avec Obeo Designer. Ce module UML est publié sur le [MarketPlace obeonetwork](http://marketplace.obeonetwork.com/module/uml) et le code source est sur [GitHub](https://github.com/ObeoNetwork/UML-Modeling). C&#8217;est donc un exemple très complet sur lequel on peut s&#8217;appuyer.
 
-Cerise sur le gâteau, on a eu un bon de réduction de 20% que j&#8217;ai bien sur immédiatement mis en vente [sur ebay](http://cgi.ebay.fr/ws/eBayISAPI.dll?ViewItem&item=320720998796#ht_500wt_990) <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Cerise sur le gâteau, on a eu un bon de réduction de 20% que j&#8217;ai bien sur immédiatement mis en vente [sur ebay](http://cgi.ebay.fr/ws/eBayISAPI.dll?ViewItem&item=320720998796#ht_500wt_990) :)
 
 ![photo](/images/uploads/2011/06/ebay-300x142.jpg)

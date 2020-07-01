@@ -10,7 +10,7 @@ title: C'est la rentrée
 url: /2009/09/03/cest-la-rentree/
 ---
 
-Même pour les blogs il est temps de se remettre au travail <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Même pour les blogs il est temps de se remettre au travail :)
 
 C&#8217;est aussi pour moi une vraie rentrée puisque j&#8217;ai changé d&#8217;équipe le 1er septembre. Nouveaux collègues, nouvelles activités, nouveau bureau.. Comme pour un gamin. Je ne travaille donc plus dans le domaine du Machine To Machine mais dans celui de la relation client. Un gros changement et j&#8217;espère y trouver autant de challenges techniques pour pouvoir les partager sur ce blog.
 

@@ -60,7 +60,7 @@ Oui le client a le droit de changer d&#8217;avis, c&#8217;est aussi la vraie vi
 
 ## Money for nothing
 
-Et oui le risque avec un projet agile c&#8217;est de finir trop tôt  <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />Il faut permettre au client de stopper le contrat lorsqu&#8217;il le souhaite. Pour l&#8217;anecdote j&#8217;avais discuté avec un collègue travaillant dans une grosse SSII qui sous-traitait ses développements en Inde. A la fin ils en étaient au stade où ils ne leur demandaient plus rien : &#8220;leur demander une modification nous coûte plus cher que de le faire nous-même&#8221;. Et oui travailler avec une boîte CMMI 5 n&#8217;a pas que des avantages.
+Et oui le risque avec un projet agile c&#8217;est de finir trop tôt  :)Il faut permettre au client de stopper le contrat lorsqu&#8217;il le souhaite. Pour l&#8217;anecdote j&#8217;avais discuté avec un collègue travaillant dans une grosse SSII qui sous-traitait ses développements en Inde. A la fin ils en étaient au stade où ils ne leur demandaient plus rien : &#8220;leur demander une modification nous coûte plus cher que de le faire nous-même&#8221;. Et oui travailler avec une boîte CMMI 5 n&#8217;a pas que des avantages.
 
 ![photo](/images/uploads/2008/12/moneynothing-300x142.jpg)
 

@@ -25,7 +25,7 @@ Pendant la cérémonie de clôture du camp, nous avons eu droit aux remises de p
 
 ![photo](/images/uploads/2008/12/fin.jpg)
 
-Et pour finir une belle video résumant ces trois jours est diffusée où l&#8217;on peut noter la superbe prestation de mon collègue Jérome ! <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Et pour finir une belle video résumant ces trois jours est diffusée où l&#8217;on peut noter la superbe prestation de mon collègue Jérome ! :)
 
 ## Bilan
 

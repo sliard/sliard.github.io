@@ -19,7 +19,7 @@ Plus je travaille avec des SSII et plus je trouve que les projets gérés au for
 
 ### Le client est incapable de rédiger un cahier des charges
 
-Là je sais de quoi je parle, j&#8217;ai souvent le rôle de client en ce moment <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Là je sais de quoi je parle, j&#8217;ai souvent le rôle de client en ce moment :)
 
 Le besoin évolue, n&#8217;est pas forcément clair et donc il est très dur de rédiger un cahier des charges exhaustif. Le client est obsédé par la garantie de réalisation qu&#8217;apporte le forfait, alors qu&#8217;il est incapable d&#8217;exprimer correctement son besoin. Pire je vois de plus en plus de forfait où on demande au prestataire de rédiger le cahier des charges : on rêve.
 
@@ -63,7 +63,7 @@ Il faut vraiment intégrer que la réussite d&#8217;un projet n&#8217;est pas li
 
 Les chefs de projets qui regardent la qualité du code livré sont rares, mais le faire à la livraison c&#8217;est surtout trop tard. Il est très important de bien suivre la qualité du code tout au long de la vie du projet pour s&#8217;assurer que ça ne diverge pas.
 
-Et non coder un &#8220;proto&#8221; n&#8217;autorise pas à faire n&#8217;importe quoi ! (si je retrouve le gars qui a codé la gestion des transactions à la main dans un filtre HTTP je l&#8217;étripe <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Et non coder un &#8220;proto&#8221; n&#8217;autorise pas à faire n&#8217;importe quoi ! (si je retrouve le gars qui a codé la gestion des transactions à la main dans un filtre HTTP je l&#8217;étripe :)
 
 ## Conclusion
 

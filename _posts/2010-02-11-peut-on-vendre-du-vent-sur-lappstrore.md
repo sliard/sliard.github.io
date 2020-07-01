@@ -18,7 +18,7 @@ Suite à la publication de [iMovies Collection](http://www.net-liard.com/blog/20
 
 L&#8217;idée est simple : afficher des photos de chatons.
 
-J&#8217;ai donc trouvé sur le net des photos libres de droits pour ensuite les afficher sur l&#8217;iPhone. Pour faire un peu moins vide, j&#8217;ai ajouté un son de miaulement   <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />Adorables Chatons est donc sorti le 27 Janvier sur l&#8217;AppStore !
+J&#8217;ai donc trouvé sur le net des photos libres de droits pour ensuite les afficher sur l&#8217;iPhone. Pour faire un peu moins vide, j&#8217;ai ajouté un son de miaulement   :)Adorables Chatons est donc sorti le 27 Janvier sur l&#8217;AppStore !
 
 [![photo](/images/uploads/2010/02/icon.png)](itms://itunes.apple.com/us/app/adorables-chatons/id352275799?mt=8)
 

@@ -41,7 +41,7 @@ Premier objectif, afficher le jeu sur l&#8217;écran de la borne d&#8217;arcade.
 
 ![photo](/images/uploads/2009/09/circuit1.gif)
 
-Un petit CI, deux condos et une résistance, ça ne me paraissait pas bien sorcier. Je ressors donc mon fer à souder pour la réaliser. La dernière fois que j&#8217;ai soudé des composants c&#8217;était chez Bull à Angers dans l&#8217;équipe de diagnostic/réparation de carte mère de PC en 1997 (douze ans deja !). A la base j&#8217;ai quand même un DUT d&#8217;électronique, ça peut servir <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Un petit CI, deux condos et une résistance, ça ne me paraissait pas bien sorcier. Je ressors donc mon fer à souder pour la réaliser. La dernière fois que j&#8217;ai soudé des composants c&#8217;était chez Bull à Angers dans l&#8217;équipe de diagnostic/réparation de carte mère de PC en 1997 (douze ans deja !). A la base j&#8217;ai quand même un DUT d&#8217;électronique, ça peut servir :)
 
 Une fois cablé, je place ce montage entre la péritel Dreamcast et le port Jamma. La première fois j&#8217;ai encore un problème de synchro verticale. Aprés avoir cherché sur des forums, on a fini par m&#8217;aider à trouver un potentiomètre de règlage de l&#8217;écran et comme par magie l&#8217;image se stabilise !
 

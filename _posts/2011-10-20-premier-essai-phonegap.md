@@ -26,7 +26,7 @@ La base de PhoneGap c&#8217;est de pouvoir faire des applications mobiles mutlip
 
 Je ne suis vraiment pas un spécialiste du HTML et encore moins du Javascript. Mais je pense qu&#8217;il est grand temps de s&#8217;y mettre et ce petit projet est une bonne occasion.
 
-Je débute donc et rapidement je tombe sur un premier problème : le titre dans la nav bar en haut de page est tronqué. J&#8217;ai rapidement trouvé où changer le CSS pour corriger cela. Ouf <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Je débute donc et rapidement je tombe sur un premier problème : le titre dans la nav bar en haut de page est tronqué. J&#8217;ai rapidement trouvé où changer le CSS pour corriger cela. Ouf :)
 
 Je développe avec Dreamweaver et c&#8217;est assez agréable. En effet il supporte JQuery et PhoneGap. Ca me permet d&#8217;avoir un aperçu direct du rendu de mon code et en 2 cliques ça me génère un projet XCode et lance directement le simulateur iPhone pour tester l&#8217;application.
 
@@ -36,7 +36,7 @@ Par contre on arrive vite aux limites de Dreamweaver au moment où on utilise d
 
 Mais impossible de le tester dans un navigateur ou dans Dreamweaver. Ca ne fonctionne bien sûr que sur l&#8217;iPhone.
 
-Et là, re-problème, ma méthode onResume ne se lance jamais  <img src="http://www.apptom.fr/wp-includes/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />Je suis donc parti sur une longue demi-journée de debug à base de alert(&#8220;je passe là&#8221;) pour finir par comprendre que Dreamweaver utilise une ancienne version de PhoneGap ne gérant pas l&#8217;évènement &#8220;resume&#8221;. Impossible de trouver le numéro de version PhoneGap utilisé ! Et pas d&#8217;explication non plus sur comment utiliser une autre version. J&#8217;ai même bêtement intégré le fichier phonegap-1.1.0.js dans mon projet : marche pas car c&#8217;est la lib PhoneGap du projet XCode généré qu&#8217;il faut changer.
+Et là, re-problème, ma méthode onResume ne se lance jamais  :(Je suis donc parti sur une longue demi-journée de debug à base de alert(&#8220;je passe là&#8221;) pour finir par comprendre que Dreamweaver utilise une ancienne version de PhoneGap ne gérant pas l&#8217;évènement &#8220;resume&#8221;. Impossible de trouver le numéro de version PhoneGap utilisé ! Et pas d&#8217;explication non plus sur comment utiliser une autre version. J&#8217;ai même bêtement intégré le fichier phonegap-1.1.0.js dans mon projet : marche pas car c&#8217;est la lib PhoneGap du projet XCode généré qu&#8217;il faut changer.
 
 J&#8217;ai donc fini par abandonner la génération PhoneGap intégré par DreamWeaver. J&#8217;utilise PhoneGap normalement dans XCode et Dream ne me sert que d&#8217;éditeur de texte car la complétion et l&#8217;aperçu c&#8217;est quand même bien pratique.
 

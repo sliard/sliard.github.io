@@ -50,6 +50,6 @@ Il y a aussi <a title="Kidschool" href="http://itunes.apple.com/us/app/kidschool
 
 ## La suite ?
 
-Beaucoup de nouveautés donc pour cette fin d&#8217;année 2011 et encore je ne peux pas encore vous dévoiler mes projets pour 2012 mais cette nouvelle année marquera pour moi sans doute un tournant très important. La suite au prochain post <img src="http://www.apptom.fr/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Beaucoup de nouveautés donc pour cette fin d&#8217;année 2011 et encore je ne peux pas encore vous dévoiler mes projets pour 2012 mais cette nouvelle année marquera pour moi sans doute un tournant très important. La suite au prochain post :)
 
 Je vous souhaite à tous une superbe année 2012 : sex, code & rock&#8217;n roll !
