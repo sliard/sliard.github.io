@@ -1,5 +1,3 @@
-package com.test;
-
 import java.beans.PropertyEditorManager;
 import java.net.URI;
 
