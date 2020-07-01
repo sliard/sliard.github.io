@@ -22,19 +22,20 @@ title: Vieux blog technique
 email: samuel@liard.me
 description: >- # this means to ignore newlines until "baseurl:"
   Archive de mon blog
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: / # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sliard
 github_username:  sliard
 
 # Build settings
-theme: minima
+#theme: jekyll-theme-minimal
+remote_theme: poole/hyde
+
 plugins:
   - jekyll-feed
 
 lsi: false
 safe: true
-source: https://github.com/sliard/sliard.github.io
 incremental: false
 highlighter: rouge
 gist:
@@ -42,6 +43,26 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+
+
+# Permalinks
+#permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+tagline:          'A Jekyll theme'
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
 
 # Exclude from processing.
 # The following items will not be processed, by default.
