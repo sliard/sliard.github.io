@@ -31,6 +31,8 @@ github_username:  sliard
 theme: minima
 #remote_theme: poole/hyde
 
+analytics: UA-5061779-1
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
