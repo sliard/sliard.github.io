@@ -36,6 +36,7 @@ analytics: UA-5061779-1
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap
 
 lsi: false
 safe: true
