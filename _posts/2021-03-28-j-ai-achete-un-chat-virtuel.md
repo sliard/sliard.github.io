@@ -47,14 +47,14 @@ La norme ERC721 autorise aussi l'ajout de metadata avec un nom, un symbole et un
 
 {% highlight solidity %}
 struct Kitty {
- uint256 genes;
- uint64 birthTime;
- uint64 cooldownEndBlock;
- uint32 matronId;
- uint32 sireId;
- uint32 siringWithId;
- uint16 cooldownIndex;
- uint16 generation;
+    uint256 genes;
+    uint64 birthTime;
+    uint64 cooldownEndBlock;
+    uint32 matronId;
+    uint32 sireId;
+    uint32 siringWithId;
+    uint16 cooldownIndex;
+    uint16 generation;
 }
 {% endhighlight %}
 
