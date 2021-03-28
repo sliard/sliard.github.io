@@ -45,7 +45,7 @@ Mais qu'est ce qu'il y a dans mon token exactement ? Et bien dans le cas de mon
 
 La norme ERC721 autorise aussi l'ajout de metadata avec un nom, un symbole et un "tokenURI" mais rien de plus. Et les développeurs essaient de mettre le minimum d'informations aussi car plus le token occupe de l'espace, plus il est cher à gérer (on reviendra plus tard sur les problèmes de coût). Si le token de mon chat n'est composé que d'un id, son smart contract stocke un peu plus d'informations :
 
-{% highlight java %}
+{% highlight solidity %}
 struct Kitty {
  uint256 genes;
  uint64 birthTime;
