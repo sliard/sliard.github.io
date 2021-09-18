@@ -71,6 +71,7 @@ experiences:
     - role: Software Architect
       time: 2019 - Present
       company: Orange, Lannion
+      details: |
         Create microservice architecture for different enterprise services.
         Usually we use spring boot for the rest service coupled with rabbitMQ for the asynchronous part.
         I also used golang to perform some rest service. I also work a lot on deployment part
