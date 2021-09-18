@@ -71,6 +71,13 @@ experiences:
     - role: Software Architect
       time: 2019 - Present
       company: Orange, Lannion
+        Create microservice architecture for different enterprise services.
+        Usually we use spring boot for the rest service coupled with rabbitMQ for the asynchronous part.
+        I also used golang to perform some rest service. I also work a lot on deployment part
+        on the differents PAAS services of the group. Even though we mainly use Openshift,
+        I have also worked with cloud foundry and Google Cloud. I also participated in the ONAP open source
+        project which allows, among other things, a complete management of the life cycle of 5G networks.
+          - Java, Redis, RabbitMQ, Docker, Openshift, Golang
     - role: Software Architect
       time: 2016 - 2019
       company: Apizee, Lannion
@@ -131,11 +138,5 @@ skills:
       - name: Golang, Gin Gonic
         level: 80%
 
-      - name: PHP, Laravel
-        level: 80%
-
-      - name: SQL
-        level: 75%
-
-      - name: Javascript, Node.js
+      - name: OpenShift, GCP
         level: 70%
