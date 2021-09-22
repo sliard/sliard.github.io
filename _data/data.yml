@@ -21,7 +21,7 @@ sidebar:
     gitlab:
     bitbucket:
     twitter: '@sliard'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    stack-overflow: 256996/samuel # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
@@ -41,7 +41,7 @@ career-profile:
       iOS applications and PHP backends. I am highly proficient in heavy traffic API
       optimisation and everything related to backend development. I have a deep
       knowledge of public cloud solutions like AWS and GCP but also docker solutions
-      with Rancher.
+      with Rancher. I'm curious for 2 years about smart contract and blockchain technologies.
 
 education:
     - degree: MSc in Computer Science
@@ -137,7 +137,7 @@ projects:
       link: "https://devfest.codedarmor.fr/"
       tagline: "First edition of DevFest in Perros Guirec around cybersecurity. We welcomed 130 people"
 
-    - title: DevFest Brest 2019 - 2020
+    - title: DevFest Brest - 2019/2020
       link: "https://devfest.duboutdumonde.bzh/"
       tagline: "We organized 2 Devfest in Brest with 350 participants"
 
@@ -157,3 +157,6 @@ skills:
 
       - name: OpenShift, GCP
         level: 70%
+
+      - name: Solidity
+        level: 20%
