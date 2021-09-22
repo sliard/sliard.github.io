@@ -112,7 +112,7 @@ experiences:
         of PHP Google App Engine to manage a “Question / Answer” web service.
           - PHP, AWS, Codeigniter
     - role: Software Developer
-      time: 2012 - 2016
+      time: 2003 - 2012
       company: Orange, Lannion
       details: |
         I participated in developing a JEE project that managed alerts for emergency services. We used
@@ -127,6 +127,23 @@ experiences:
         After this I joined the client relation team. I learned iOS development and published the first version
         of “Orange and Me” for Switzerland. This application informs clients about their consumption.
           - JAVA, EJB, Struts, SCRUM, MDA, iOS, xCode, Objective-C
+
+projects:
+  title: Projects
+  intro: >
+
+  assignments:
+    - title: Code d'Armor - since 2012
+      link: "https://codedarmor.fr/"
+      tagline: "We have created a group of developers who organize a technical conference once a month"
+
+    - title: DevFest Brest 2019 - 2020
+      link: "https://devfest.duboutdumonde.bzh/"
+      tagline: "We organized 2 Devfest in Brest with 150 participants and one in 2021 in Perros Guirec with more than 100 participants"
+
+    - title: DevFest Perros Guirec - 2021
+      link: "https://devfest.codedarmor.fr/"
+      tagline: ""
 
 skills:
     title: Skills &amp; Proficiency
