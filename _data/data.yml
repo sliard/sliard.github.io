@@ -38,7 +38,7 @@ career-profile:
     summary: |
       Software developer for 21 years, I am a curious person, eager to learn new
       things. Having done a lot of Java development, I have also created and publish
-      iOS applications and PHP backend. I am highly proficient in heavy traffic API
+      iOS applications and PHP backends. I am highly proficient in heavy traffic API
       optimisation and everything related to backend development. I have a deep
       knowledge of public cloud solutions like AWS and GCP but also docker solutions
       with Rancher.
@@ -72,10 +72,10 @@ experiences:
       company: Orange, Lannion
       details: |
         Create microservice architecture for different enterprise services.
-        Usually we use spring boot for the rest service coupled with rabbitMQ for the asynchronous part.
+        Usually we use Spring Boot for the rest service coupled with rabbitMQ for the asynchronous part.
         I also used golang to perform some rest service. I also work a lot on deployment part
         on the differents PAAS services of the group. Even though we mainly use Openshift,
-        I have also worked with cloud foundry and Google Cloud. I also participated in the ONAP open source
+        I have also worked with Cloud Foundry and Google Cloud. I also participated in the ONAP open source
         project which allows, among other things, a complete management of the life cycle of 5G networks.
           - Java, Redis, RabbitMQ, Docker, Openshift, Golang
     - role: Software Architect
@@ -129,24 +129,24 @@ experiences:
           - JAVA, EJB, Struts, SCRUM, MDA, iOS, xCode, Objective-C
 
 projects:
-  title: Projects
+  title: Volunteering
   intro: >
 
   assignments:
-    - title: Code d'Armor - since 2012
-      link: "https://codedarmor.fr/"
-      tagline: "We have created a group of developers who organize a technical conference once a month"
+    - title: DevFest Perros Guirec - 2021
+      link: "https://devfest.codedarmor.fr/"
+      tagline: "First edition of DevFest in Perros Guirec around cybersecurity. We welcomed 130 people"
 
     - title: DevFest Brest 2019 - 2020
       link: "https://devfest.duboutdumonde.bzh/"
-      tagline: "We organized 2 Devfest in Brest with 150 participants and one in 2021 in Perros Guirec with more than 100 participants"
+      tagline: "We organized 2 Devfest in Brest with 350 participants"
 
-    - title: DevFest Perros Guirec - 2021
-      link: "https://devfest.codedarmor.fr/"
-      tagline: ""
+    - title: Code d'Armor - since 2012
+      link: "https://codedarmor.fr/"
+      tagline: "We have created a group of developers who organize a technical conference once a month. in almost 10 years we have organized about 80 conferences"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
     toolset:
       - name: Java, Spring
