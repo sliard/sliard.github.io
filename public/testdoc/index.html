@@ -1,0 +1,484 @@
+using module mode; GOMOD=/Users/samuel/Documents/perso/interview-accountapi-form3/go.mod
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#375EAB">
+
+  <title>api - Go Documentation Server</title>
+
+<link type="text/css" rel="stylesheet" href="lib/godoc/style.css">
+
+<script>window.initFuncs = [];</script>
+<script src="lib/godoc/jquery.js" defer></script>
+
+
+
+<script>var goVersion = "go1.14.3";</script>
+<script src="lib/godoc/godocs.js" defer></script>
+</head>
+<body>
+
+<div id='lowframe' style="position: fixed; bottom: 0; left: 0; height: 0; width: 100%; border-top: thin solid grey; background-color: white; overflow: auto;">
+...
+</div><!-- #lowframe -->
+
+<div id="topbar" class="wide"><div class="container">
+<div class="top-heading" id="heading-wide"><a href="/pkg/">Go Documentation Server</a></div>
+<div class="top-heading" id="heading-narrow"><a href="/pkg/">GoDoc</a></div>
+<a href="#" id="menu-button"><span id="menu-button-arrow">&#9661;</span></a>
+<form method="GET" action="/search">
+<div id="menu">
+
+<span class="search-box"><input type="search" id="search" name="q" placeholder="Search" aria-label="Search" required><button type="submit"><span><!-- magnifying glass: --><svg width="24" height="24" viewBox="0 0 24 24"><title>submit search</title><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/><path d="M0 0h24v24H0z" fill="none"/></svg></span></button></span>
+</div>
+</form>
+
+</div></div>
+
+
+
+<div id="page" class="wide">
+<div class="container">
+
+
+  <h1>
+    Package api
+    <span class="text-muted"></span>
+  </h1>
+
+
+
+
+
+
+
+<div id="nav"></div>
+
+
+<!--
+	Copyright 2009 The Go Authors. All rights reserved.
+	Use of this source code is governed by a BSD-style
+	license that can be found in the LICENSE file.
+-->
+<!--
+	Note: Static (i.e., not template-generated) href and id
+	attributes start with "pkg-" to make it impossible for
+	them to conflict with generated attributes (some of which
+	correspond to Go identifiers).
+-->
+
+	<script>
+	document.ANALYSIS_DATA = null;
+	document.CALLGRAPH = null;
+	</script>
+
+	
+		
+		<div id="short-nav">
+			<dl>
+			<dd><code>import "github.com/sliard/interview-accountapi-form3/api"</code></dd>
+			</dl>
+			<dl>
+			<dd><a href="#pkg-overview" class="overviewLink">Overview</a></dd>
+			<dd><a href="#pkg-index" class="indexLink">Index</a></dd>
+			
+			
+			</dl>
+		</div>
+		<!-- The package's Name is printed as title by the top-level template -->
+		<div id="pkg-overview" class="toggleVisible">
+			<div class="collapsed">
+				<h2 class="toggleButton" title="Click to show Overview section">Overview ▹</h2>
+			</div>
+			<div class="expanded">
+				<h2 class="toggleButton" title="Click to hide Overview section">Overview ▾</h2>
+				
+				
+			</div>
+		</div>
+
+		<div id="pkg-index" class="toggleVisible">
+		<div class="collapsed">
+			<h2 class="toggleButton" title="Click to show Index section">Index ▹</h2>
+		</div>
+		<div class="expanded">
+			<h2 class="toggleButton" title="Click to hide Index section">Index ▾</h2>
+
+		<!-- Table of contents for API; must be named manual-nav to turn off auto nav. -->
+			<div id="manual-nav">
+			<dl>
+			
+				<dd><a href="#pkg-constants">Constants</a></dd>
+			
+			
+			
+			
+				
+				<dd><a href="#AccountAttributes">type AccountAttributes</a></dd>
+				
+				
+			
+				
+				<dd><a href="#AccountData">type AccountData</a></dd>
+				
+				
+			
+				
+				<dd><a href="#Client">type Client</a></dd>
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#NewClient">func NewClient(c *Config) (*Client, error)</a></dd>
+				
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#Client.CreateAccount">func (c *Client) CreateAccount(account *AccountData) (*AccountData, error)</a></dd>
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#Client.DeleteAccount">func (c *Client) DeleteAccount(accountId string, version int64) error</a></dd>
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#Client.FetchAccount">func (c *Client) FetchAccount(accountId string) (*AccountData, error)</a></dd>
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#Client.SetLogger">func (c *Client) SetLogger(logger LeveledLogger)</a></dd>
+				
+			
+				
+				<dd><a href="#Config">type Config</a></dd>
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#DefaultConfig">func DefaultConfig() *Config</a></dd>
+				
+				
+					
+					<dd>&nbsp; &nbsp; <a href="#Config.ReadEnvironment">func (c *Config) ReadEnvironment()</a></dd>
+				
+			
+				
+				<dd><a href="#LeveledLogger">type LeveledLogger</a></dd>
+				
+				
+			
+			
+			</dl>
+			</div><!-- #manual-nav -->
+
+		
+
+		
+			<h3>Package files</h3>
+			<p>
+			<span style="font-size:90%">
+			
+				<a href="client.go">client.go</a>
+			
+				<a href="models.go">models.go</a>
+			
+			</span>
+			</p>
+		
+		</div><!-- .expanded -->
+		</div><!-- #pkg-index -->
+
+		
+
+		
+			<h2 id="pkg-constants">Constants</h2>
+			
+				
+				<pre>const (
+    <span id="EnvApiAddress">EnvApiAddress</span> = &#34;FORM3_API_ADDR&#34;
+)</pre>
+			
+		
+		
+		
+		
+			
+			
+			<h2 id="AccountAttributes">type <a href="models.go?s=518:1539#L4">AccountAttributes</a>
+				<a class="permalink" href="#AccountAttributes">&#xb6;</a>
+				
+				
+			</h2>
+			
+			<pre>type AccountAttributes struct {
+<span id="AccountAttributes.AccountClassification"></span>    AccountClassification   *<a href="/pkg/builtin/#string">string</a>  `json:&#34;account_classification,omitempty&#34;`
+<span id="AccountAttributes.AccountMatchingOptOut"></span>    AccountMatchingOptOut   *<a href="/pkg/builtin/#bool">bool</a>    `json:&#34;account_matching_opt_out,omitempty&#34;`
+<span id="AccountAttributes.AccountNumber"></span>    AccountNumber           <a href="/pkg/builtin/#string">string</a>   `json:&#34;account_number,omitempty&#34;`
+<span id="AccountAttributes.AlternativeNames"></span>    AlternativeNames        []<a href="/pkg/builtin/#string">string</a> `json:&#34;alternative_names,omitempty&#34;`
+<span id="AccountAttributes.BankID"></span>    BankID                  <a href="/pkg/builtin/#string">string</a>   `json:&#34;bank_id,omitempty&#34;`
+<span id="AccountAttributes.BankIDCode"></span>    BankIDCode              <a href="/pkg/builtin/#string">string</a>   `json:&#34;bank_id_code,omitempty&#34;`
+<span id="AccountAttributes.BaseCurrency"></span>    BaseCurrency            <a href="/pkg/builtin/#string">string</a>   `json:&#34;base_currency,omitempty&#34;`
+<span id="AccountAttributes.Bic"></span>    Bic                     <a href="/pkg/builtin/#string">string</a>   `json:&#34;bic,omitempty&#34;`
+<span id="AccountAttributes.Country"></span>    Country                 *<a href="/pkg/builtin/#string">string</a>  `json:&#34;country,omitempty&#34;`
+<span id="AccountAttributes.Iban"></span>    Iban                    <a href="/pkg/builtin/#string">string</a>   `json:&#34;iban,omitempty&#34;`
+<span id="AccountAttributes.JointAccount"></span>    JointAccount            *<a href="/pkg/builtin/#bool">bool</a>    `json:&#34;joint_account,omitempty&#34;`
+<span id="AccountAttributes.Name"></span>    Name                    []<a href="/pkg/builtin/#string">string</a> `json:&#34;name,omitempty&#34;`
+<span id="AccountAttributes.SecondaryIdentification"></span>    SecondaryIdentification <a href="/pkg/builtin/#string">string</a>   `json:&#34;secondary_identification,omitempty&#34;`
+<span id="AccountAttributes.Status"></span>    Status                  *<a href="/pkg/builtin/#string">string</a>  `json:&#34;status,omitempty&#34;`
+<span id="AccountAttributes.Switched"></span>    Switched                *<a href="/pkg/builtin/#bool">bool</a>    `json:&#34;switched,omitempty&#34;`
+}
+</pre>
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+		
+			
+			
+			<h2 id="AccountData">type <a href="models.go?s=176:516#L1">AccountData</a>
+				<a class="permalink" href="#AccountData">&#xb6;</a>
+				
+				
+			</h2>
+			<p>
+Account represents an account in the form3 org section.
+See <a href="https://api-docs.form3.tech/api.html#organisation-accounts">https://api-docs.form3.tech/api.html#organisation-accounts</a> for
+more information about fields.
+</p>
+
+			<pre>type AccountData struct {
+<span id="AccountData.Attributes"></span>    Attributes     *<a href="#AccountAttributes">AccountAttributes</a> `json:&#34;attributes,omitempty&#34;`
+<span id="AccountData.ID"></span>    ID             <a href="/pkg/builtin/#string">string</a>             `json:&#34;id,omitempty&#34;`
+<span id="AccountData.OrganisationID"></span>    OrganisationID <a href="/pkg/builtin/#string">string</a>             `json:&#34;organisation_id,omitempty&#34;`
+<span id="AccountData.Type"></span>    Type           <a href="/pkg/builtin/#string">string</a>             `json:&#34;type,omitempty&#34;`
+<span id="AccountData.Version"></span>    Version        *<a href="/pkg/builtin/#int64">int64</a>             `json:&#34;version,omitempty&#34;`
+}
+</pre>
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+		
+			
+			
+			<h2 id="Client">type <a href="client.html?s=1691:1755#L62">Client</a>
+				<a class="permalink" href="#Client">&#xb6;</a>
+				
+				
+			</h2>
+			<p>
+Client is the client to the form3 API. Create a client with NewClient.
+</p>
+
+			<pre>type Client struct {
+    <span class="comment">// contains filtered or unexported fields</span>
+}
+</pre>
+
+			
+
+			
+
+			
+			
+			
+
+			
+				
+				<h3 id="NewClient">func <a href="client.html?s=1757:1799#L68">NewClient</a>
+					<a class="permalink" href="#NewClient">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func NewClient(c *<a href="#Config">Config</a>) (*<a href="#Client">Client</a>, <a href="/pkg/builtin/#error">error</a>)</pre>
+				
+				
+				
+			
+
+			
+				
+				<h3 id="Client.CreateAccount">func (*Client) <a href="client.html?s=2341:2415#L101">CreateAccount</a>
+					<a class="permalink" href="#Client.CreateAccount">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func (c *<a href="#Client">Client</a>) CreateAccount(account *<a href="#AccountData">AccountData</a>) (*<a href="#AccountData">AccountData</a>, <a href="/pkg/builtin/#error">error</a>)</pre>
+				<p>
+CreateAccount Create an account with AccountData
+</p>
+
+				
+				
+				
+			
+				
+				<h3 id="Client.DeleteAccount">func (*Client) <a href="client.html?s=4397:4466#L173">DeleteAccount</a>
+					<a class="permalink" href="#Client.DeleteAccount">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func (c *<a href="#Client">Client</a>) DeleteAccount(accountId <a href="/pkg/builtin/#string">string</a>, version <a href="/pkg/builtin/#int64">int64</a>) <a href="/pkg/builtin/#error">error</a></pre>
+				
+				
+				
+				
+			
+				
+				<h3 id="Client.FetchAccount">func (*Client) <a href="client.html?s=3538:3607#L143">FetchAccount</a>
+					<a class="permalink" href="#Client.FetchAccount">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func (c *<a href="#Client">Client</a>) FetchAccount(accountId <a href="/pkg/builtin/#string">string</a>) (*<a href="#AccountData">AccountData</a>, <a href="/pkg/builtin/#error">error</a>)</pre>
+				
+				
+				
+				
+			
+				
+				<h3 id="Client.SetLogger">func (*Client) <a href="client.html?s=1916:1964#L82">SetLogger</a>
+					<a class="permalink" href="#Client.SetLogger">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func (c *<a href="#Client">Client</a>) SetLogger(logger <a href="#LeveledLogger">LeveledLogger</a>)</pre>
+				
+				
+				
+				
+			
+		
+			
+			
+			<h2 id="Config">type <a href="client.html?s=522:1166#L21">Config</a>
+				<a class="permalink" href="#Config">&#xb6;</a>
+				
+				
+			</h2>
+			<p>
+Config is used to configure the creation of the client.
+</p>
+
+			<pre>type Config struct {
+
+<span id="Config.Address"></span>    <span class="comment">// Address is the address of the form3 api server. This should be a complete</span>
+    <span class="comment">// URL such as &#34;https://api-docs.form3.tech&#34;. If you need a custom SSL</span>
+    <span class="comment">// cert or use a proxy, you need to specify a custom HttpClient.</span>
+    Address <a href="/pkg/builtin/#string">string</a>
+
+<span id="Config.HttpClient"></span>    <span class="comment">// HttpClient is the HTTP client to use. We set sane defaults for the</span>
+    <span class="comment">// http.Client and its associated http.Transport created in DefaultConfig.</span>
+    HttpClient *<a href="/pkg/net/http/">http</a>.<a href="/pkg/net/http/#Client">Client</a>
+
+<span id="Config.Logger"></span>    <span class="comment">// Logger is the leveled logger to provide to the retryable HTTP client.</span>
+    Logger <a href="#LeveledLogger">LeveledLogger</a>
+
+<span id="Config.Timeout"></span>    <span class="comment">// Timeout is for setting custom timeout parameter in the HttpClient</span>
+    Timeout <a href="/pkg/time/">time</a>.<a href="/pkg/time/#Duration">Duration</a>
+    <span class="comment">// contains filtered or unexported fields</span>
+}
+</pre>
+
+			
+
+			
+
+			
+			
+			
+
+			
+				
+				<h3 id="DefaultConfig">func <a href="client.html?s=1168:1196#L40">DefaultConfig</a>
+					<a class="permalink" href="#DefaultConfig">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func DefaultConfig() *<a href="#Config">Config</a></pre>
+				
+				
+				
+			
+
+			
+				
+				<h3 id="Config.ReadEnvironment">func (*Config) <a href="client.html?s=1442:1476#L53">ReadEnvironment</a>
+					<a class="permalink" href="#Config.ReadEnvironment">&#xb6;</a>
+					
+					
+				</h3>
+				<pre>func (c *<a href="#Config">Config</a>) ReadEnvironment()</pre>
+				<p>
+ReadEnvironment reads configuration information from the environment.
+</p>
+
+				
+				
+				
+			
+		
+			
+			
+			<h2 id="LeveledLogger">type <a href="client.html?s=307:461#L13">LeveledLogger</a>
+				<a class="permalink" href="#LeveledLogger">&#xb6;</a>
+				
+				
+			</h2>
+			<p>
+LeveledLogger interface implements the basic methods that a logger library needs
+</p>
+
+			<pre>type LeveledLogger interface {
+    Error(<a href="/pkg/builtin/#string">string</a>, ...interface{})
+    Info(<a href="/pkg/builtin/#string">string</a>, ...interface{})
+    Debug(<a href="/pkg/builtin/#string">string</a>, ...interface{})
+    Warn(<a href="/pkg/builtin/#string">string</a>, ...interface{})
+}</pre>
+
+			
+
+			
+
+			
+			
+			
+
+			
+
+			
+		
+	
+
+	
+
+
+
+
+
+
+
+<div id="footer">
+Build version go1.14.3.<br>
+Except as <a href="https://developers.google.com/site-policies#restrictions">noted</a>,
+the content of this page is licensed under the
+Creative Commons Attribution 3.0 License,
+and code is licensed under a <a href="/LICENSE">BSD license</a>.<br>
+<a href="https://golang.org/doc/tos.html">Terms of Service</a> |
+<a href="https://www.google.com/intl/en/policies/privacy/">Privacy Policy</a>
+</div>
+
+</div><!-- .container -->
+</div><!-- #page -->
+</body>
+</html>
