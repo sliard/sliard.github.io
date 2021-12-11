@@ -1,3 +1,4 @@
+using module mode; GOMOD=/home/lvzj4081/dev/perso/interview-accountapi-form3/go.mod
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +15,7 @@
 
 
 
-<script>var goVersion = "go1.14.3";</script>
+<script>var goVersion = "go1.15.2";</script>
 <script src="lib/godoc/godocs.js" defer></script>
 </head>
 <body>
@@ -93,7 +94,10 @@
 			</div>
 			<div class="expanded">
 				<h2 class="toggleButton" title="Click to hide Overview section">Overview ▾</h2>
-				
+				<p>
+Provides a package which contains code useful for interacting with account API.
+</p>
+
 				
 			</div>
 		</div>
@@ -171,9 +175,9 @@
 			<p>
 			<span style="font-size:90%">
 			
-				<a href="client.go">client.go</a>
+				<a href="client.html">client.go</a>
 			
-				<a href="models.go">models.go</a>
+				<a href="/src/github.com/sliard/interview-accountapi-form3/api/models.go">models.go</a>
 			
 			</span>
 			</p>
@@ -188,6 +192,7 @@
 			
 				
 				<pre>const (
+    <span class="comment">// Environment variable name to override API address.</span>
     <span id="EnvApiAddress">EnvApiAddress</span> = &#34;FORM3_API_ADDR&#34;
 )</pre>
 			
@@ -197,7 +202,7 @@
 		
 			
 			
-			<h2 id="AccountAttributes">type <a href="models.go?s=518:1539#L4">AccountAttributes</a>
+			<h2 id="AccountAttributes">type <a href="/src/github.com/sliard/interview-accountapi-form3/api/models.go?s=518:1539#L4">AccountAttributes</a>
 				<a class="permalink" href="#AccountAttributes">&#xb6;</a>
 				
 				
@@ -236,7 +241,7 @@
 		
 			
 			
-			<h2 id="AccountData">type <a href="models.go?s=176:516#L1">AccountData</a>
+			<h2 id="AccountData">type <a href="/src/github.com/sliard/interview-accountapi-form3/api/models.go?s=176:516#L1">AccountData</a>
 				<a class="permalink" href="#AccountData">&#xb6;</a>
 				
 				
@@ -270,13 +275,13 @@ more information about fields.
 		
 			
 			
-			<h2 id="Client">type <a href="client.html?s=1691:1755#L62">Client</a>
+			<h2 id="Client">type <a href="client.html?s=1914:1978#L65">Client</a>
 				<a class="permalink" href="#Client">&#xb6;</a>
 				
 				
 			</h2>
 			<p>
-Client is the client to the form3 API. Create a client with NewClient.
+Client for the form3 API. Create a client with NewClient.
 </p>
 
 			<pre>type Client struct {
@@ -294,27 +299,30 @@ Client is the client to the form3 API. Create a client with NewClient.
 
 			
 				
-				<h3 id="NewClient">func <a href="client.html?s=1757:1799#L68">NewClient</a>
+				<h3 id="NewClient">func <a href="client.html?s=2049:2091#L72">NewClient</a>
 					<a class="permalink" href="#NewClient">&#xb6;</a>
 					
 					
 				</h3>
 				<pre>func NewClient(c *<a href="#Config">Config</a>) (*<a href="#Client">Client</a>, <a href="/pkg/builtin/#error">error</a>)</pre>
-				
+				<p>
+NewClient Create a new client API with configuration information.
+</p>
+
 				
 				
 			
 
 			
 				
-				<h3 id="Client.CreateAccount">func (*Client) <a href="client.html?s=2341:2415#L101">CreateAccount</a>
+				<h3 id="Client.CreateAccount">func (*Client) <a href="client.html?s=2775:2849#L110">CreateAccount</a>
 					<a class="permalink" href="#Client.CreateAccount">&#xb6;</a>
 					
 					
 				</h3>
 				<pre>func (c *<a href="#Client">Client</a>) CreateAccount(account *<a href="#AccountData">AccountData</a>) (*<a href="#AccountData">AccountData</a>, <a href="/pkg/builtin/#error">error</a>)</pre>
 				<p>
-CreateAccount Create an account with AccountData
+CreateAccount Create an account with AccountData data
 </p>
 
 				
@@ -322,7 +330,7 @@ CreateAccount Create an account with AccountData
 				
 			
 				
-				<h3 id="Client.DeleteAccount">func (*Client) <a href="client.html?s=4397:4466#L173">DeleteAccount</a>
+				<h3 id="Client.DeleteAccount">func (*Client) <a href="client.html?s=4873:4942#L183">DeleteAccount</a>
 					<a class="permalink" href="#Client.DeleteAccount">&#xb6;</a>
 					
 					
@@ -334,25 +342,31 @@ CreateAccount Create an account with AccountData
 				
 			
 				
-				<h3 id="Client.FetchAccount">func (*Client) <a href="client.html?s=3538:3607#L143">FetchAccount</a>
+				<h3 id="Client.FetchAccount">func (*Client) <a href="client.html?s=4014:4083#L153">FetchAccount</a>
 					<a class="permalink" href="#Client.FetchAccount">&#xb6;</a>
 					
 					
 				</h3>
 				<pre>func (c *<a href="#Client">Client</a>) FetchAccount(accountId <a href="/pkg/builtin/#string">string</a>) (*<a href="#AccountData">AccountData</a>, <a href="/pkg/builtin/#error">error</a>)</pre>
-				
+				<p>
+FetchAccount read account data from id
+</p>
+
 				
 				
 				
 			
 				
-				<h3 id="Client.SetLogger">func (*Client) <a href="client.html?s=1916:1964#L82">SetLogger</a>
+				<h3 id="Client.SetLogger">func (*Client) <a href="client.html?s=2232:2280#L87">SetLogger</a>
 					<a class="permalink" href="#Client.SetLogger">&#xb6;</a>
 					
 					
 				</h3>
 				<pre>func (c *<a href="#Client">Client</a>) SetLogger(logger <a href="#LeveledLogger">LeveledLogger</a>)</pre>
-				
+				<p>
+SetLogger Set logger
+</p>
+
 				
 				
 				
@@ -360,7 +374,7 @@ CreateAccount Create an account with AccountData
 		
 			
 			
-			<h2 id="Config">type <a href="client.html?s=522:1166#L21">Config</a>
+			<h2 id="Config">type <a href="client.html?s=676:1320#L23">Config</a>
 				<a class="permalink" href="#Config">&#xb6;</a>
 				
 				
@@ -399,27 +413,30 @@ Config is used to configure the creation of the client.
 
 			
 				
-				<h3 id="DefaultConfig">func <a href="client.html?s=1168:1196#L40">DefaultConfig</a>
+				<h3 id="DefaultConfig">func <a href="client.html?s=1405:1433#L43">DefaultConfig</a>
 					<a class="permalink" href="#DefaultConfig">&#xb6;</a>
 					
 					
 				</h3>
 				<pre>func DefaultConfig() *<a href="#Config">Config</a></pre>
-				
+				<p>
+DefaultConfig return a default configuration connected to <a href="http://127.0.0.1:8080">http://127.0.0.1:8080</a>
+</p>
+
 				
 				
 			
 
 			
 				
-				<h3 id="Config.ReadEnvironment">func (*Config) <a href="client.html?s=1442:1476#L53">ReadEnvironment</a>
+				<h3 id="Config.ReadEnvironment">func (*Config) <a href="client.html?s=1678:1712#L56">ReadEnvironment</a>
 					<a class="permalink" href="#Config.ReadEnvironment">&#xb6;</a>
 					
 					
 				</h3>
 				<pre>func (c *<a href="#Config">Config</a>) ReadEnvironment()</pre>
 				<p>
-ReadEnvironment reads configuration information from the environment.
+ReadEnvironment read configuration information from the environment.
 </p>
 
 				
@@ -429,7 +446,7 @@ ReadEnvironment reads configuration information from the environment.
 		
 			
 			
-			<h2 id="LeveledLogger">type <a href="client.html?s=307:461#L13">LeveledLogger</a>
+			<h2 id="LeveledLogger">type <a href="client.html?s=461:615#L15">LeveledLogger</a>
 				<a class="permalink" href="#LeveledLogger">&#xb6;</a>
 				
 				
@@ -468,7 +485,7 @@ LeveledLogger interface implements the basic methods that a logger library needs
 
 
 <div id="footer">
-Build version go1.14.3.<br>
+Build version go1.15.2.<br>
 Except as <a href="https://developers.google.com/site-policies#restrictions">noted</a>,
 the content of this page is licensed under the
 Creative Commons Attribution 3.0 License,
