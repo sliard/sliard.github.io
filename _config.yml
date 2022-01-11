@@ -37,6 +37,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 lsi: false
 safe: true
@@ -57,8 +58,8 @@ kramdown:
 tagline:          'A Jekyll theme'
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Samuel Liard'
+  url:            https://twitter.com/sliard
 
 paginate:         20
 paginate_path:   "/blog/page:num/"

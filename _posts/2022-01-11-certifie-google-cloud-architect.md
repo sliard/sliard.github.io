@@ -16,7 +16,9 @@ permalink: /2022/01/certifie-google-cloud-architect/
 tags:
   - GCP
 title: Certifié Google Cloud Architect
-url: /2022/01/certifie-google-cloud-architect/
+url: /2022/01/certifie-google-cloud-architect/ 
+image: "/images/uploads/certificationGCP.png"
+locale: fr_FR
 ---
 
 C'est fait ! Cette semaine j'ai passé l'examen de la certification "Google Professional Cloud 
