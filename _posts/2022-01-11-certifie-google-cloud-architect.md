@@ -31,7 +31,7 @@ et la préparation du test.
 >* Les tests sur le site whizlabs sont très bien faits
 >* Le site Examtopics est indispensable mais nécessite beaucoup de réflexion car les solutions proposées sont souvent fausses.
 
-![photo](/asset/images/certificationGCP.png)
+![photo](/images/uploads/certificationGCP.png)
 
 Le 13 mars 2021, Orange signe un partenariat avec Google. Avec ce contrat Orange va pouvoir utiliser Google Cloud Platform : GCP. Il faut donc nous former.
 
