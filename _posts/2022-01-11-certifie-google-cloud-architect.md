@@ -35,7 +35,7 @@ et la préparation du test.
 
 Le 13 mars 2021, Orange signe un partenariat avec Google. Avec ce contrat Orange va pouvoir utiliser Google Cloud Platform : GCP. Il faut donc nous former.
 
-##Les certifications
+## Les certifications
 
 Il y a 8 certifications proposées :
 * Cloud Architect
@@ -56,7 +56,7 @@ C'est extrêmement bien fait. Le service vous donne accès à un compte google d
 utiliser GCP pendant une durée limitée pour faire le TP. A la fin du temps, Google coupe le compte et détruit
 ce qui a été fait pendant le TP. Vous pouvez donc jouer avec GCP sans avoir besoin d'utiliser votre CB.
 
-##Qwiklabs
+## Qwiklabs
 
 Pour pouvoir aller passer la certification, Google vous demande d'avoir des badges [Qwiklabs](https://www.qwiklabs.com/). Pour avoir un
 badge il faut suivre une "Quest" (une série de lab). C'est intéressant car on peut manipuler vraiment l'interface
@@ -81,7 +81,7 @@ est toujours buggé. Cela empêche d'avoir le badge "Apigee API Management" néc
 "Professional Cloud Developer". C'est aussi pour cela que j'ai décidé de passer la certification Architect.
 Attention, vous ne pouvez pas faire un lab plus de 3 fois (succès ou échec).
 
-##Toujours plus de QCM
+## Toujours plus de QCM
 
 Fin octobre, j'ai obtenu les badges nécessaires pour passer la certification. Pour sortir des formations en vidéo,
 je m'inscris sur une formation de fin de parcours d'une journée "Preparing for the Professional Cloud Architect".
@@ -102,7 +102,7 @@ Les réponses ont été sélectionnées par celui qui gère le site et il a fait
 pour chaque question il y a une partie "discussion" qui permet à chacun d'argumenter sur la bonne réponse. 
 Mais ça reste un avis. Il n'y a aucune réponse validée par Google. Donc utiliser le avec intelligence.
 
-##Le jour J
+## Le jour J
 
 Avec ces éléments je pouvais planifier la date de passage pour la certification et un plan de révision.
 Sur 3 semaines, j'ai travaillé cette certification
