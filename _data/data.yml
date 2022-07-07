@@ -106,7 +106,7 @@ experiences:
         Apizee proposes a WebRTC solution for video calls on the web without any plugin. Create a web conference in one click with Izeeconf.
           - Managed the migration of a PHP framework and removed symfony 2 to use Laravel 5
           - Changed the hosting solution in order to use a private cloud base on VMWare solution in good practice in terms of security (VLAN, VPN, firewall…)
-          - Worked as a Scrum master, I work with our Product manager to organise all sprint tasks
+          - As a Scrum master, I worked with our Product manager to organise all sprint tasks
           - Simplified the deployment of the Apizee platform. We used Rancher UI to orchestrate Docker images. All of our services deploy within 10 minutes using client servers
 
         About technologies :
