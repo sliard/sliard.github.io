@@ -75,6 +75,7 @@ experiences:
         Payment solution for restaurants based on QRCode.
           - Developed inside the loyalty team all the review management
           - Help to increase customer engagement with the company and the venues
+
         About technologies :
           - Java, Spring boot, Jooq
           - Grpc
@@ -92,6 +93,7 @@ experiences:
           - Participated in the ONAP open source project which allows, among other things, a complete management of the life cycle of 5G networks.
           - Coaching and supervising apprentices / trainees
           - Filed a patent on blockchain technology
+
         About technologies :
           - Java, Golang
           - MariaDB, Redis, RabbitMQ
@@ -106,6 +108,7 @@ experiences:
           - Changed the hosting solution in order to use a private cloud base on VMWare solution in good practice in terms of security (VLAN, VPN, firewall…)
           - Worked as a Scrum master, I work with our Product manager to organise all sprint tasks
           - Simplified the deployment of the Apizee platform. We used Rancher UI to orchestrate Docker images. All of our services deploy within 10 minutes using client servers
+
         About technologies :
           - PHP, Laravel
           - PostgreSQL, Redis
@@ -118,6 +121,7 @@ experiences:
           - Managed the developers team
           - Developed the link with steam API..
           - Developed and deployed all backend for all our games
+
         About technologies :
           - PHP, C#
           - Mysql
@@ -130,6 +134,7 @@ experiences:
           - Audit to optimise response time for a website
           - Developed a scalable chat service
           - Created a service on the first version of PHP Google App Engine to manage a “Question / Answer” web service
+
         About technologies :
           - PHP, Java
           - Mysql
@@ -145,6 +150,7 @@ experiences:
           - Created a machine to machine middleware. I worked on the architecture and specifically developed all asynchrone message management and all connectors to other Orange services.
           - Started to use SCRUM methodologies
           - Developed and published the first version of “Orange and Me” for Switzerland. This application informs clients about their consumption.
+
         About technologies :
           - Java, Struts, EJB, Objective-C
           - Mysql
