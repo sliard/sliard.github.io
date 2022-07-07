@@ -36,12 +36,13 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Software developer for 21 years, I am a curious person, eager to learn new
-      things. Having done a lot of Java development, I have also created and publish
-      iOS applications and PHP backends. I am highly proficient in heavy traffic API
-      optimisation and everything related to backend development. I have a deep
-      knowledge of public cloud solutions like AWS and GCP but also docker solutions
-      with Rancher. I'm curious for 2 years about smart contract and blockchain technologies.
+      Software developer for 22 years. I am curious, eager to learn new things. 
+      Having done a lot of Java development, I have also created and published 
+      iOS applications and PHP backends. I am highly proficient in heavy traffic 
+      API optimization and everything related to backend development. I have a 
+      deep knowledge of public cloud solutions like AWS and GCP but also docker 
+      solutions with Rancher. I've been interested for 2 years about smart 
+      contract and blockchain technologies.
 
 education:
     - degree: MSc in Computer Science
@@ -67,66 +68,87 @@ education:
           - Bullet point
           - Bullet point
 experiences:
+    - role: Software Engineer
+      time: 2022
+      company: Sunday, Full remote
+      details: |
+        Payment solution for restaurants based on QRCode.
+          - Developed inside the loyalty team all the review management
+          - Help to increase customer engagement with the company and the venues
+        About technologies :
+          - Java, Spring boot, Jooq
+          - Grpc
+          - CQRS
+          - GCP, kubernetes
+          - ArgoCD
     - role: Software Architect
-      time: 2019 - Present
+      time: 2019 - 2022
       company: Orange, Lannion
       details: |
-        Create microservice architecture for different enterprise services.
-        Usually we use Spring Boot for the rest service coupled with rabbitMQ for the asynchronous part.
-        I also used golang to perform some rest service. I also work a lot on deployment part
-        on the differents PAAS services of the group. Even though we mainly use Openshift,
-        I have also worked with Cloud Foundry and Google Cloud. I also participated in the ONAP open source
-        project which allows, among other things, a complete management of the life cycle of 5G networks.
-          - Java, Redis, RabbitMQ, Docker, Openshift, Golang
+        First telecom operator in France, I worked for the R&D department.
+          - Design and build microservice architecture for different enterprise services in a high asynchronous environment
+          - Manage CI/CD and build chain
+          - Adapt code for PAAS services.
+          - Participated in the ONAP open source project which allows, among other things, a complete management of the life cycle of 5G networks.
+          - Coaching and supervising apprentices / trainees
+          - Filed a patent on blockchain technology
+        About technologies :
+          - Java, Golang
+          - MariaDB, Redis, RabbitMQ
+          - Docker, Openshift, Cloud Foundry
+          - Gitlab CI
     - role: Software Architect
       time: 2016 - 2019
       company: Apizee, Lannion
       details: |
-        I managed the migration of a PHP framework and removed symfony 2 to use Laravel 5.
-        We also changed the hosting solution in order to use a private cloud base on VMWare
-        solution in good practice in terms of security (VLAN, VPN, firewall…). As a Scrum master,
-        I work with our Product manager to organise all sprint tasks. For 1 year I specifically
-        worked on simplifying the deployment of the Apizee platform. Some clients refused to use
-        the SAAS platform to isolate their data. To better protect our client data we deployed
-        the Apizee services on their servers. To increase efficiency we used Rancher UI to orchestrate
-        Docker images. All of our services deploy within 10 minutes using this system.
-          - PHP, PostgreSQL, Redis, RabbitMQ, socketIO, Laravel 5, Docker, Rancher, Gitlab
+        Apizee proposes a WebRTC solution for video calls on the web without any plugin. Create a web conference in one click with Izeeconf.
+          - Managed the migration of a PHP framework and removed symfony 2 to use Laravel 5
+          - Changed the hosting solution in order to use a private cloud base on VMWare solution in good practice in terms of security (VLAN, VPN, firewall…)
+          - Worked as a Scrum master, I work with our Product manager to organise all sprint tasks
+          - Simplified the deployment of the Apizee platform. We used Rancher UI to orchestrate Docker images. All of our services deploy within 10 minutes using client servers
+        About technologies :
+          - PHP, Laravel
+          - PostgreSQL, Redis
+          - Docker, Rancher
     - role: CTO
       time: 2013 - 2016
       company: Sushee, Lannion
       details: |
-        I created a video game company with my friend and associates at Sushee. At the beginning
-        Sushee developed small web games in HTML5 for brands like Hollywood or Oasis. Within 2 years
-        we hired 7 people and with this team we worked on our game which was called Goetia. I managed
-        the developers team and developed the link with steam API. The indie game team of Square Enix
-        showed interest in our game and decided to become our publisher. Goetia can be downloaded
-        on Steam and GOG.com.
-          - PHP, PostgreSQL, Laravel 5, Docker, HTML5, Steam
+        We created a video game company with my friend and associates at Sushee. At the beginning Sushee developed small web games in HTML5 for brands like Hollywood or Oasis. Within 2 years we hired 7 people and with this team we worked on our game which was called Goetia. The indie game team of Square Enix showed interest in our game and decided to become our publisher. Goetia can be downloaded on Steam and GOG.com
+          - Managed the developers team
+          - Developed the link with steam API..
+          - Developed and deployed all backend for all our games
+        About technologies :
+          - PHP, C#
+          - Mysql
+          - OVH, GAE
     - role: CEO
       time: 2012 - 2016
       company: Apptom, Lannion
       details: |
-        I assisted companies to migrate infrastructure on public cloud solutions like Amazon Web Services
-        or Google App Engine. I developed scalable chat service in PHP that can add servers on runtime
-        if traffic increases with AWS Beanstalk solution. I also created a service on the first version
-        of PHP Google App Engine to manage a “Question / Answer” web service.
-          - PHP, AWS, Codeigniter
+        Supported companies in migrating their infrastructure to public cloud solutions like Amazon Web Services or Google.
+          - Audit to optimise response time for a website
+          - Developed a scalable chat service
+          - Created a service on the first version of PHP Google App Engine to manage a “Question / Answer” web service
+        About technologies :
+          - PHP, Java
+          - Mysql
+          - AWS EC2, Beanstalk, RDS
     - role: Software Developer
       time: 2003 - 2012
       company: Orange, Lannion
       details: |
-        I participated in developing a JEE project that managed alerts for emergency services. We used
-        EJB (session and entity) for backend and struts framework for frontend. To accelerate the development,
-        we created an MDA solution (Model Driven Architecture). Based on the UML model we generated code for
-        all EJB structure. We created two patents for this project (FR2890204A1, EP1630761A1)
-
-        With the same MDA framework we created a machine to machine middleware. I worked on the architecture.
-        I specifically developed all asynchrone message management and all connectors to other Orange services.
-        We also started to use SCRUM at this period.
-
-        After this I joined the client relation team. I learned iOS development and published the first version
-        of “Orange and Me” for Switzerland. This application informs clients about their consumption.
-          - JAVA, EJB, Struts, SCRUM, MDA, iOS, xCode, Objective-C
+        First telecom operator in France, I worked for the R&D department
+          - Developed a JEE project that managed alerts for emergency services
+          - Created an MDA solution (Model Driven Architecture) based on UML model
+          - Filed two patents (FR2890204A1, EP1630761A1)
+          - Created a machine to machine middleware. I worked on the architecture and specifically developed all asynchrone message management and all connectors to other Orange services.
+          - Started to use SCRUM methodologies
+          - Developed and published the first version of “Orange and Me” for Switzerland. This application informs clients about their consumption.
+        About technologies :
+          - Java, Struts, EJB, Objective-C
+          - Mysql
+          - MDA
 
 projects:
   title: Volunteering
