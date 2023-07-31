@@ -172,13 +172,17 @@ projects:
   intro: >
 
   assignments:
-    - title: DevFest Perros Guirec - 2022
+    - title: DevFest Perros Guirec - 2023
       link: "https://devfest.codedarmor.fr/"
-      tagline: "Second edition of DevFest in Perros Guirec around Green IT. We welcomed 230 people"
+      tagline: "DevFest in Perros Guirec around AI."
+
+    - title: DevFest Perros Guirec - 2022
+      link: "https://devfest.codedarmor.fr/2022/"
+      tagline: "DevFest in Perros Guirec around Green IT. We welcomed 230 people"
 
     - title: DevFest Perros Guirec - 2021
-      link: "https://devfest.codedarmor.fr/"
-      tagline: "First edition of DevFest in Perros Guirec around cybersecurity. We welcomed 130 people"
+      link: "https://devfest.codedarmor.fr/2021/"
+      tagline: "DevFest in Perros Guirec around cybersecurity. We welcomed 130 people"
 
     - title: DevFest Brest - 2019/2020
       link: "https://devfest.duboutdumonde.bzh/"
