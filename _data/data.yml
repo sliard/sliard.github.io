@@ -36,7 +36,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Software developer for 22 years. I am curious, eager to learn new things. 
+      Software developer for 23 years. I am curious, eager to learn new things. 
       Having done a lot of Java development, I have also created and published 
       iOS applications and PHP backends. I am highly proficient in heavy traffic 
       API optimization and everything related to backend development. I have a 
@@ -70,6 +70,18 @@ education:
 experiences:
     - role: Software Engineer
       time: 2022
+      company: Babbar.tech, Full remote
+      details: |
+        I am an experienced developer with expertise in Java for web crawling, PHP for web portal development, and a solid background in working on an image generation service using the Stable Diffusion library. My proficiency in implementing web crawling algorithms allows me to efficiently gather data from diverse sources, while my skills in PHP enable me to create user-friendly web portals. Throughout my career, I have remained dedicated to delivering high-quality solutions and staying abreast of the latest web development technologies. I am enthusiastic about leveraging my experiences to contribute to impactful projects in the tech industry.
+
+        About technologies :
+          - Java, Spring boot
+          - PHP, Laravel
+          - PostgreSQL
+          - GCP
+          - Stable Diffusion, IA
+    - role: Software Engineer
+      time: 2022 - 2022
       company: Sunday, Full remote
       details: |
         Payment solution for restaurants based on QRCode.
@@ -108,7 +120,6 @@ experiences:
           - Changed the hosting solution in order to use a private cloud base on VMWare solution in good practice in terms of security (VLAN, VPN, firewall…)
           - As a Scrum master, I worked with our Product manager to organise all sprint tasks
           - Simplified the deployment of the Apizee platform. We used Rancher UI to orchestrate Docker images. All of our services deploy within 10 minutes using client servers
-
         About technologies :
           - PHP, Laravel
           - PostgreSQL, Redis
@@ -161,6 +172,10 @@ projects:
   intro: >
 
   assignments:
+    - title: DevFest Perros Guirec - 2022
+      link: "https://devfest.codedarmor.fr/"
+      tagline: "Second edition of DevFest in Perros Guirec around Green IT. We welcomed 230 people"
+
     - title: DevFest Perros Guirec - 2021
       link: "https://devfest.codedarmor.fr/"
       tagline: "First edition of DevFest in Perros Guirec around cybersecurity. We welcomed 130 people"
@@ -180,8 +195,11 @@ skills:
       - name: Java, Spring
         level: 98%
 
-      - name: Golang, Gin Gonic
+      - name: PHP, Laravel
         level: 80%
+
+      - name: Golang, Gin Gonic
+        level: 70%
 
       - name: OpenShift, GCP
         level: 70%
