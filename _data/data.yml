@@ -69,7 +69,7 @@ education:
           - Bullet point
 experiences:
     - role: Software Engineer
-      time: 2022
+      time: 2022 - now
       company: Babbar.tech, Full remote
       details: |
         I am an experienced developer with expertise in Java for web crawling, PHP for web portal development, and a solid background in working on an image generation service using the Stable Diffusion library. My proficiency in implementing web crawling algorithms allows me to efficiently gather data from diverse sources, while my skills in PHP enable me to create user-friendly web portals. Throughout my career, I have remained dedicated to delivering high-quality solutions and staying abreast of the latest web development technologies. I am enthusiastic about leveraging my experiences to contribute to impactful projects in the tech industry.
@@ -80,20 +80,6 @@ experiences:
           - PostgreSQL
           - GCP
           - Stable Diffusion, IA
-    - role: Software Engineer
-      time: 2022 - 2022
-      company: Sunday, Full remote
-      details: |
-        Payment solution for restaurants based on QRCode.
-          - Developed inside the loyalty team all the review management
-          - Help to increase customer engagement with the company and the venues
-
-        About technologies :
-          - Java, Spring boot, Jooq
-          - Grpc
-          - CQRS
-          - GCP, kubernetes
-          - ArgoCD
     - role: Software Architect
       time: 2019 - 2022
       company: Orange, Lannion
