@@ -36,13 +36,14 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Software developer for 23 years. I am curious, eager to learn new things. 
-      Having done a lot of Java development, I have also created and published 
-      iOS applications and PHP backends. I am highly proficient in heavy traffic 
-      API optimization and everything related to backend development. I have a 
-      deep knowledge of public cloud solutions like AWS and GCP but also docker 
-      solutions with Rancher. I've been interested for 2 years about smart 
-      contract and blockchain technologies.
+      Experienced Software Engineer with a versatile skill set spanning Java, PHP, and expertise in the Stable Diffusion library for image generation. 
+      Proficient in designing and implementing microservice architectures, managing CI/CD pipelines, and adapting code for PAAS services. 
+      Involved in the ONAP open-source project, revolutionizing 5G network lifecycle management. 
+      Skilled in coaching and mentoring apprentices and trainees, while also contributing to patent filings in various fields such as blockchain technology.
+  
+      Throughout my career, I have consistently delivered high-quality solutions, filed patents, and embraced new technologies. 
+      My passion for impactful projects and commitment to excellence make me a valuable asset in the tech industry. 
+      I am eager to leverage my experiences to drive innovation and create transformative solutions for cutting-edge ventures.
 
 education:
     - degree: MSc in Computer Science
