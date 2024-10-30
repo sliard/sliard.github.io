@@ -73,7 +73,7 @@ experiences:
       time: 2022 - now
       company: Babbar.tech, Full remote
       details: |
-        I am an experienced developer with expertise in Java for web crawling, PHP for web portal development, and a solid background in working on an image generation service using the Stable Diffusion library. My proficiency in implementing web crawling algorithms allows me to efficiently gather data from diverse sources, while my skills in PHP enable me to create user-friendly web portals. Throughout my career, I have remained dedicated to delivering high-quality solutions and staying abreast of the latest web development technologies. I am enthusiastic about leveraging my experiences to contribute to impactful projects in the tech industry.
+        At Babbar.tech, I contributed to the development of our powerful web crawling tool in Java, which processes over 3 billion pages per day, enabling large-scale web data collection. I also designed an image generation service based on the Stable Diffusion framework, allowing for high-quality visuals for various applications. Additionally, I led the complete overhaul of the YourText.guru service, developed in PHP Laravel, integrating numerous new SEO features to enhance its optimization capabilities. These experiences strengthened my skills in large-scale data processing, visual content generation, and the development of high-performance, flexible solutions.
 
         About technologies :
           - Java, Spring boot
