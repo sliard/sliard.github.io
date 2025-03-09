@@ -59,7 +59,7 @@ tagline:          'A Jekyll theme'
 
 author:
   name:           'Samuel Liard'
-  url:            https://twitter.com/sliard
+  url:            https://liard.me/
 
 paginate:         20
 paginate_path:   "/blog/page:num/"
