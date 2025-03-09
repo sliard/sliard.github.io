@@ -21,7 +21,7 @@
 title: Samuel Liard
 email: samuel@liard.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Mes infos
+  Blog technique de Samuel Liard
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://liard.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sliard
@@ -31,7 +31,7 @@ github_username:  sliard
 theme: minima
 #remote_theme: poole/hyde
 
-analytics: UA-5061779-1
+analytics: G-XDKVXM1Y2C
 
 plugins:
   - jekyll-feed
