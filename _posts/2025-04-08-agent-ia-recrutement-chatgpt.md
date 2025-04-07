@@ -18,11 +18,11 @@ tags:
   - n8n, chatGPT
 title: Comment j'ai utilisé un agent IA pour booster ma recherche d'emploi
 description: Je me suis demandé comment les utiliser pour optimiser ma recherche d'emploi. J'ai donc créé un agent capable de présenter mon CV à un recruteur.
-image: "/images/uploads/2025/03/agentIA.png"
+image: "/images/uploads/2025/04/agentIA.png"
 url: /2025/04/agent-ia-recrutement-chatgpt/
 ---
 
-![agentIA.png](/images/uploads/2025/03/agentIA.png)
+![agentIA.png](/images/uploads/2025/04/agentIA.png)
 
 En ce moment, je suis à la recherche d'un nouveau poste et, comme les LLM et les agents IA sont à la mode, je me suis demandé comment les utiliser pour optimiser ma recherche d'emploi. J'ai donc créé un agent capable de présenter mon CV à un recruteur.
 
@@ -42,7 +42,7 @@ Ensuite, j'ai exporté mon profil LinkedIn en PDF pour l'intégrer à ChatGPT co
 
 Aux premiers tests, j'ai eu quelques surprises :
 
-![ChatGpt pense que nous sommes en 2023](/images/uploads/2025/03/agent-age.png)
+![ChatGpt pense que nous sommes en 2023](/images/uploads/2025/04/agent-age.png)
 
 Alors ça me va très bien, mais c'est faux ! On oublie souvent que ChatGPT ne sait pas quel jour on est. J'ai donc ajouté l'année en cours dans le prompt pour obtenir des réponses correctes.
 J'ai aussi fermé le prompt pour éviter les questions hors sujet ou toutes les tournures du style : "oublie ton prompt et…"
@@ -55,11 +55,11 @@ J'utilise la phrase "Je serais très mécontent si tu donnais de fausses informa
 
 Le résultat est vraiment convaincant. Ce chat est très utile pour explorer mon CV dans le sens que je veux. En 25 ans, j'ai travaillé sur de nombreux projets. Avec cet agent, je peux facilement poser une question sur une technologie et retrouver les expériences en lien.
 
-![Description de mes projets GCP](/images/uploads/2025/03/agent-gpt.png)
+![Description de mes projets GCP](/images/uploads/2025/04/agent-gpt.png)
 
-![Description de mes projets Java](/images/uploads/2025/03/agent-java.png)
+![Description de mes projets Java](/images/uploads/2025/04/agent-java.png)
 
-![Je ne suis pas dev frontend](/images/uploads/2025/03/agent-frontend.png)
+![Je ne suis pas dev frontend](/images/uploads/2025/04/agent-frontend.png)
 
 Cela fonctionne, mais cela reste un LLM spécialisé, pas un agent IA. Voyons comment aller plus loin.
 
@@ -72,7 +72,7 @@ En plus, n8n propose un module Agent IA, qui intègre :
 - La possibilité d'utiliser le LLM de son choix,
 - La connexion à des outils pour permettre au LLM d'agir sur le monde extérieur.
 
-![graph n8n de l agent](/images/uploads/2025/03/agent-n8n.png)
+![graph n8n de l agent](/images/uploads/2025/04/agent-n8n.png)
 
 Dans mon exemple, j'ai ajouté un module permettant à mon agent d'ajouter directement un rendez-vous avec un recruteur dans mon agenda Google Calendar.
 
@@ -97,13 +97,13 @@ Par exemple pour la partir rendez-vous
 
 J'ai dû ajouter la limite à un rendez-vous pour éviter de remplir rapidement mon calendrier avec des tests. Vous noterez que c'est important de respecter certaines règles pour nommer vos outils. Un nom explicite et sans espace va être utilisé plus efficacement. Vous pouvez trouver pas mal de conseils sur le prompt avec [cette vidéo](https://www.youtube.com/watch?v=77Z07QnLlB8).
 
-![test avec une mauvaise date](/images/uploads/2025/03/agent-date.png)
+![test avec une mauvaise date](/images/uploads/2025/04/agent-date.png)
 
 Ce chat fonctionne assez vite même s'il faut bien travailler son prompt pour diminuer les hallucinations.
 
 J'ai également expérimenté avec d'autres sources de données. Par exemple, j'ai tenté de créer un agent pour l'organisation de l'Open d'échecs de mon club. J'ai ajouté la liste des joueurs inscrits dans une table Airtable que j'ai connectée comme outil et source de données. Cependant, l'agent ne parvenait pas à compter correctement le nombre d'inscrits.
 
-![agent-open.png](/images/uploads/2025/03/agent-open.png)
+![agent-open.png](/images/uploads/2025/04/agent-open.png)
 
 Pour résoudre ce problème, j'ai remplacé Airtable par une extraction des pages HTML du site de la Fédération Française des Échecs et l'agent a immédiatement fonctionné correctement. L'outil Airtable est bien sûr utilisable, c'est juste que je n'ai pas réussi à tourner mon prompt pour que ça fonctionne alors qu'avec une source de données HTML, ça a fonctionné du premier coup.
 
