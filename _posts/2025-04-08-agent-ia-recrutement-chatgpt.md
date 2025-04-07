@@ -19,8 +19,7 @@ tags:
 title: Comment j'ai utilisé un agent IA pour booster ma recherche d'emploi
 description: Je me suis demandé comment les utiliser pour optimiser ma recherche d'emploi. J'ai donc créé un agent capable de présenter mon CV à un recruteur.
 image: "/images/uploads/2025/03/agentIA.png"
-url: /2025/04
-  /agent-ia-recrutement-chatgpt/
+url: /2025/04/agent-ia-recrutement-chatgpt/
 ---
 
 ![agentIA.png](/images/uploads/2025/03/agentIA.png)
