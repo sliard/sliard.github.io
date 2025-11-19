@@ -68,8 +68,14 @@ education:
           - Bullet point
           - Bullet point
 experiences:
+    - role: Software Engineering Manager
+      time: 2025 - now
+      company: Exail Robotics, Lannion
+      details: |
+        I lead the software department at Exail Robotics in Lannion, managing a multidisciplinary team responsible for developing advanced terrestrial and aerial training simulators. Our simulators cover both civil (e.g., firefighter training) and military use cases, with multiple levels of fidelity up to Full-Flight Simulator (FFS) standards. I structured the software factory for the simulation division, improving our development workflows, CI/CD practices, and quality processes. I support the teams throughout the full lifecycle, from early design to delivery, while staying hands-on with key technical topics and system architecture to ensure robust, scalable, and maintainable solutions.
+
     - role: Software Engineer
-      time: 2022 - now
+      time: 2022 - 2025
       company: Babbar.tech, Full remote
       details: |
         At Babbar.tech, I contributed to the development of our powerful web crawling tool in Java, which processes over 3 billion pages per day, enabling large-scale web data collection. I also designed an image generation service based on the Stable Diffusion framework, allowing for high-quality visuals for various applications. Additionally, I led the complete overhaul of the YourText.guru service, developed in PHP Laravel, integrating numerous new SEO features to enhance its optimization capabilities. These experiences strengthened my skills in large-scale data processing, visual content generation, and the development of high-performance, flexible solutions.
