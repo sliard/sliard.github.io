@@ -9,6 +9,7 @@ Sur cette page vous trouverez les archives de mon ancien blog, mon CV et des art
  
 Article Medium :
 
+* [Pourquoi j’ai (quand même) accepté de devenir manager](https://medium.com/@sliard/pourquoi-jai-quand-m%C3%AAme-accept%C3%A9-de-devenir-manager-0473bc52caf9)
 * [Mes entretiens Facebook](https://medium.com/@sliard/mes-entretiens-facebook-d1f406c4f6a5)
 
 Conférences :
