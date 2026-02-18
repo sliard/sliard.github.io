@@ -22,11 +22,9 @@ image: "/images/uploads/2026/02/claudevscopilot.png"
 url: /2026/02/copilot-vs-claude-code/
 ---
 
-# GitHub Copilot après Claude Code
+![Claude VS Copilot](/images/uploads/2026/02/claudevscopilot.png)
 
 Depuis plusieurs mois, j’expérimente les assistants IA dans mes projets, et après avoir beaucoup travaillé avec Claude Code et constaté à quel point ces outils permettent de produire des applications à une vitesse impressionnante, notamment parce qu’ils m’aident à dépasser mes limites sur la partie IHM en tant que développeur backend, j’ai voulu tester GitHub Copilot avec le modèle Opus 4.5 afin de voir ce qu’il apportait concrètement dans mes développements. J’étais plus que sceptique. Quand quelque chose fonctionne très bien, on n’a pas forcément envie d’en changer. Et pourtant.
-
-![Claude VS Copilot](/images/uploads/2026/02/claudevscopilot.png)
 
 ## Pourquoi tester GitHub Copilot ?
 
