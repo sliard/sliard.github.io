@@ -22,8 +22,6 @@ image: "/images/uploads/2026/03/cli/home.png"
 url: /2026/03/copilot-cli-online/
 ---
 
-# GitHub Copilot : CLI vs Online
-
 J'ai eu envie de faire un test simple: demander a GitHub Copilot de generer le meme site via deux approches differentes, une en mode CLI et une en mode online.
 
 L'idee ici c'est  d'observer les differences de rendu ecran par ecran. Les deux generations couvrent globalement le meme besoin, avec des variations sur la presentation, la hierarchie visuelle et quelques details d'ergonomie.
