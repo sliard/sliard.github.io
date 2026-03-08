@@ -75,4 +75,6 @@ J'ai laissé l'erreur CSS alors qu'a mon avis ça pouvais ce corriger rapidement
 
 Ce comparatif confirme que **la qualité du résultat dépend autant du contexte et des instructions que de l'outil lui-même**. Les différences observées s'expliquent en partie par le fait que j'ai focalisé mes descriptions sur les besoins fonctionnels de l'utilisateur, sans jamais mentionner d'aspects ergonomiques ou de design.
 
+**Un constat surprenant sur le temps de traitement :** la génération en ligne a été réalisée en 1h par GitHub avec comme consigne d'implémenter l'ensemble des features en une seule fois. Pour la CLI, j'ai suivi l'approche recommandée par GitHub : des prompts dédiés pour chaque feature, avec systématiquement une phase de planification puis une phase de génération. Cette méthode m'a demandé toute une après-midi. Paradoxalement, on constate que la génération "oneshot" produit un résultat exactement au même niveau que l'approche itérative pourtant préconisée.
+
 Point intéressant : aucune des deux générations ne propose d'éditer une ouverture en déplaçant directement les pièces sur l'échiquier, fonctionnalité que j'avais pourtant obtenue lors d'une [première génération](https://github.com/sliard/TestChessCopilot). Cela montre l'importance de la formulation des prompts et du contexte dans lequel l'IA travaille.
