@@ -67,7 +67,7 @@ J'ai laissé l'erreur CSS alors qu'a mon avis ça pouvais ce corriger rapidement
 
 | CLI | Online |
 | --- | --- |
-| ![Public Private version CLI](/images/uploads/2026/03/cli/PublicPrivate.png) | ![Public Private version Online](/images/uploads/2026/03/online/PublicPrivate.png) |
+| [![Public Private version CLI](/images/uploads/2026/03/cli/PublicPrivate.png)](/images/uploads/2026/03/cli/PublicPrivate.png){:target="_blank"} | [![Public Private version Online](/images/uploads/2026/03/online/PublicPrivate.png)](/images/uploads/2026/03/online/PublicPrivate.png){:target="_blank"} |
 
 ## Conclusion
 
