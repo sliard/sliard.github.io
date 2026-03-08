@@ -35,7 +35,7 @@ Les fichiers dans le répertoires docs sont les mêmes et pourtant on constate d
 
 | CLI | Online |
 | --- | --- |
-| ![Home version CLI](/images/uploads/2026/03/cli/home.png) | ![Home version Online](/images/uploads/2026/03/online/home.png) |
+| [![Home version CLI](/images/uploads/2026/03/cli/home.png)](/images/uploads/2026/03/cli/home.png){:target="_blank"} | [![Home version Online](/images/uploads/2026/03/online/home.png)](/images/uploads/2026/03/online/home.png){:target="_blank"} |
 
 ## Create Account
 
@@ -43,25 +43,25 @@ J'ai laissé l'erreur CSS alors qu'a mon avis ça pouvais ce corriger rapidement
 
 | CLI | Online |
 | --- | --- |
-| ![Create Account version CLI](/images/uploads/2026/03/cli/CreateAccount.png) | ![Create Account version Online](/images/uploads/2026/03/online/CreateAccount.png) |
+| [![Create Account version CLI](/images/uploads/2026/03/cli/CreateAccount.png)](/images/uploads/2026/03/cli/CreateAccount.png){:target="_blank"} | [![Create Account version Online](/images/uploads/2026/03/online/CreateAccount.png)](/images/uploads/2026/03/online/CreateAccount.png){:target="_blank"} |
 
 ## Opening
 
 | CLI | Online |
 | --- | --- |
-| ![Opening version CLI](/images/uploads/2026/03/cli/Opening.png) | ![Opening version Online](/images/uploads/2026/03/online/Opening.png) |
+| [![Opening version CLI](/images/uploads/2026/03/cli/Opening.png)](/images/uploads/2026/03/cli/Opening.png){:target="_blank"} | [![Opening version Online](/images/uploads/2026/03/online/Opening.png)](/images/uploads/2026/03/online/Opening.png){:target="_blank"} |
 
 ## Opening Edit
 
 | CLI | Online |
 | --- | --- |
-| ![Opening Edit version CLI](/images/uploads/2026/03/cli/OpeningEdit.png) | ![Opening Edit version Online](/images/uploads/2026/03/online/OpeningEdit.png) |
+| [![Opening Edit version CLI](/images/uploads/2026/03/cli/OpeningEdit.png)](/images/uploads/2026/03/cli/OpeningEdit.png){:target="_blank"} | [![Opening Edit version Online](/images/uploads/2026/03/online/OpeningEdit.png)](/images/uploads/2026/03/online/OpeningEdit.png){:target="_blank"} |
 
 ## Opening View
 
 | CLI | Online |
 | --- | --- |
-| ![Opening View version CLI](/images/uploads/2026/03/cli/OpeningView.png) | ![Opening View version Online](/images/uploads/2026/03/online/OpeningView.png) |
+| [![Opening View version CLI](/images/uploads/2026/03/cli/OpeningView.png)](/images/uploads/2026/03/cli/OpeningView.png){:target="_blank"} | [![Opening View version Online](/images/uploads/2026/03/online/OpeningView.png)](/images/uploads/2026/03/online/OpeningView.png){:target="_blank"} |
 
 ## Public / Private
 
