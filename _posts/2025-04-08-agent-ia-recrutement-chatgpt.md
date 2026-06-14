@@ -1,4 +1,5 @@
 ---
+theme: agentia
 author: Samuel
 categories:
   - AgentIA 

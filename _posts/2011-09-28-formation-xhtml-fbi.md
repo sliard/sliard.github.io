@@ -1,4 +1,5 @@
 ---
+theme: html
 author: Samuel
 categories:
   - HTML

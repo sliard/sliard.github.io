@@ -1,4 +1,5 @@
 ---
+theme: logiciel-libre
 author: Samuel
 categories:
   - Logiciel Libre
