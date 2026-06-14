@@ -27,6 +27,11 @@ url: "https://liard.me" # the base hostname & protocol for your site, e.g. http:
 twitter_username: sliard
 github_username:  sliard
 
+# Langue & image sociale par défaut (utilisées par jekyll-seo-tag)
+lang: fr_FR
+locale: fr_FR
+image: /images/liard-cv.png
+
 # Build settings
 theme: minima
 #remote_theme: poole/hyde
@@ -54,6 +59,19 @@ kramdown:
 #permalink:        pretty
 #relative_permalinks: true
 
+# Valeurs par défaut : garantit que les articles utilisent la mise en page « post »
+# et fournit une image de partage social par défaut (surchargée par `image:` dans le front matter).
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/liard-cv.png
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
 # Setup
 tagline:          'A Jekyll theme'
 
@@ -63,6 +81,10 @@ author:
 
 paginate:         20
 paginate_path:   "/blog/page:num/"
+
+# Flux de syndication (jekyll-feed) servi à l'URL historique /atom.xml
+feed:
+  path: atom.xml
 
 # Custom vars
 version:          2.1.0

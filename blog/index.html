@@ -1,35 +1,36 @@
 ---
 layout: default
-title: BLOG
+title: Blog
+description: Articles techniques de Samuel Liard sur le développement logiciel, le cloud, les microservices, l'IA et l'architecture.
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<header class="page">
+  <h1 class="page-title">Blog</h1>
+  <p class="lead">{{ paginator.total_posts }} articles sur le développement, le cloud, l'architecture et l'IA.</p>
+</header>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-  </div>
+<div class="post-cards">
+  {% for post in paginator.posts %}
+    {% include post-card.html %}
   {% endfor %}
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="/blog/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
+<nav class="pagination" aria-label="Pagination des articles">
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/blog/">Newer</a>
+      <a class="pagination-item newer" href="/blog/">← Plus récents</a>
     {% else %}
-      <a class="pagination-item newer" href="/blog/page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="/blog/page{{ paginator.previous_page }}">← Plus récents</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class="pagination-item newer disabled">← Plus récents</span>
   {% endif %}
-</div>
+
+  <span class="pagination-count">Page {{ paginator.page }} / {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="/blog/page{{ paginator.next_page }}">Plus anciens →</a>
+  {% else %}
+    <span class="pagination-item older disabled">Plus anciens →</span>
+  {% endif %}
+</nav>

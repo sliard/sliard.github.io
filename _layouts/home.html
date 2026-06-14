@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<section class="home-hero">
+  <h1>{{ page.hero_title | default: site.title }}</h1>
+  <p class="home-tagline">{{ page.hero_tagline }}</p>
+  <div class="home-cta">
+    <a class="btn btn-primary" href="/cv">Voir mon CV</a>
+    <a class="btn btn-ghost" href="/blog">Lire le blog</a>
+    <a class="btn btn-ghost" href="https://github.com/{{ site.github_username }}" rel="me noopener" target="_blank">GitHub</a>
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="home-section-title">
+    <h2>À la une</h2>
+    <a class="see-all" href="/blog">Tous les articles →</a>
+  </div>
+  <div class="post-cards">
+    {% for post in site.posts limit:4 %}
+      {% include post-card.html %}
+    {% endfor %}
+  </div>
+</section>
+
+<div class="home-content">
+  {{ content }}
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.author.name | jsonify }},
+  "url": "{{ site.url }}/",
+  "jobTitle": "Software Engineering Manager",
+  "sameAs": [
+    "https://github.com/{{ site.github_username }}",
+    "https://twitter.com/{{ site.twitter_username }}",
+    "https://www.linkedin.com/in/{{ site.data.data.sidebar.linkedin }}"
+  ]
+}
+</script>

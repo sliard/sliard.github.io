@@ -1,0 +1,455 @@
+/*
+ * site.css — Couche de personnalisation moderne et sobre.
+ * Chargée APRÈS poole.css et hyde.css, elle modernise le thème
+ * de l'accueil et du blog sans toucher au thème du CV (assets/).
+ */
+
+/*
+ * Design tokens
+ */
+:root {
+  --c-bg: #ffffff;
+  --c-bg-soft: #f6f7f9;
+  --c-text: #2b2f33;
+  --c-text-soft: #5b6068;
+  --c-muted: #8a9099;
+  --c-border: #e6e8eb;
+  --c-accent: #2f6fed;
+  --c-accent-dark: #1f55c0;
+  --c-sidebar: #1c1f24;
+  --c-sidebar-soft: #2a2e35;
+  --c-sidebar-text: rgba(255, 255, 255, .68);
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, .06), 0 1px 3px rgba(16, 24, 40, .08);
+  --shadow-md: 0 4px 12px rgba(16, 24, 40, .08), 0 2px 4px rgba(16, 24, 40, .06);
+  --maxw: 44rem;
+}
+
+/*
+ * Base type — typographie plus lisible et sobre
+ */
+html {
+  font-family: "PT Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+body {
+  color: var(--c-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #1c1f24;
+  letter-spacing: -0.01em;
+}
+a {
+  color: var(--c-accent);
+  transition: color .15s ease;
+}
+a:hover, a:focus {
+  color: var(--c-accent-dark);
+}
+
+/* Contenu un peu plus large et confortable que le Poole d'origine */
+.content.container {
+  max-width: var(--maxw);
+}
+
+/* Liens accessibles : focus visible */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--c-accent);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* Lien d'évitement (accessibilité clavier) */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: var(--c-accent);
+  color: #fff;
+  padding: .5rem .9rem;
+  border-radius: 0 0 var(--radius-sm) 0;
+  z-index: 1000;
+}
+.skip-link:focus {
+  left: 0;
+  color: #fff;
+}
+
+/*
+ * Sidebar — version modernisée du thème Hyde
+ */
+.sidebar {
+  background-color: var(--c-sidebar);
+  color: var(--c-sidebar-text);
+}
+.sidebar-about h1 {
+  color: #fff;
+  font-family: inherit;
+  font-size: 2.4rem;
+  letter-spacing: -0.02em;
+}
+.sidebar-about .lead {
+  color: rgba(255, 255, 255, .6);
+  font-size: 1.05rem;
+}
+.sidebar .sidebar-nav {
+  margin-bottom: 1.25rem;
+}
+.sidebar-nav-item {
+  border-radius: var(--radius-sm);
+  padding: .35rem .6rem;
+  margin: 0 auto .15rem;
+  max-width: 12rem;
+  transition: background-color .15s ease, color .15s ease;
+}
+.sidebar-nav-item:hover,
+.sidebar-nav-item:focus {
+  background-color: var(--c-sidebar-soft);
+  color: #fff;
+  text-decoration: none;
+}
+.sidebar-nav-item.active {
+  background-color: var(--c-accent);
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Icônes réseaux sociaux dans la sidebar */
+.sidebar-social {
+  display: flex;
+  gap: .9rem;
+  justify-content: center;
+  margin: 1rem 0 1.25rem;
+}
+.sidebar-social a {
+  color: rgba(255, 255, 255, .65);
+  font-size: 1.2rem;
+  line-height: 1;
+  transition: color .15s ease, transform .15s ease;
+}
+.sidebar-social a:hover,
+.sidebar-social a:focus {
+  color: #fff;
+  transform: translateY(-1px);
+}
+.sidebar-copyright {
+  color: rgba(255, 255, 255, .4);
+  font-size: .8rem;
+}
+
+/*
+ * Accueil — landing page
+ */
+.home-hero {
+  padding: 1rem 0 2rem;
+  border-bottom: 1px solid var(--c-border);
+  margin-bottom: 2.5rem;
+}
+.home-hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: .5rem;
+}
+.home-hero .home-tagline {
+  font-size: 1.25rem;
+  color: var(--c-text-soft);
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+.home-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+}
+.btn {
+  display: inline-block;
+  padding: .55rem 1.1rem;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: .95rem;
+  border: 1px solid var(--c-accent);
+  transition: background-color .15s ease, color .15s ease, transform .15s ease;
+}
+.btn:hover, .btn:focus {
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+.btn-primary {
+  background-color: var(--c-accent);
+  color: #fff;
+}
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--c-accent-dark);
+  color: #fff;
+}
+.btn-ghost {
+  background-color: transparent;
+  color: var(--c-accent);
+}
+.btn-ghost:hover, .btn-ghost:focus {
+  background-color: var(--c-bg-soft);
+  color: var(--c-accent-dark);
+}
+
+.home-section {
+  margin-bottom: 3rem;
+}
+.home-section-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: .4rem;
+  border-bottom: 2px solid var(--c-border);
+}
+.home-section-title h2 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+.home-section-title .see-all {
+  font-size: .9rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.home-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.home-list li {
+  margin-bottom: .6rem;
+  padding-left: 1.1rem;
+  position: relative;
+}
+.home-list li::before {
+  content: "›";
+  position: absolute;
+  left: 0;
+  color: var(--c-accent);
+  font-weight: 700;
+}
+.home-list small {
+  color: var(--c-muted);
+}
+
+/*
+ * Cartes d'articles (index du blog + à la une)
+ */
+.post-cards {
+  display: grid;
+  gap: 1.25rem;
+}
+.post-card {
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.4rem;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow .2s ease, transform .2s ease, border-color .2s ease;
+}
+.post-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  border-color: #d7dbe0;
+}
+.post-card-title {
+  margin: 0 0 .4rem;
+  font-size: 1.3rem;
+  line-height: 1.25;
+}
+.post-card-title a {
+  color: #1c1f24;
+}
+.post-card-title a:hover {
+  color: var(--c-accent);
+  text-decoration: none;
+}
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem;
+  font-size: .82rem;
+  color: var(--c-muted);
+  margin-bottom: .65rem;
+}
+.post-meta .dot {
+  opacity: .5;
+}
+.post-card-excerpt {
+  color: var(--c-text-soft);
+  margin-bottom: .85rem;
+}
+.post-card-excerpt p {
+  margin-bottom: 0;
+}
+.read-more {
+  font-weight: 700;
+  font-size: .9rem;
+}
+
+/*
+ * Tags / étiquettes
+ */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.tag {
+  display: inline-block;
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  text-transform: lowercase;
+  color: var(--c-accent-dark);
+  background: #eef3fe;
+  border: 1px solid #dbe6fd;
+  border-radius: 999px;
+  padding: .12rem .6rem;
+  transition: background-color .15s ease, color .15s ease;
+}
+a.tag:hover, a.tag:focus {
+  background: var(--c-accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Page d'index des tags */
+.tags-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: 1rem 0 2.5rem;
+}
+.tag-group {
+  margin-bottom: 2rem;
+  scroll-margin-top: 1rem;
+}
+.tag-group h2 {
+  display: flex;
+  align-items: baseline;
+  gap: .5rem;
+  border-bottom: 1px solid var(--c-border);
+  padding-bottom: .35rem;
+}
+.tag-group h2 .count {
+  font-size: .85rem;
+  font-weight: 400;
+  color: var(--c-muted);
+}
+.tag-group ul {
+  list-style: none;
+  padding-left: 0;
+}
+.tag-group li {
+  margin-bottom: .35rem;
+}
+.tag-group li time {
+  color: var(--c-muted);
+  font-size: .82rem;
+  margin-left: .4rem;
+}
+
+/*
+ * Page d'article
+ */
+.post-header {
+  margin-bottom: 1.75rem;
+}
+.post-title {
+  font-size: 2.1rem;
+  line-height: 1.15;
+  margin-bottom: .6rem;
+}
+.post .post-date {
+  margin-top: 0;
+}
+.post-content {
+  font-size: 1.02rem;
+}
+.post-content h2 {
+  margin-top: 2.2rem;
+}
+.post-content h3 {
+  margin-top: 1.8rem;
+}
+.post-content img {
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+}
+.post-footer-tags {
+  margin: 2rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--c-border);
+}
+.post-footer-tags .label {
+  font-size: .85rem;
+  color: var(--c-muted);
+  margin-right: .5rem;
+}
+
+/* Articles liés */
+.related {
+  border-top: 1px solid var(--c-border);
+}
+.related h2 {
+  font-size: 1.2rem;
+}
+.related-posts li {
+  margin-bottom: .75rem;
+}
+.related-posts h3 {
+  font-size: 1.02rem;
+  margin: 0;
+}
+
+/*
+ * Pagination modernisée
+ */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  border: 0;
+  margin: 2.5rem 0;
+  color: var(--c-muted);
+}
+.pagination-item {
+  display: inline-block;
+  width: auto;
+  float: none;
+  padding: .55rem 1rem;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-sm);
+  font-size: .92rem;
+  background: var(--c-bg);
+}
+a.pagination-item:hover {
+  background: var(--c-bg-soft);
+  border-color: #d7dbe0;
+  text-decoration: none;
+}
+.pagination-item.disabled {
+  opacity: .45;
+}
+.pagination-count {
+  font-size: .9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * Responsive
+ */
+@media (max-width: 48em) {
+  .home-hero h1 { font-size: 2rem; }
+  .post-title { font-size: 1.7rem; }
+  .home-section-title { flex-wrap: wrap; }
+}

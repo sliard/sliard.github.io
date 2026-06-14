@@ -1,0 +1,37 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+description: "Explorez les articles du blog de Samuel Liard par thématique : Java, cloud, microservices, IA, agilité et plus encore."
+---
+
+<header class="page">
+  <h1 class="page-title">Tags</h1>
+  <p class="lead">Naviguez dans les {{ site.posts.size }} articles par thématique.</p>
+</header>
+
+{% assign sorted_tags = site.tags | sort %}
+
+<div class="tags-cloud">
+  {% for tag in sorted_tags %}
+    {% assign tag_name = tag | first %}
+    {% assign tag_posts = tag | last %}
+    <a class="tag" href="#{{ tag_name | slugify }}">{{ tag_name }} <span class="count">({{ tag_posts.size }})</span></a>
+  {% endfor %}
+</div>
+
+{% for tag in sorted_tags %}
+  {% assign tag_name = tag | first %}
+  {% assign tag_posts = tag | last %}
+  <section class="tag-group" id="{{ tag_name | slugify }}">
+    <h2>{{ tag_name }} <span class="count">{{ tag_posts.size }} article{% if tag_posts.size > 1 %}s{% endif %}</span></h2>
+    <ul>
+      {% for post in tag_posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{% include date-fr.html date=post.date %}</time>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endfor %}
