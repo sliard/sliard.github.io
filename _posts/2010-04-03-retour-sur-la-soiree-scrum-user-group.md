@@ -1,4 +1,5 @@
 ---
+theme: agile
 author: Samuel
 categories:
   - Agile

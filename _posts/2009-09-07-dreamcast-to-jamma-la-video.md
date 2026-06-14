@@ -1,4 +1,5 @@
 ---
+theme: arcade
 author: Samuel
 categories:
   - Arcade

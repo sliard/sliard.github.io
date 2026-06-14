@@ -1,0 +1,91 @@
+---
+layout: default
+nav: blog
+title: Blog
+permalink: /blog/
+---
+{%- comment -%} Article vedette : le premier post marqué `featured: true`, sinon le plus récent {%- endcomment -%}
+{%- assign featured = site.posts | where: "featured", true | first -%}
+{%- unless featured %}{% assign featured = site.posts | first %}{% endunless -%}
+
+{%- comment -%} Listes de filtres dérivées des posts {%- endcomment -%}
+{%- assign themes = site.posts | map: "theme" | compact | uniq | sort -%}
+{%- capture years_raw %}{% for post in site.posts %}{{ post.date | date: "%Y" }} {% endfor %}{% endcapture -%}
+{%- assign years = years_raw | split: " " | uniq | sort | reverse -%}
+
+<section class="container blog">
+  <div class="prompt">&gt; cd ~/blog &amp;&amp; ls -la</div>
+  <h1 class="page-title">Le blog</h1>
+
+  <a class="featured" href="{{ featured.url | relative_url }}">
+    <div class="featured__body">
+      <div class="featured__kicker">★ pinned · #{{ featured.theme }}</div>
+      <h2 class="featured__title">{{ featured.title }}</h2>
+      {%- assign f_rt = featured.reading_time -%}
+      {%- unless f_rt %}{% assign f_rt = featured.content | number_of_words | divided_by: 200 | plus: 1 %}{% endunless -%}
+      <div class="featured__meta">{{ featured.date | date: "%d %b %Y" }} · ~{{ f_rt }} min de lecture</div>
+      <div style="margin-top:26px;"><span class="btn btn--mint">lire →</span></div>
+    </div>
+    <div class="featured__art"><div><div class="big">&lt;/&gt;</div><div class="lbl">{{ featured.theme | upcase }}</div></div></div>
+  </a>
+
+  <div class="filters">
+    <div class="filters__row">
+      <span class="filters__label">--theme</span>
+      <button class="chip is-active" data-filter="theme" data-value="Tous">Tous</button>
+      {%- for t in themes %}<button class="chip" data-filter="theme" data-value="{{ t }}">{{ t }}</button>{% endfor %}
+    </div>
+    <div class="filters__row">
+      <span class="filters__label">--year</span>
+      <button class="chip is-active" data-filter="year" data-value="Toutes">Toutes</button>
+      {%- for y in years %}<button class="chip" data-filter="year" data-value="{{ y }}">{{ y }}</button>{% endfor %}
+    </div>
+  </div>
+
+  <div class="post-list">
+    {%- for post in site.posts %}
+    <a class="post-row" href="{{ post.url | relative_url }}" data-theme="{{ post.theme }}" data-year="{{ post.date | date: '%Y' }}">
+      <span class="date">{{ post.date | date: "%d %b %Y" }}</span>
+      <span class="title">{{ post.title }}</span>
+      <span class="tag">#{{ post.theme }}</span>
+    </a>
+    {%- endfor %}
+  </div>
+  <div class="count"></div>
+</section>
+
+<script>
+  (function () {
+    var state = { theme: 'Tous', year: 'Toutes' };
+    var chips = document.querySelectorAll('.chip');
+    var rows = document.querySelectorAll('.post-row');
+    var count = document.querySelector('.count');
+
+    function apply() {
+      var n = 0;
+      rows.forEach(function (r) {
+        var okT = state.theme === 'Tous' || r.dataset.theme === state.theme;
+        var okY = state.year === 'Toutes' || r.dataset.year === state.year;
+        var ok = okT && okY;
+        r.style.display = ok ? '' : 'none';
+        if (ok) n++;
+      });
+      count.textContent = n + ' article' + (n > 1 ? 's' : '') +
+        ' · ' + (state.theme === 'Tous' ? 'tous thèmes' : '#' + state.theme) +
+        ' · ' + (state.year === 'Toutes' ? 'toutes années' : state.year);
+    }
+
+    chips.forEach(function (c) {
+      c.addEventListener('click', function () {
+        var f = c.dataset.filter;
+        state[f] = c.dataset.value;
+        document.querySelectorAll('.chip[data-filter="' + f + '"]').forEach(function (x) {
+          x.classList.toggle('is-active', x === c);
+        });
+        apply();
+      });
+    });
+
+    apply();
+  })();
+</script>

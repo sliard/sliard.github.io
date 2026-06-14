@@ -1,4 +1,5 @@
 ---
+theme: cloud
 author: Samuel
 categories:
   - Cloud

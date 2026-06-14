@@ -1,0 +1,63 @@
+// ── Base / reset ─────────────────────────────────────────────
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: $font-body;
+  font-size: 16px;
+  line-height: 1.6;
+  color: $text;
+  background: $bg;
+  background-image: radial-gradient($grid-dot 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a { color: $mint; }
+
+::selection { background: $mint; color: $mint-ink; }
+
+img { max-width: 100%; display: block; }
+
+main { flex: 1; }
+
+.container {
+  max-width: $maxw;
+  margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.prompt {
+  font-family: $font-mono;
+  font-size: 13px;
+  color: $mint;
+}
+
+.page-title {
+  font-family: $font-display;
+  font-weight: 700;
+  font-size: clamp(40px, 6vw, 54px);
+  line-height: 1.0;
+  letter-spacing: -0.025em;
+  margin: 14px 0 0;
+  color: $text-bright;
+}
+
+.section-lead {
+  font-family: $font-body;
+  font-size: 18px;
+  color: $muted;
+  margin: 6px 0 0;
+  max-width: 58ch;
+}
+
+@media (max-width: 720px) {
+  .container { padding-left: 20px; padding-right: 20px; }
+}

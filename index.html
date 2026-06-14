@@ -1,0 +1,52 @@
+---
+layout: default
+nav: accueil
+title: Accueil
+---
+<section class="container home">
+  <div class="hero">
+    <div>
+      <div class="prompt">&gt; whoami</div>
+      <h1 class="hero__name">Samuel<br>Liard<span class="hero__cursor"></span></h1>
+      <p class="hero__lead">Software Engineering Manager à Lannion. Vingt ans à concevoir des systèmes qui tiennent la charge — du jeu vidéo au crawl web à 3&nbsp;milliards de pages par jour.</p>
+      <div class="hero__cta">
+        <a class="btn btn--mint" href="{{ '/blog/' | relative_url }}">cat blog/ →</a>
+        <a class="btn btn--ghost" href="{{ '/cv/' | relative_url }}">open cv.pdf</a>
+      </div>
+      <div class="hero__stats">
+        <div><div class="stat__n">20</div><div class="stat__l">ans d'XP</div></div>
+        <div><div class="stat__n">04</div><div class="stat__l">talks filmés</div></div>
+        <div><div class="stat__n">03</div><div class="stat__l">brevets</div></div>
+      </div>
+    </div>
+
+    <aside class="tree">
+      <div class="tree__head"><span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span><span style="margin-left:8px;">~/samuel — tree</span></div>
+      <div class="tree__body">
+        <div class="dir">📁 carriere/</div>
+        <div class="child">exail-robotics<span class="meta"> · 2025</span></div>
+        <div class="child">babbar-tech<span class="meta"> · 2022</span></div>
+        <div class="child">orange-rnd<span class="meta"> · 2019</span></div>
+        <div class="child">apizee · sushee<span class="meta"> · 2016</span></div>
+        <div class="child">apptom<span class="meta"> · 2012</span></div>
+        <div class="file" style="margin-top:8px;">📄 cv.pdf</div>
+        <div class="file">📄 about.md</div>
+      </div>
+    </aside>
+  </div>
+
+  <div class="section">
+    <div class="section__head">
+      <div class="prompt">&gt; ls blog/ --recent</div>
+      <a class="section__more" href="{{ '/blog/' | relative_url }}">tout le blog →</a>
+    </div>
+    <div class="card-grid">
+      {%- for post in site.posts limit: 3 %}
+      <a class="card" href="{{ post.url | relative_url }}">
+        <div class="card__meta"><span class="tag">#{{ post.theme }}</span><span class="date">{{ post.date | date: "%d %b %Y" }}</span></div>
+        <div class="card__title">{{ post.title }}</div>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

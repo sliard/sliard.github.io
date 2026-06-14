@@ -1,4 +1,5 @@
 ---
+theme: perso
 author: Samuel
 categories:
   - Perso

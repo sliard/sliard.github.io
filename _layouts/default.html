@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
-  {% include hyde_head.html %}
-
-  <body>
-
-    {% include hyde_sidebar.html %}
-
-    <div class="content container">
-      {{ content }}
-    </div>
-
-  </body>
+<!doctype html>
+<html lang="{{ site.lang | default: 'fr' }}">
+{%- include head.html -%}
+<body>
+  {%- include nav.html -%}
+  <main>
+    {{ content }}
+  </main>
+  {%- include footer.html -%}
+</body>
 </html>

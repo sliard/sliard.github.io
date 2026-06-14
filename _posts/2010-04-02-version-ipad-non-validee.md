@@ -1,4 +1,5 @@
 ---
+theme: iphone
 author: Samuel
 categories:
   - iPhone

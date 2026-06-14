@@ -1,0 +1,69 @@
+// ── Header / nav ─────────────────────────────────────────────
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(12, 13, 16, 0.82);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid $border-soft;
+}
+.site-header__bar {
+  max-width: $maxw;
+  margin: 0 auto;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+.brand {
+  font-family: $font-mono;
+  font-size: 13.5px;
+  color: $muted-2;
+  text-decoration: none;
+  white-space: nowrap;
+  .brand__cursor { color: $mint; }
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  flex-wrap: wrap;
+}
+.nav a {
+  font-family: $font-mono;
+  font-size: 12.5px;
+  color: $muted-2;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 2px solid transparent;
+  transition: color .15s, border-color .15s;
+  &:hover { color: $mint; }
+  &.is-active { color: $text; border-bottom-color: $mint; }
+}
+
+// ── Footer ───────────────────────────────────────────────────
+.site-footer {
+  border-top: 1px solid $border-soft;
+  background: $bg-deep;
+}
+.site-footer__bar {
+  max-width: $maxw;
+  margin: 0 auto;
+  padding: 36px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  font-family: $font-mono;
+  font-size: 12.5px;
+}
+.site-footer__copy { color: $muted-4; .build { color: $mint; } }
+.site-footer__links { display: flex; gap: 22px; }
+.site-footer__links a { color: $muted-2; text-decoration: none; &:hover { color: $mint; } }
+
+@media (max-width: 720px) {
+  .site-header__bar, .site-footer__bar { padding-left: 20px; padding-right: 20px; }
+  .nav { gap: 16px; }
+}
