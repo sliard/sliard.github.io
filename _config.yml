@@ -3,10 +3,17 @@
 # ─────────────────────────────────────────────────────────────
 title: Samuel Liard
 description: "Software Engineering Manager — blog technique, talks & CV."
-author: Samuel Liard
 email: samuel@liard.me
 url: "https://liard.me"
 lang: fr
+locale: fr_FR
+
+# Identité de l'auteur
+author: Samuel Liard
+
+# Image Open Graph par défaut (partages LinkedIn / X) et logo JSON-LD
+image: /assets/images/profile.png
+logo: /assets/images/profile.png
 
 # URLs identiques à l'ancien site (ex. /2026/03/copilot-cli-online/)
 permalink: /:year/:month/:title/
@@ -17,17 +24,29 @@ sass:
   style: compressed
 
 # Liens sociaux (utilisés dans le footer / le CV)
+# `name` et `links` sont consommés par jekyll-seo-tag pour le JSON-LD (sameAs)
 social:
+  name: Samuel Liard
   github: sliard
   linkedin: samuelliard
   stackoverflow: 256996/samuel
+  links:
+    - https://github.com/sliard
+    - https://www.linkedin.com/in/samuelliard
+    - https://stackoverflow.com/users/256996/samuel
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Layout par défaut des articles (le thème Terminal n'utilise plus minima)
 defaults:
+  # Image Open Graph par défaut sur toutes les pages (jekyll-seo-tag)
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/profile.png
   - scope:
       path: ""
       type: posts

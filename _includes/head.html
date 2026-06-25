@@ -1,8 +1,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,6 +8,10 @@
 
   <link rel="stylesheet" href="{{ '/assets/css/terminal.css' | relative_url }}">
 
-  {%- if site.plugins contains 'jekyll-seo-tag' %}{% seo %}{%- endif %}
+  {%- comment -%} title + description + Open Graph + Twitter + JSON-LD via jekyll-seo-tag {%- endcomment -%}
+  {%- if site.plugins contains 'jekyll-seo-tag' %}{% seo %}{%- else %}
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  {%- endif %}
   {%- if site.plugins contains 'jekyll-feed' %}{% feed_meta %}{%- endif %}
 </head>
