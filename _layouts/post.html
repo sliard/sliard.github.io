@@ -22,4 +22,48 @@ layout: default
   <div class="prose">
     {{ content }}
   </div>
+
+  {%- comment -%} B8 — Partage de l'article {%- endcomment -%}
+  {%- assign post_url = page.url | absolute_url -%}
+  {%- assign post_title = page.title | uri_escape -%}
+  <div class="article__share">
+    <span class="article__share-label">&gt; share</span>
+    <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url={{ post_url | uri_escape }}" target="_blank" rel="noopener">linkedin</a>
+    <a class="share-btn" href="https://x.com/intent/tweet?url={{ post_url | uri_escape }}&text={{ post_title }}" target="_blank" rel="noopener">x</a>
+    <button type="button" class="share-btn share-btn--copy" data-url="{{ post_url }}">copier le lien</button>
+  </div>
+
+  {%- comment -%} A9 — Articles liés (même thème) {%- endcomment -%}
+  {%- assign related = site.posts | where: "theme", page.theme -%}
+  {%- if related.size > 1 and page.theme -%}
+  <aside class="article__related">
+    <div class="article__related-head">&gt; ls ~/blog --theme {{ page.theme }}</div>
+    <div class="related-grid">
+      {%- assign shown = 0 -%}
+      {%- for r in related -%}
+        {%- if r.url != page.url and shown < 3 -%}
+        <a class="related-card" href="{{ r.url | relative_url }}">
+          <div class="related-card__meta"><span class="tag">#{{ r.theme }}</span><span class="date">{{ r.date | date: "%d %b %Y" }}</span></div>
+          <div class="related-card__title">{{ r.title }}</div>
+        </a>
+        {%- assign shown = shown | plus: 1 -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </aside>
+  {%- endif -%}
 </article>
+
+<script>
+  (function () {
+    var btn = document.querySelector('.share-btn--copy');
+    if (!btn || !navigator.clipboard) return;
+    btn.addEventListener('click', function () {
+      navigator.clipboard.writeText(btn.dataset.url).then(function () {
+        var prev = btn.textContent;
+        btn.textContent = 'lien copié ✓';
+        setTimeout(function () { btn.textContent = prev; }, 1800);
+      });
+    });
+  })();
+</script>

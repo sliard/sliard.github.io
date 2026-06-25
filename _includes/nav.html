@@ -5,10 +5,10 @@
   <div class="site-header__bar">
     <a class="brand" href="{{ '/' | relative_url }}">samuel@liard<span class="brand__cursor">:~$</span></a>
     <nav class="nav">
-      <a href="{{ '/' | relative_url }}" class="{% if active == 'accueil' %}is-active{% endif %}">./accueil</a>
-      <a href="{{ '/blog/' | relative_url }}" class="{% if active == 'blog' %}is-active{% endif %}">./blog</a>
-      <a href="{{ '/talks/' | relative_url }}" class="{% if active == 'talks' %}is-active{% endif %}">./talks</a>
-      <a href="{{ '/cv/' | relative_url }}" class="{% if active == 'cv' %}is-active{% endif %}">./cv</a>
+      <a href="{{ '/' | relative_url }}" class="{% if active == 'accueil' %}is-active{% endif %}"{% if active == 'accueil' %} aria-current="page"{% endif %}>./accueil</a>
+      <a href="{{ '/blog/' | relative_url }}" class="{% if active == 'blog' %}is-active{% endif %}"{% if active == 'blog' %} aria-current="page"{% endif %}>./blog</a>
+      <a href="{{ '/talks/' | relative_url }}" class="{% if active == 'talks' %}is-active{% endif %}"{% if active == 'talks' %} aria-current="page"{% endif %}>./talks</a>
+      <a href="{{ '/cv/' | relative_url }}" class="{% if active == 'cv' %}is-active{% endif %}"{% if active == 'cv' %} aria-current="page"{% endif %}>./cv</a>
       <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener">github ↗</a>
     </nav>
   </div>

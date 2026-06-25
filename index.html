@@ -45,6 +45,9 @@ title: Accueil
       <a class="card" href="{{ post.url | relative_url }}">
         <div class="card__meta"><span class="tag">#{{ post.theme }}</span><span class="date">{{ post.date | date: "%d %b %Y" }}</span></div>
         <div class="card__title">{{ post.title }}</div>
+        {%- assign c_rt = post.reading_time -%}
+        {%- unless c_rt %}{% assign c_rt = post.content | number_of_words | divided_by: 200 | plus: 1 %}{% endunless -%}
+        <div class="card__rt">~{{ c_rt }} min de lecture</div>
       </a>
       {%- endfor %}
     </div>
