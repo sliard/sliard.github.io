@@ -7,7 +7,23 @@ permalink: /404.html
   <div class="prompt">&gt; cat 404</div>
   <h1 class="page-title">404 — page introuvable</h1>
   <p class="section-lead">
-    Cette URL a été déplacée ou n'existe pas.
+    <span style="color:#ff5f56;">bash: cette URL : command not found</span><br>
+    La page a été déplacée ou n'existe pas.
     <a href="{{ '/' | relative_url }}">cd ~ →</a>
   </p>
+
+  <div class="section" style="margin-top:40px;">
+    <div class="section__head">
+      <div class="prompt">&gt; ls blog/ --recent</div>
+      <a class="section__more" href="{{ '/blog/' | relative_url }}">tout le blog →</a>
+    </div>
+    <div class="card-grid">
+      {%- for post in site.posts limit: 3 %}
+      <a class="card" href="{{ post.url | relative_url }}">
+        <div class="card__meta"><span class="tag">#{{ post.theme }}</span><span class="date">{{ post.date | date: "%d %b %Y" }}</span></div>
+        <div class="card__title">{{ post.title }}</div>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
 </section>
