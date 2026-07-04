@@ -18,7 +18,7 @@ locale: fr_fr
 tags:
   - claude code, copilot
 title: GitHub Copilot CLI vs Online
-description: J'ai eu envie de faire un test simple : demander à GitHub Copilot de générer le même site via deux approches différentes, une en mode CLI et une en mode online.
+description: "J'ai eu envie de faire un test simple : demander à GitHub Copilot de générer le même site via deux approches différentes, une en mode CLI et une en mode online."
 image: "/images/uploads/2026/03/cli/home.png"
 url: /2026/03/copilot-cli-online/
 ---
