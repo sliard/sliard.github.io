@@ -1,6 +1,7 @@
 ---
 # Front matter (vide) requis pour que Jekyll compile ce fichier en CSS
 ---
-@use "terminal/base";
-@use "terminal/layout";
-@use "terminal/components";
+@import "terminal/variables";
+@import "terminal/base";
+@import "terminal/layout";
+@import "terminal/components";
