@@ -35,38 +35,21 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Experienced Software Engineer with a versatile skill set spanning Java, PHP, and expertise in the Stable Diffusion library for image generation. 
-      Proficient in designing and implementing microservice architectures, managing CI/CD pipelines, and adapting code for PAAS services. 
-      Involved in the ONAP open-source project, revolutionizing 5G network lifecycle management. 
-      Skilled in coaching and mentoring apprentices and trainees, while also contributing to patent filings in various fields such as blockchain technology.
-  
-      Throughout my career, I have consistently delivered high-quality solutions, filed patents, and embraced new technologies. 
-      My passion for impactful projects and commitment to excellence make me a valuable asset in the tech industry. 
-      I am eager to leverage my experiences to drive innovation and create transformative solutions for cutting-edge ventures.
+      Software Engineering Manager with 20+ years of experience, currently leading the software department of a simulation division. 
+      I pair hands-on engineering with team leadership: I structure software factories, set up CI/CD and quality processes, 
+      and stay close to system architecture to keep solutions robust, scalable and maintainable.
+
+      My background spans microservice architectures, large-scale data processing (web crawling at billions of pages per day),
+      cloud platforms (GCP, OpenShift) and full-stack development in Java and PHP. Along the way I have filed several patents, 
+      contributed to the ONAP open-source project for 5G network lifecycle management, and mentored apprentices and engineers.
 
 education:
     - degree: MSc in Computer Science
       university: University of Rennes
       time: 1997 - 2000
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: Higher Education in electronic
+    - degree: Higher Education Diploma in Electronics
       university: University of Angers
       time: 1995 - 1997
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
 experiences:
     - role: Software Engineering Manager
       time: 2025 - now
@@ -80,7 +63,7 @@ experiences:
       details: |
         At Babbar.tech, I contributed to the development of our powerful web crawling tool in Java, which processes over 3 billion pages per day, enabling large-scale web data collection. I also designed an image generation service based on the Stable Diffusion framework, allowing for high-quality visuals for various applications. Additionally, I led the complete overhaul of the YourText.guru service, developed in PHP Laravel, integrating numerous new SEO features to enhance its optimization capabilities. These experiences strengthened my skills in large-scale data processing, visual content generation, and the development of high-performance, flexible solutions.
 
-        About technologies :
+        Technologies:
           - Java, Spring boot
           - PHP, Laravel
           - PostgreSQL
@@ -90,15 +73,15 @@ experiences:
       time: 2019 - 2022
       company: Orange, Lannion
       details: |
-        First telecom operator in France, I worked for the R&D department.
-          - Design and build microservice architecture for different enterprise services in a high asynchronous environment
-          - Manage CI/CD and build chain
-          - Adapt code for PAAS services.
-          - Participated in the ONAP open source project which allows, among other things, a complete management of the life cycle of 5G networks.
-          - Coaching and supervising apprentices / trainees
+        R&D department of France's leading telecom operator.
+          - Designed and built microservice architectures for enterprise services in a highly asynchronous environment
+          - Managed CI/CD and build chains
+          - Adapted code for PaaS services
+          - Contributed to the ONAP open-source project, which enables end-to-end lifecycle management of 5G networks
+          - Coached and supervised apprentices and trainees
           - Filed a patent on blockchain technology
 
-        About technologies :
+        Technologies:
           - Java, Golang
           - MariaDB, Redis, RabbitMQ
           - Docker, Openshift, Cloud Foundry
@@ -107,12 +90,12 @@ experiences:
       time: 2016 - 2019
       company: Apizee, Lannion
       details: |
-        Apizee proposes a WebRTC solution for video calls on the web without any plugin. Create a web conference in one click with Izeeconf.
-          - Managed the migration of a PHP framework and removed symfony 2 to use Laravel 5
-          - Changed the hosting solution in order to use a private cloud base on VMWare solution in good practice in terms of security (VLAN, VPN, firewall…)
-          - As a Scrum master, I worked with our Product manager to organise all sprint tasks
-          - Simplified the deployment of the Apizee platform. We used Rancher UI to orchestrate Docker images. All of our services deploy within 10 minutes using client servers
-        About technologies :
+        Apizee provides a plugin-free WebRTC solution for web video calls and one-click web conferencing (Izeeconf).
+          - Led the migration of the PHP stack from Symfony 2 to Laravel 5
+          - Moved hosting to a private cloud based on VMware, applying security best practices (VLAN, VPN, firewall…)
+          - As Scrum Master, worked with the Product Manager to organise all sprint tasks
+          - Streamlined deployment of the Apizee platform: orchestrated Docker images with Rancher, cutting full deployments to under 10 minutes on client servers
+        Technologies:
           - PHP, Laravel
           - PostgreSQL, Redis
           - Docker, Rancher
@@ -120,12 +103,12 @@ experiences:
       time: 2013 - 2016
       company: Sushee, Lannion
       details: |
-        We created a video game company with my friend and associates at Sushee. At the beginning Sushee developed small web games in HTML5 for brands like Hollywood or Oasis. Within 2 years we hired 7 people and with this team we worked on our game which was called Goetia. The indie game team of Square Enix showed interest in our game and decided to become our publisher. Goetia can be downloaded on Steam and GOG.com
-          - Managed the developers team
-          - Developed the link with steam API..
-          - Developed and deployed all backend for all our games
+        Co-founded Sushee, a video game studio. We started with small HTML5 web games for brands such as Hollywood and Oasis, then grew to a team of 7 to build our own game, Goetia. Square Enix's indie division backed the project as publisher; Goetia is available on Steam and GOG.com.
+          - Managed the development team
+          - Built the Steam API integration
+          - Developed and deployed the backend for all our games
 
-        About technologies :
+        Technologies:
           - PHP, C#
           - Mysql
           - OVH, GAE
@@ -138,7 +121,7 @@ experiences:
           - Developed a scalable chat service
           - Created a service on the first version of PHP Google App Engine to manage a “Question / Answer” web service
 
-        About technologies :
+        Technologies:
           - PHP, Java
           - Mysql
           - AWS EC2, Beanstalk, RDS
@@ -146,15 +129,15 @@ experiences:
       time: 2003 - 2012
       company: Orange, Lannion
       details: |
-        First telecom operator in France, I worked for the R&D department
-          - Developed a JEE project that managed alerts for emergency services
-          - Created an MDA solution (Model Driven Architecture) based on UML model
+        R&D department of France's leading telecom operator.
+          - Developed a JEE application managing alerts for emergency services
+          - Built an MDA (Model Driven Architecture) solution based on UML models
           - Filed two patents (FR2890204A1, EP1630761A1)
-          - Created a machine to machine middleware. I worked on the architecture and specifically developed all asynchrone message management and all connectors to other Orange services.
-          - Started to use SCRUM methodologies
-          - Developed and published the first version of “Orange and Me” for Switzerland. This application informs clients about their consumption.
+          - Designed a machine-to-machine middleware, owning the architecture and developing all asynchronous message handling and connectors to other Orange services
+          - Introduced Scrum methodologies to the team
+          - Developed and shipped the first version of “Orange and Me” for Switzerland, an app that informs customers about their usage
 
-        About technologies :
+        Technologies:
           - Java, Struts, EJB, Objective-C
           - Mysql
           - MDA
