@@ -18,19 +18,19 @@ locale: fr_fr
 tags:
   - claude code, copilot
 title: GitHub Copilot CLI vs Online
-description: J'ai eu envie de faire un test simple, demander a GitHub Copilot de generer le meme site via deux approches differentes, une en mode CLI et une en mode online.
+description: J'ai eu envie de faire un test simple : demander à GitHub Copilot de générer le même site via deux approches différentes, une en mode CLI et une en mode online.
 image: "/images/uploads/2026/03/cli/home.png"
 url: /2026/03/copilot-cli-online/
 ---
 
-J'ai eu envie de faire un test simple: demander a GitHub Copilot de generer le meme site via deux approches differentes, une en mode CLI et une en mode online.
+J'ai eu envie de faire un test simple : demander à GitHub Copilot de générer le même site via deux approches différentes, une en mode CLI et une en mode online.
 
-L'idee ici c'est  d'observer les differences de rendu ecran par ecran. Les deux generations couvrent globalement le meme besoin, avec des variations sur la presentation, la hierarchie visuelle et quelques details d'ergonomie.
+L'idée ici, c'est d'observer les différences de rendu écran par écran. Les deux générations couvrent globalement le même besoin, avec des variations sur la présentation, la hiérarchie visuelle et quelques détails d'ergonomie.
 
 Vous pouvez regarder la branche [construite avec la CLI](https://github.com/sliard/TestChessCopilot2/tree/feature-cli) pour voir les fichiers modifies.
 Et la branche [construite en ligne](https://github.com/sliard/TestChessCopilot2/tree/copilot/implement-all-features) pour voir les fichiers generes. 
 
-Les fichiers dans le répertoires docs sont les mêmes et pourtant on constate des différences.
+Les fichiers dans le répertoire docs sont les mêmes et pourtant on constate des différences.
 
 ## Home
 
@@ -40,7 +40,7 @@ Les fichiers dans le répertoires docs sont les mêmes et pourtant on constate d
 
 ## Create Account
 
-J'ai laissé l'erreur CSS alors qu'a mon avis ça pouvais ce corriger rapidement.
+J'ai laissé l'erreur CSS alors qu'à mon avis ça pouvait se corriger rapidement.
 
 | CLI | Online |
 | --- | --- |
