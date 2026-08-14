@@ -19,6 +19,7 @@ tags:
   - claude code, copilot
 title: Comment choisir un alternant ?
 description: "Retour d'expérience sur le recrutement d'un alternant développeur : test technique, tri des projets GitHub par IA, entretiens et critères au-delà du niveau technique."
+image: "/images/uploads/2026/08/alternants.png"
 url: /2026/08/comment-choisir-un-alternant/
 ---
 
@@ -106,7 +107,7 @@ Ces premiers entretiens n’étaient pas vraiment des entretiens techniques. Nou
 recherche d’alternance et surtout de ce qu’ils avaient pensé de l’exercice. Mais j’avais aussi quelques questions assez
 simples.
 
-### « Savez-vous où est Lannion ? »
+### Savez-vous où est Lannion ?
 
 La question peut sembler étrange pour un entretien de développeur :) Mais elle est finalement assez importante. Quand un
 étudiant fait ses études à Marseille, Lyon ou Paris et postule pour une alternance à Lannion, je veux simplement savoir
@@ -116,7 +117,7 @@ anodin.
 Je ne cherche évidemment pas quelqu’un qui connaît déjà les horaires du TER Guingamp-Lannion, mais au moins quelqu’un
 qui a regardé où se trouve l’entreprise avant l’entretien.
 
-### « Qu’avez-vous compris du sujet de l’alternance ? »
+### Qu’avez-vous compris du sujet de l’alternance ?
 
 C’était probablement la question la plus importante. Et pourtant, plus de la moitié des candidats avaient beaucoup de
 mal à y répondre.
@@ -125,7 +126,7 @@ L’objectif du poste était pourtant décrit dans l’offre. Je ne demandais pa
 simplement savoir si le sujet les intéressait vraiment et s’ils avaient essayé de comprendre sur quoi ils allaient
 travailler.
 
-### « Avez-vous des questions ? »
+### Avez-vous des questions ?
 
 C’est une question très classique. Pourtant, le nombre de candidats qui n’avaient absolument aucune question m’a
 vraiment étonné.
@@ -174,28 +175,24 @@ Après 121 candidatures, 28 projets Unreal, 14 premiers entretiens et 4 entretie
 sélectionné notre futur alternant.
 
 Le processus m’a demandé plus de temps que prévu, notamment à cause du nombre assez élevé de personnes ayant réellement
-fait le test. Mais je préfère largement cette méthode à une sélection uniquement basée sur les CV.
-
-Elle permet de donner leur chance à des profils qui ne seraient peut-être pas ressortis sur le papier et surtout d’avoir
+fait le test. Mais je préfère largement cette méthode à une sélection uniquement basée sur les CV. Elle permet de donner leur chance à des profils qui ne seraient peut-être pas ressortis sur le papier et surtout d’avoir
 beaucoup plus d’éléments concrets pour discuter avec eux.
 
 Le test technique n’était donc finalement pas vraiment là pour savoir qui était le meilleur développeur. Il permettait
 surtout de voir qui avait lu la consigne, qui était capable de chercher, de produire quelque chose et de nous donner
-matière à discuter.
-
-Et pour recruter un alternant, c’est finalement ce qui m’intéresse le plus.
+matière à discuter. Et pour recruter un alternant, c’est finalement ce qui m’intéresse le plus.
 
 **Je ne cherche pas un développeur déjà parfaitement formé. Je cherche quelqu’un avec qui nous avons envie de travailler
 et que nous pensons pouvoir faire progresser.**
 
-## Bonus : pour les courageux étudiants qui ont lu jusqu’à la fin :)
+## Bonus : pour les courageux étudiants qui ont lu jusqu’à la fin !
 
 Si vous êtes étudiant et que vous avez eu le courage de lire jusqu’ici, voici quand même trois petits conseils tirés de
 cette expérience.
 
 **Lisez vraiment les énoncés.** Ça semble évident, mais une partie des candidats perdent des points simplement parce
 qu’ils ne respectent pas les consignes. Si on vous demande un projet sur GitHub avec un README, mettez le README sur
-GitHub :)
+GitHub 
 
 **Testez ce que vous envoyez.** Une fois votre projet terminé, faites un `git clone` dans un répertoire complètement
 vierge et essayez de le relancer. C’est le moyen le plus simple de découvrir qu’un fichier important n’a pas été commité
@@ -203,6 +200,6 @@ ou que votre projet dépend de quelque chose qui n’existe que sur votre poste.
 
 **Préparez un minimum votre entretien.** Pas besoin d’apprendre par cœur le site web de l’entreprise ou de préparer 50
 questions. Mais relisez l’offre, essayez de comprendre le sujet et arrivez avec deux ou trois questions. Quand on vous
-demande à la fin « Avez-vous des questions ? », répondre systématiquement « non » n’est probablement pas la meilleure
+demande à la fin "Avez-vous des questions ?", répondre systématiquement "non" n’est probablement pas la meilleure
 façon de montrer votre intérêt pour le poste.
 
