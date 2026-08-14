@@ -3,7 +3,7 @@ theme: agentia
 author: Samuel
 categories:
   - AgentIA 
-date: 2026-08-15 09:15:05+00:00 
+date: 2026-08-13 19:15:05+00:00 
 general_page_bg_color:
   - '#FFFFFF'
 general_page_bg_override:
